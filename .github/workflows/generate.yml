@@ -1,7 +1,7 @@
 name: generate
 on:
   schedule:
-    - cron:  '*/23 * * * *'
+    - cron:  '0 0 * * *'
 jobs:
   update-dep:
     runs-on: ubuntu-latest
