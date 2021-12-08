@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --immutable
       - run: yarn test
-      - run: yarn nyc report --reporter=text-lcov
+      - run: yarn nyc --reporter=lcov --report-dir=coverage report
       - uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
