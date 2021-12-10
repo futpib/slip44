@@ -4,18 +4,23 @@ on:
   schedule:
     - cron:  '0 0 * * *'
 jobs:
-  update-dep:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 16
-      - run: yarn install --immutable
-      - run: yarn generate
+      - run: |
+          yarn install --immutable
+          yarn generate
+          git config user.email 'generate@slip44.futpib.github.io'
+          git config user.name 'generate'
+          git add -u
+          git commit -m 'Update slip44 registered coin types'
+          npm version patch
       - uses: peter-evans/create-pull-request@v3
         with:
-            commit-message: Update slip44 registered coin types
             branch: generate
             title: Update slip44 registered coin types
             body: |
