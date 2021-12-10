@@ -613,6 +613,7 @@ export type RegisteredCoinSymbol =
 | 'NOBL'
 | 'EAST'
 | 'LORE'
+| 'FNR'
 | 'BTSG'
 | 'LFC'
 | 'AZERO'
@@ -658,6 +659,7 @@ export type RegisteredCoinSymbol =
 | 'QVT'
 | 'DVPN'
 | 'VET'
+| 'REEF'
 | 'CLO'
 | 'BDB'
 | 'CCN'
@@ -5303,6 +5305,13 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'https://gitopia.com',
 	],
 	[
+		629,
+		0x80_00_02_75,
+		'FNR',
+		'Fincor',
+		'https://fincor.io',
+	],
+	[
 		639,
 		0x80_00_02_7F,
 		'BTSG',
@@ -5616,6 +5625,13 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VET',
 		'VeChain Token',
 		'https://vechain.com',
+	],
+	[
+		819,
+		0x80_00_03_33,
+		'REEF',
+		'Reef',
+		'https://reef.io/',
 	],
 	[
 		820,
