@@ -1,0 +1,19 @@
+name: publish
+on:
+  workflow_dispatch: {}
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: |
+          tee ~/.yarnrc.yml << EOF
+          npmRegistries:
+            "https://registry.yarnpkg.com":
+              npmAuthToken: ${{ secrets.NPM_AUTH_TOKEN }}
+          EOF
+          yarn install --immutable
+          yarn npm publish --access public
