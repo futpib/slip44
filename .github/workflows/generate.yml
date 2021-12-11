@@ -17,6 +17,11 @@ jobs:
           git config user.email 'generate@slip44.futpib.github.io'
           git config user.name 'generate'
           git add -u
+
+          if git diff --cached --exit-code; then
+            exit 0
+          fi
+
           git commit -m 'Update slip44 registered coin types'
           npm version patch
       - uses: peter-evans/create-pull-request@v3
