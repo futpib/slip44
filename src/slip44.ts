@@ -919,6 +919,7 @@ export type RegisteredCoinType = [
 	symbol: undefined | RegisteredCoinSymbol,
 	name: string,
 	url: undefined | string,
+	comment: undefined | string,
 ];
 
 export const registeredCoinTypes: RegisteredCoinType[] = [
@@ -928,12 +929,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTC',
 		'Bitcoin',
 		'https://bitcoin.org',
+		undefined,
 	],
 	[
 		1,
 		0x80_00_00_01,
 		undefined,
 		'Testnet (all coins)',
+		undefined,
 		undefined,
 	],
 	[
@@ -942,6 +945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LTC',
 		'Litecoin',
 		'https://litecoin.org',
+		undefined,
 	],
 	[
 		3,
@@ -949,6 +953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DOGE',
 		'Dogecoin',
 		'https://github.com/dogecoin/dogecoin',
+		undefined,
 	],
 	[
 		4,
@@ -956,13 +961,15 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RDD',
 		'Reddcoin',
 		undefined,
+		undefined,
 	],
 	[
 		5,
 		0x80_00_00_05,
 		'DASH',
 		'Dash',
-		'https://github.com/dashpay/dash) (ex Darkcoin',
+		'https://github.com/dashpay/dash',
+		'(ex Darkcoin)',
 	],
 	[
 		6,
@@ -970,6 +977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PPC',
 		'Peercoin',
 		'https://peercoin.net',
+		undefined,
 	],
 	[
 		7,
@@ -977,6 +985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NMC',
 		'Namecoin',
 		'https://www.namecoin.org',
+		undefined,
 	],
 	[
 		8,
@@ -984,6 +993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FTC',
 		'Feathercoin',
 		'https://www.feathercoin.com',
+		undefined,
 	],
 	[
 		9,
@@ -991,6 +1001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XCP',
 		'Counterparty',
 		'https://counterparty.io',
+		undefined,
 	],
 	[
 		10,
@@ -998,6 +1009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BLK',
 		'Blackcoin',
 		'https://blackcoin.org',
+		undefined,
 	],
 	[
 		11,
@@ -1005,12 +1017,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NSR',
 		'NuShares',
 		'https://nubits.com/nushares/introduction',
+		undefined,
 	],
 	[
 		12,
 		0x80_00_00_0C,
 		'NBT',
 		'NuBits',
+		undefined,
 		undefined,
 	],
 	[
@@ -1019,12 +1033,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MZC',
 		'Mazacoin',
 		undefined,
+		undefined,
 	],
 	[
 		14,
 		0x80_00_00_0E,
 		'VIA',
 		'Viacoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1033,12 +1049,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XCH',
 		'ClearingHouse',
 		undefined,
+		undefined,
 	],
 	[
 		16,
 		0x80_00_00_10,
 		'RBY',
 		'Rubycoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1047,12 +1065,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GRS',
 		'Groestlcoin',
 		undefined,
+		undefined,
 	],
 	[
 		18,
 		0x80_00_00_12,
 		'DGC',
 		'Digitalcoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1061,12 +1081,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCN',
 		'Cannacoin',
 		undefined,
+		undefined,
 	],
 	[
 		20,
 		0x80_00_00_14,
 		'DGB',
 		'DigiByte',
+		undefined,
 		undefined,
 	],
 	[
@@ -1075,12 +1097,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Open Assets',
 		'https://github.com/OpenAssets/open-assets-protocol',
+		undefined,
 	],
 	[
 		22,
 		0x80_00_00_16,
 		'MONA',
 		'Monacoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1089,12 +1113,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CLAM',
 		'Clams',
 		undefined,
+		undefined,
 	],
 	[
 		24,
 		0x80_00_00_18,
 		'XPM',
 		'Primecoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1103,12 +1129,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEOS',
 		'Neoscoin',
 		undefined,
+		undefined,
 	],
 	[
 		26,
 		0x80_00_00_1A,
 		'JBS',
 		'Jumbucks',
+		undefined,
 		undefined,
 	],
 	[
@@ -1117,12 +1145,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZRC',
 		'ziftrCOIN',
 		undefined,
+		undefined,
 	],
 	[
 		28,
 		0x80_00_00_1C,
 		'VTC',
 		'Vertcoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1131,12 +1161,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NXT',
 		'NXT',
 		undefined,
+		undefined,
 	],
 	[
 		30,
 		0x80_00_00_1E,
 		'BURST',
 		'Burst',
+		undefined,
 		undefined,
 	],
 	[
@@ -1145,6 +1177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MUE',
 		'MonetaryUnit',
 		undefined,
+		undefined,
 	],
 	[
 		32,
@@ -1152,13 +1185,15 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZOOM',
 		'Zoom',
 		undefined,
+		undefined,
 	],
 	[
 		33,
 		0x80_00_00_21,
 		'VASH',
-		'[Virtual Cash](http://www.bitnet.cc) also known as VPNcoin',
-		undefined,
+		'Virtual Cash',
+		'http://www.bitnet.cc',
+		'also known as VPNcoin',
 	],
 	[
 		34,
@@ -1166,12 +1201,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CDN',
 		'Canada eCoin',
 		'https://github.com/Canada-eCoin',
+		undefined,
 	],
 	[
 		35,
 		0x80_00_00_23,
 		'SDC',
 		'ShadowCash',
+		undefined,
 		undefined,
 	],
 	[
@@ -1180,12 +1217,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PKB',
 		'ParkByte',
 		'https://github.com/parkbyte',
+		undefined,
 	],
 	[
 		37,
 		0x80_00_00_25,
 		'PND',
 		'Pandacoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1194,6 +1233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'START',
 		'StartCOIN',
 		undefined,
+		undefined,
 	],
 	[
 		39,
@@ -1201,6 +1241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOIN',
 		'MOIN',
 		'https://discovermoin.com',
+		undefined,
 	],
 	[
 		40,
@@ -1208,6 +1249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EXP',
 		'Expanse',
 		'https://expanse.tech',
+		undefined,
 	],
 	[
 		41,
@@ -1215,6 +1257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EMC2',
 		'Einsteinium',
 		'https://www.emc2.foundation',
+		undefined,
 	],
 	[
 		42,
@@ -1222,6 +1265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DCR',
 		'Decred',
 		'https://decred.org',
+		undefined,
 	],
 	[
 		43,
@@ -1229,6 +1273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XEM',
 		'NEM',
 		'https://github.com/NemProject',
+		undefined,
 	],
 	[
 		44,
@@ -1236,12 +1281,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PART',
 		'Particl',
 		'https://particl.io',
+		undefined,
 	],
 	[
 		45,
 		0x80_00_00_2D,
 		'ARG',
 		'Argentum (dead)',
+		undefined,
 		undefined,
 	],
 	[
@@ -1250,6 +1297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Libertas',
 		'https://github.com/dangershony/Libertas',
+		undefined,
 	],
 	[
 		47,
@@ -1257,6 +1305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Posw coin',
 		'https://poswallet.com',
+		undefined,
 	],
 	[
 		48,
@@ -1264,12 +1313,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SHR',
 		'Shreeji',
 		'https://github.com/SMJBIT/SHREEJI',
+		undefined,
 	],
 	[
 		49,
 		0x80_00_00_31,
 		'GCR',
 		'Global Currency Reserve (GCRcoin)',
+		undefined,
 		undefined,
 	],
 	[
@@ -1278,6 +1329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NVC',
 		'Novacoin',
 		'https://github.com/novacoin-project/novacoin',
+		undefined,
 	],
 	[
 		51,
@@ -1285,6 +1337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AC',
 		'Asiacoin',
 		'https://github.com/AsiaCoin/AsiaCoinFix',
+		undefined,
 	],
 	[
 		52,
@@ -1292,6 +1345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCD',
 		'BitcoinDark',
 		'https://github.com/jl777/btcd',
+		undefined,
 	],
 	[
 		53,
@@ -1299,6 +1353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DOPE',
 		'Dopecoin',
 		'https://github.com/dopecoin-dev/DopeCoinV3',
+		undefined,
 	],
 	[
 		54,
@@ -1306,6 +1361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TPC',
 		'Templecoin',
 		'https://github.com/9cat/templecoin',
+		undefined,
 	],
 	[
 		55,
@@ -1313,6 +1369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AIB',
 		'AIB',
 		'https://github.com/iobond/aib',
+		undefined,
 	],
 	[
 		56,
@@ -1320,6 +1377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EDRC',
 		'EDRCoin',
 		'https://github.com/EDRCoin/EDRcoin-src',
+		undefined,
 	],
 	[
 		57,
@@ -1327,6 +1385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SYS',
 		'Syscoin',
 		'https://github.com/syscoin/syscoin2',
+		undefined,
 	],
 	[
 		58,
@@ -1334,6 +1393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SLR',
 		'Solarcoin',
 		'https://github.com/onsightit/solarcoin',
+		undefined,
 	],
 	[
 		59,
@@ -1341,6 +1401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SMLY',
 		'Smileycoin',
 		'https://github.com/tutor-web/smileyCoin',
+		undefined,
 	],
 	[
 		60,
@@ -1348,6 +1409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETH',
 		'Ether',
 		'https://ethereum.org/ether',
+		undefined,
 	],
 	[
 		61,
@@ -1355,6 +1417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETC',
 		'Ether Classic',
 		'https://ethereumclassic.github.io',
+		undefined,
 	],
 	[
 		62,
@@ -1362,12 +1425,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PSB',
 		'Pesobit',
 		'https://github.com/pesobitph/pesobit-source',
+		undefined,
 	],
 	[
 		63,
 		0x80_00_00_3F,
 		'LDCN',
 		'Landcoin (dead)',
+		undefined,
 		undefined,
 	],
 	[
@@ -1376,6 +1441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Open Chain',
 		'https://github.com/openchain',
+		undefined,
 	],
 	[
 		65,
@@ -1383,6 +1449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XBC',
 		'Bitcoinplus',
 		'https://bitcoinplus.org',
+		undefined,
 	],
 	[
 		66,
@@ -1390,6 +1457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOP',
 		'Internet of People',
 		'https://iop.global',
+		undefined,
 	],
 	[
 		67,
@@ -1397,6 +1465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NXS',
 		'Nexus',
 		'https://nexus.io',
+		undefined,
 	],
 	[
 		68,
@@ -1404,6 +1473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'INSN',
 		'InsaneCoin',
 		'https://insane.network',
+		undefined,
 	],
 	[
 		69,
@@ -1411,6 +1481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OK',
 		'OKCash',
 		'https://github.com/okcashpro',
+		undefined,
 	],
 	[
 		70,
@@ -1418,6 +1489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BRIT',
 		'BritCoin',
 		'https://britcoin.com',
+		undefined,
 	],
 	[
 		71,
@@ -1425,6 +1497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CMP',
 		'Compcoin',
 		'https://compcoin.com',
+		undefined,
 	],
 	[
 		72,
@@ -1432,6 +1505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRW',
 		'Crown',
 		'https://www.crownplatform.com',
+		undefined,
 	],
 	[
 		73,
@@ -1439,6 +1513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BELA',
 		'BelaCoin',
 		'http://belacoin.org',
+		undefined,
 	],
 	[
 		74,
@@ -1446,6 +1521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ICX',
 		'ICON',
 		'https://icon.foundation',
+		undefined,
 	],
 	[
 		75,
@@ -1453,6 +1529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FJC',
 		'FujiCoin',
 		'https://fujicoin.org',
+		undefined,
 	],
 	[
 		76,
@@ -1460,6 +1537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MIX',
 		'MIX',
 		'https://www.mix-blockchain.org',
+		undefined,
 	],
 	[
 		77,
@@ -1467,6 +1545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XVG',
 		'Verge Currency',
 		'https://vergecurrency.com',
+		undefined,
 	],
 	[
 		78,
@@ -1474,6 +1553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EFL',
 		'Electronic Gulden',
 		'https://egulden.org',
+		undefined,
 	],
 	[
 		79,
@@ -1481,6 +1561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CLUB',
 		'ClubCoin',
 		'https://clubcoin.co',
+		undefined,
 	],
 	[
 		80,
@@ -1488,6 +1569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RICHX',
 		'RichCoin',
 		'https://richcoin.us',
+		undefined,
 	],
 	[
 		81,
@@ -1495,12 +1577,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'POT',
 		'Potcoin',
 		'https://www.potcoin.com',
+		undefined,
 	],
 	[
 		82,
 		0x80_00_00_52,
 		'QRK',
 		'Quarkcoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1509,12 +1593,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TRC',
 		'Terracoin',
 		'https://terracoin.io',
+		undefined,
 	],
 	[
 		84,
 		0x80_00_00_54,
 		'GRC',
 		'Gridcoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1523,12 +1609,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AUR',
 		'Auroracoin',
 		'http://auroracoin.is',
+		undefined,
 	],
 	[
 		86,
 		0x80_00_00_56,
 		'IXC',
 		'IXCoin',
+		undefined,
 		undefined,
 	],
 	[
@@ -1537,6 +1625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NLG',
 		'Gulden',
 		'https://Gulden.com',
+		undefined,
 	],
 	[
 		88,
@@ -1544,6 +1633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BITB',
 		'BitBean',
 		'http://bitbean.org',
+		undefined,
 	],
 	[
 		89,
@@ -1551,6 +1641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTA',
 		'Bata',
 		'http://bata.io',
+		undefined,
 	],
 	[
 		90,
@@ -1558,6 +1649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XMY',
 		'Myriadcoin',
 		'http://myriadcoin.org',
+		undefined,
 	],
 	[
 		91,
@@ -1565,6 +1657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BSD',
 		'BitSend',
 		'http://bitsend.info',
+		undefined,
 	],
 	[
 		92,
@@ -1572,6 +1665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UNO',
 		'Unobtanium',
 		'http://http://unobtanium.uno',
+		undefined,
 	],
 	[
 		93,
@@ -1579,6 +1673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MTR',
 		'MasterTrader',
 		'https://github.com/CrypticApplications/MTR-Update',
+		undefined,
 	],
 	[
 		94,
@@ -1586,6 +1681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GB',
 		'GoldBlocks',
 		'https://github.com/goldblockscoin/goldblocks',
+		undefined,
 	],
 	[
 		95,
@@ -1593,6 +1689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SHM',
 		'Saham',
 		'https://github.com/SahamDev/SahamDev',
+		undefined,
 	],
 	[
 		96,
@@ -1600,6 +1697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRX',
 		'Chronos',
 		'https://github.com/chronoscoin/Chronoscoin',
+		undefined,
 	],
 	[
 		97,
@@ -1607,6 +1705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIQ',
 		'Ubiquoin',
 		'https://github.com/ubiquoin/ubiq',
+		undefined,
 	],
 	[
 		98,
@@ -1614,6 +1713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EVO',
 		'Evotion',
 		'https://github.com/evoshiun/Evotion',
+		undefined,
 	],
 	[
 		99,
@@ -1621,6 +1721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STO',
 		'SaveTheOcean',
 		'https://github.com/SaveTheOceanMovement/SaveTheOceanCoin',
+		undefined,
 	],
 	[
 		100,
@@ -1628,6 +1729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIGUP',
 		'BigUp',
 		'https://github.com/BigUps',
+		undefined,
 	],
 	[
 		101,
@@ -1635,6 +1737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GAME',
 		'GameCredits',
 		'https://github.com/gamecredits-project',
+		undefined,
 	],
 	[
 		102,
@@ -1642,6 +1745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DLC',
 		'Dollarcoins',
 		'https://github.com/dollarcoins/source',
+		undefined,
 	],
 	[
 		103,
@@ -1649,6 +1753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZYD',
 		'Zayedcoin',
 		'https://github.com/ZayedCoin/Zayedcoin',
+		undefined,
 	],
 	[
 		104,
@@ -1656,6 +1761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DBIC',
 		'Dubaicoin',
 		'https://github.com/DubaiCoinDev/DubaiCoin',
+		undefined,
 	],
 	[
 		105,
@@ -1663,6 +1769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STRAT',
 		'Stratis',
 		'http://www.stratisplatform.com',
+		undefined,
 	],
 	[
 		106,
@@ -1670,6 +1777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SH',
 		'Shilling',
 		'https://github.com/yavwa/Shilling',
+		undefined,
 	],
 	[
 		107,
@@ -1677,6 +1785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MARS',
 		'MarsCoin',
 		'http://www.marscoin.org',
+		undefined,
 	],
 	[
 		108,
@@ -1684,6 +1793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UBQ',
 		'Ubiq',
 		'https://github.com/Ubiq',
+		undefined,
 	],
 	[
 		109,
@@ -1691,6 +1801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PTC',
 		'Pesetacoin',
 		'http://pesetacoin.info',
+		undefined,
 	],
 	[
 		110,
@@ -1698,6 +1809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NRO',
 		'Neurocoin',
 		'https://neurocoin.org',
+		undefined,
 	],
 	[
 		111,
@@ -1705,6 +1817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARK',
 		'ARK',
 		'https://ark.io',
+		undefined,
 	],
 	[
 		112,
@@ -1712,6 +1825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'USC',
 		'UltimateSecureCashMain',
 		'http://ultimatesecurecash.info',
+		undefined,
 	],
 	[
 		113,
@@ -1719,6 +1833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'THC',
 		'Hempcoin',
 		'http://hempcoin.org',
+		undefined,
 	],
 	[
 		114,
@@ -1726,6 +1841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LINX',
 		'Linx',
 		'https://mylinx.io',
+		undefined,
 	],
 	[
 		115,
@@ -1733,6 +1849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ECN',
 		'Ecoin',
 		'https://www.ecoinsource.com',
+		undefined,
 	],
 	[
 		116,
@@ -1740,6 +1857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DNR',
 		'Denarius',
 		'https://denarius.io',
+		undefined,
 	],
 	[
 		117,
@@ -1747,6 +1865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PINK',
 		'Pinkcoin',
 		'http://getstarted.with.pink',
+		undefined,
 	],
 	[
 		118,
@@ -1754,6 +1873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATOM',
 		'Atom',
 		'https://cosmos.network',
+		undefined,
 	],
 	[
 		119,
@@ -1761,6 +1881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PIVX',
 		'Pivx',
 		'https://github.com/PIVX-Project/PIVX',
+		undefined,
 	],
 	[
 		120,
@@ -1768,6 +1889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FLASH',
 		'Flashcoin',
 		'https://flashcoin.io',
+		undefined,
 	],
 	[
 		121,
@@ -1775,6 +1897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZEN',
 		'Zencash',
 		'https://zensystem.io',
+		undefined,
 	],
 	[
 		122,
@@ -1782,6 +1905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PUT',
 		'Putincoin',
 		'https://putincoin.info',
+		undefined,
 	],
 	[
 		123,
@@ -1789,6 +1913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZNY',
 		'BitZeny',
 		'https://bitzeny.tech',
+		undefined,
 	],
 	[
 		124,
@@ -1796,6 +1921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UNIFY',
 		'Unify',
 		'http://unifycryptocurrency.com',
+		undefined,
 	],
 	[
 		125,
@@ -1803,6 +1929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XST',
 		'StealthCoin',
 		'http://www.stealthcoin.com',
+		undefined,
 	],
 	[
 		126,
@@ -1810,6 +1937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BRK',
 		'Breakout Coin',
 		'http://www.breakoutcoin.com',
+		undefined,
 	],
 	[
 		127,
@@ -1817,6 +1945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VC',
 		'Vcash',
 		'https://vcash.info',
+		undefined,
 	],
 	[
 		128,
@@ -1824,6 +1953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XMR',
 		'Monero',
 		'https://getmonero.org',
+		undefined,
 	],
 	[
 		129,
@@ -1831,6 +1961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VOX',
 		'Voxels',
 		'https://www.voxelus.com',
+		undefined,
 	],
 	[
 		130,
@@ -1838,6 +1969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NAV',
 		'NavCoin',
 		'https://github.com/navcoindev/navcoin2',
+		undefined,
 	],
 	[
 		131,
@@ -1845,6 +1977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FCT',
 		'Factom Factoids',
 		'https://github.com/FactomProject/FactomDocs/blob/master/wallet_info/wallet_test_vectors.md',
+		undefined,
 	],
 	[
 		132,
@@ -1852,6 +1985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EC',
 		'Factom Entry Credits',
 		'https://github.com/FactomProject',
+		undefined,
 	],
 	[
 		133,
@@ -1859,6 +1993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZEC',
 		'Zcash',
 		'https://z.cash',
+		undefined,
 	],
 	[
 		134,
@@ -1866,6 +2001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LSK',
 		'Lisk',
 		'https://lisk.io',
+		undefined,
 	],
 	[
 		135,
@@ -1873,6 +2009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STEEM',
 		'Steem',
 		'http://steem.io',
+		undefined,
 	],
 	[
 		136,
@@ -1880,6 +2017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XZC',
 		'ZCoin',
 		'https://zcoin.io',
+		undefined,
 	],
 	[
 		137,
@@ -1887,6 +2025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RBTC',
 		'RSK',
 		'http://www.rsk.co',
+		undefined,
 	],
 	[
 		138,
@@ -1894,6 +2033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Giftblock',
 		'https://github.com/gyft/giftblock',
+		undefined,
 	],
 	[
 		139,
@@ -1901,6 +2041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RPT',
 		'RealPointCoin',
 		'https://github.com/MaxSmile/RealPointCoinQt',
+		undefined,
 	],
 	[
 		140,
@@ -1908,6 +2049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LBC',
 		'LBRY Credits',
 		'https://lbry.io',
+		undefined,
 	],
 	[
 		141,
@@ -1915,6 +2057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KMD',
 		'Komodo',
 		'https://komodoplatform.com',
+		undefined,
 	],
 	[
 		142,
@@ -1922,6 +2065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BSQ',
 		'bisq Token',
 		'http://bisq.io',
+		undefined,
 	],
 	[
 		143,
@@ -1929,6 +2073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RIC',
 		'Riecoin',
 		'https://github.com/riecoin/riecoin',
+		undefined,
 	],
 	[
 		144,
@@ -1936,6 +2081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRP',
 		'Ripple',
 		'https://ripple.com',
+		undefined,
 	],
 	[
 		145,
@@ -1943,6 +2089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCH',
 		'Bitcoin Cash',
 		'https://www.bitcoincash.org',
+		undefined,
 	],
 	[
 		146,
@@ -1950,6 +2097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEBL',
 		'Neblio',
 		'https://nebl.io',
+		undefined,
 	],
 	[
 		147,
@@ -1957,6 +2105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZCL',
 		'ZClassic',
 		'http://zclassic.org',
+		undefined,
 	],
 	[
 		148,
@@ -1964,6 +2113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XLM',
 		'Stellar Lumens',
 		'https://www.stellar.org',
+		undefined,
 	],
 	[
 		149,
@@ -1971,6 +2121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NLC2',
 		'NoLimitCoin2',
 		'http://www.nolimitcoin.org',
+		undefined,
 	],
 	[
 		150,
@@ -1978,6 +2129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WHL',
 		'WhaleCoin',
 		'https://whalecoin.org',
+		undefined,
 	],
 	[
 		151,
@@ -1985,6 +2137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ERC',
 		'EuropeCoin',
 		'https://www.europecoin.eu.org',
+		undefined,
 	],
 	[
 		152,
@@ -1992,6 +2145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DMD',
 		'Diamond',
 		'http://bit.diamonds',
+		undefined,
 	],
 	[
 		153,
@@ -1999,6 +2153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTM',
 		'Bytom',
 		'https://bytom.io',
+		undefined,
 	],
 	[
 		154,
@@ -2006,6 +2161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIO',
 		'Biocoin',
 		'https://biocoin.bio',
+		undefined,
 	],
 	[
 		155,
@@ -2013,6 +2169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XWCC',
 		'Whitecoin Classic',
 		'https://old.whitecoin.info',
+		undefined,
 	],
 	[
 		156,
@@ -2020,6 +2177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTG',
 		'Bitcoin Gold',
 		'http://www.btcgpu.org',
+		undefined,
 	],
 	[
 		157,
@@ -2027,6 +2185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTC2X',
 		'Bitcoin 2x',
 		'https://medium.com/@DCGco/bitcoin-scaling-agreement-at-consensus-2017-133521fe9a77',
+		undefined,
 	],
 	[
 		158,
@@ -2034,6 +2193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SSN',
 		'SuperSkynet',
 		'http://wwww.superskynet.org',
+		undefined,
 	],
 	[
 		159,
@@ -2041,6 +2201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TOA',
 		'TOACoin',
 		'http://www.toacoin.com',
+		undefined,
 	],
 	[
 		160,
@@ -2048,6 +2209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTX',
 		'Bitcore',
 		'https://bitcore.cc',
+		undefined,
 	],
 	[
 		161,
@@ -2055,6 +2217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ACC',
 		'Adcoin',
 		'https://www.getadcoin.com',
+		undefined,
 	],
 	[
 		162,
@@ -2062,6 +2225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCO',
 		'Bridgecoin',
 		'https://bridgecoin.org',
+		undefined,
 	],
 	[
 		163,
@@ -2069,6 +2233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ELLA',
 		'Ellaism',
 		'https://ellaism.org',
+		undefined,
 	],
 	[
 		164,
@@ -2076,6 +2241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PIRL',
 		'Pirl',
 		'https://pirl.io',
+		undefined,
 	],
 	[
 		165,
@@ -2083,6 +2249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XNO',
 		'Nano',
 		'https://nano.org',
+		undefined,
 	],
 	[
 		166,
@@ -2090,6 +2257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VIVO',
 		'Vivo',
 		'https://www.vivocrypto.com',
+		undefined,
 	],
 	[
 		167,
@@ -2097,6 +2265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FRST',
 		'Firstcoin',
 		'http://firstcoinproject.com',
+		undefined,
 	],
 	[
 		168,
@@ -2104,6 +2273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HNC',
 		'Helleniccoin',
 		'http://www.helleniccoin.gr',
+		undefined,
 	],
 	[
 		169,
@@ -2111,6 +2281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BUZZ',
 		'BUZZ',
 		'http://www.buzzcoin.info',
+		undefined,
 	],
 	[
 		170,
@@ -2118,6 +2289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MBRS',
 		'Ember',
 		'https://www.embercoin.io',
+		undefined,
 	],
 	[
 		171,
@@ -2125,6 +2297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HC',
 		'Hcash',
 		'https://h.cash',
+		undefined,
 	],
 	[
 		172,
@@ -2132,6 +2305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HTML',
 		'HTMLCOIN',
 		'https://htmlcoin.com',
+		undefined,
 	],
 	[
 		173,
@@ -2139,6 +2313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ODN',
 		'Obsidian',
 		'https://obsidianplatform.com',
+		undefined,
 	],
 	[
 		174,
@@ -2146,6 +2321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONX',
 		'OnixCoin',
 		'https://www.onixcoin.com',
+		undefined,
 	],
 	[
 		175,
@@ -2153,6 +2329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RVN',
 		'Ravencoin',
 		'https://ravencoin.org',
+		undefined,
 	],
 	[
 		176,
@@ -2160,6 +2337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GBX',
 		'GoByte',
 		'https://gobyte.network',
+		undefined,
 	],
 	[
 		177,
@@ -2167,6 +2345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCZ',
 		'BitcoinZ',
 		'https://btcz.rocks/en',
+		undefined,
 	],
 	[
 		178,
@@ -2174,6 +2353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'POA',
 		'Poa',
 		'https://poa.network',
+		undefined,
 	],
 	[
 		179,
@@ -2181,6 +2361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NYC',
 		'NewYorkCoin',
 		'http://nycoin.net',
+		undefined,
 	],
 	[
 		180,
@@ -2188,6 +2369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MXT',
 		'MarteXcoin',
 		'http://martexcoin.org',
+		undefined,
 	],
 	[
 		181,
@@ -2195,6 +2377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WC',
 		'Wincoin',
 		'https://wincoin.co',
+		undefined,
 	],
 	[
 		182,
@@ -2202,6 +2385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MNX',
 		'Minexcoin',
 		'https://minexcoin.com',
+		undefined,
 	],
 	[
 		183,
@@ -2209,6 +2393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCP',
 		'Bitcoin Private',
 		'https://btcprivate.org',
+		undefined,
 	],
 	[
 		184,
@@ -2216,6 +2401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MUSIC',
 		'Musicoin',
 		'https://www.musicoin.org',
+		undefined,
 	],
 	[
 		185,
@@ -2223,6 +2409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCA',
 		'Bitcoin Atom',
 		'https://bitcoinatom.io',
+		undefined,
 	],
 	[
 		186,
@@ -2230,6 +2417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRAVE',
 		'Crave',
 		'https://craveproject.net',
+		undefined,
 	],
 	[
 		187,
@@ -2237,6 +2425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STAK',
 		'STRAKS',
 		'https://straks.io',
+		undefined,
 	],
 	[
 		188,
@@ -2244,6 +2433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WBTC',
 		'World Bitcoin',
 		'http://www.wbtcteam.org',
+		undefined,
 	],
 	[
 		189,
@@ -2251,6 +2441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LCH',
 		'LiteCash',
 		'http://www.litecash.info',
+		undefined,
 	],
 	[
 		190,
@@ -2258,6 +2449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EXCL',
 		'ExclusiveCoin',
 		'https://exclusivecoin.pw',
+		undefined,
 	],
 	[
 		191,
@@ -2265,6 +2457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Lynx',
 		'https://getlynx.io',
+		undefined,
 	],
 	[
 		192,
@@ -2272,6 +2465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LCC',
 		'LitecoinCash',
 		'https://litecoinca.sh',
+		undefined,
 	],
 	[
 		193,
@@ -2279,6 +2473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XFE',
 		'Feirm',
 		'https://www.feirm.com',
+		undefined,
 	],
 	[
 		194,
@@ -2286,6 +2481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EOS',
 		'EOS',
 		'https://eos.io',
+		undefined,
 	],
 	[
 		195,
@@ -2293,6 +2489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TRX',
 		'Tron',
 		'https://tron.network/enindex.html',
+		undefined,
 	],
 	[
 		196,
@@ -2300,6 +2497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KOBO',
 		'Kobocoin',
 		'https://kobocoin.com',
+		undefined,
 	],
 	[
 		197,
@@ -2307,6 +2505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HUSH',
 		'HUSH',
 		'https://myhush.org',
+		undefined,
 	],
 	[
 		198,
@@ -2314,6 +2513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BANANO',
 		'Bananos',
 		'https://banano.co.in',
+		undefined,
 	],
 	[
 		199,
@@ -2321,6 +2521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETF',
 		'ETF',
 		'http://ethereumfog.org',
+		undefined,
 	],
 	[
 		200,
@@ -2328,6 +2529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OMNI',
 		'Omni',
 		'http://www.omnilayer.org',
+		undefined,
 	],
 	[
 		201,
@@ -2335,6 +2537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIFI',
 		'BitcoinFile',
 		'https://www.bitcoinfile.org',
+		undefined,
 	],
 	[
 		202,
@@ -2342,6 +2545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UFO',
 		'Uniform Fiscal Object',
 		'https://ufobject.com',
+		undefined,
 	],
 	[
 		203,
@@ -2349,6 +2553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CNMC',
 		'Cryptonodes',
 		'https://www.cryptonodes.ch',
+		undefined,
 	],
 	[
 		204,
@@ -2356,6 +2561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCN',
 		'Bytecoin',
 		'http://bytecoin.org',
+		undefined,
 	],
 	[
 		205,
@@ -2363,6 +2569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RIN',
 		'Ringo',
 		'http://dkwzjw.github.io/ringo',
+		undefined,
 	],
 	[
 		206,
@@ -2370,6 +2577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATP',
 		'PlatON',
 		'https://www.platon.network',
+		undefined,
 	],
 	[
 		207,
@@ -2377,6 +2585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EVT',
 		'everiToken',
 		'https://everiToken.io',
+		undefined,
 	],
 	[
 		208,
@@ -2384,6 +2593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATN',
 		'ATN',
 		'https://atn.io',
+		undefined,
 	],
 	[
 		209,
@@ -2391,6 +2601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIS',
 		'Bismuth',
 		'http://www.bismuth.cz',
+		undefined,
 	],
 	[
 		210,
@@ -2398,6 +2609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEET',
 		'NEETCOIN',
 		'https://neetcoin.jp',
+		undefined,
 	],
 	[
 		211,
@@ -2405,6 +2617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BOPO',
 		'BopoChain',
 		'http://www.bopochain.org',
+		undefined,
 	],
 	[
 		212,
@@ -2412,6 +2625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OOT',
 		'Utrum',
 		'https://utrum.io/ootcoin',
+		undefined,
 	],
 	[
 		213,
@@ -2419,6 +2633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ALIAS',
 		'Alias',
 		'https://alias.cash',
+		undefined,
 	],
 	[
 		214,
@@ -2426,6 +2641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MONK',
 		'Monkey Project',
 		'https://www.monkey.vision',
+		undefined,
 	],
 	[
 		215,
@@ -2433,6 +2649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BOXY',
 		'BoxyCoin',
 		'http://www.boxycoin.org',
+		undefined,
 	],
 	[
 		216,
@@ -2440,6 +2657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FLO',
 		'Flo',
 		'https://www.flo.cash',
+		undefined,
 	],
 	[
 		217,
@@ -2447,6 +2665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MEC',
 		'Megacoin',
 		'https://www.megacoin.eu',
+		undefined,
 	],
 	[
 		218,
@@ -2454,6 +2673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTDX',
 		'BitCloud',
 		'https://bit-cloud.info',
+		undefined,
 	],
 	[
 		219,
@@ -2461,6 +2681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XAX',
 		'Artax',
 		'https://www.artaxcoin.org',
+		undefined,
 	],
 	[
 		220,
@@ -2468,6 +2689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ANON',
 		'ANON',
 		'https://www.anonfork.io',
+		undefined,
 	],
 	[
 		221,
@@ -2475,6 +2697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LTZ',
 		'LitecoinZ',
 		'https://litecoinz.org',
+		undefined,
 	],
 	[
 		222,
@@ -2482,6 +2705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BITG',
 		'Bitcoin Green',
 		'https://savebitcoin.io',
+		undefined,
 	],
 	[
 		223,
@@ -2489,6 +2713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ICP',
 		'Internet Computer (DFINITY)',
 		'https://dfinity.org',
+		undefined,
 	],
 	[
 		224,
@@ -2496,6 +2721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SMART',
 		'Smartcash',
 		'https://smartcash.cc',
+		undefined,
 	],
 	[
 		225,
@@ -2503,6 +2729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XUEZ',
 		'XUEZ',
 		'https://xuezcoin.com',
+		undefined,
 	],
 	[
 		226,
@@ -2510,6 +2737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HLM',
 		'Helium',
 		'https://www.heliumlabs.org',
+		undefined,
 	],
 	[
 		227,
@@ -2517,6 +2745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WEB',
 		'Webchain',
 		'https://webchain.network',
+		undefined,
 	],
 	[
 		228,
@@ -2524,6 +2753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ACM',
 		'Actinium',
 		'https://actinium.org',
+		undefined,
 	],
 	[
 		229,
@@ -2531,6 +2761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NOS',
 		'NOS Stable Coins',
 		'https://nos.cash',
+		undefined,
 	],
 	[
 		230,
@@ -2538,6 +2769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BITC',
 		'BitCash',
 		'https://www.choosebitcash.com',
+		undefined,
 	],
 	[
 		231,
@@ -2545,6 +2777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HTH',
 		'Help The Homeless Coin',
 		'https://hthcoin.world',
+		undefined,
 	],
 	[
 		232,
@@ -2552,6 +2785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TZC',
 		'Trezarcoin',
 		'https://trezarcoin.com',
+		undefined,
 	],
 	[
 		233,
@@ -2559,6 +2793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VAR',
 		'Varda',
 		'https://varda.io',
+		undefined,
 	],
 	[
 		234,
@@ -2566,6 +2801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOV',
 		'IOV',
 		'https://www.iov.one',
+		undefined,
 	],
 	[
 		235,
@@ -2573,6 +2809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIO',
 		'FIO',
 		'https://fioprotocol.io',
+		undefined,
 	],
 	[
 		236,
@@ -2580,6 +2817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BSV',
 		'BitcoinSV',
 		'https://bitcoinsv.io',
+		undefined,
 	],
 	[
 		237,
@@ -2587,6 +2825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DXN',
 		'DEXON',
 		'https://dexon.org',
+		undefined,
 	],
 	[
 		238,
@@ -2594,6 +2833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QRL',
 		'Quantum Resistant Ledger',
 		'https://www.theqrl.org',
+		undefined,
 	],
 	[
 		239,
@@ -2601,6 +2841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PCX',
 		'ChainX',
 		'https://github.com/chainx-org/ChainX',
+		undefined,
 	],
 	[
 		240,
@@ -2608,6 +2849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LOKI',
 		'Loki',
 		'https://github.com/loki-project/loki',
+		undefined,
 	],
 	[
 		241,
@@ -2615,6 +2857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Imagewallet',
 		'https://imagewallet.io',
+		undefined,
 	],
 	[
 		242,
@@ -2622,6 +2865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NIM',
 		'Nimiq',
 		'https://nimiq.com',
+		undefined,
 	],
 	[
 		243,
@@ -2629,6 +2873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SOV',
 		'Sovereign Coin',
 		'http://www.sovcore.org',
+		undefined,
 	],
 	[
 		244,
@@ -2636,6 +2881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'JCT',
 		'Jibital Coin',
 		'https://jibital.ir',
+		undefined,
 	],
 	[
 		245,
@@ -2643,6 +2889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SLP',
 		'Simple Ledger Protocol',
 		'https://simpleledger.cash',
+		undefined,
 	],
 	[
 		246,
@@ -2650,6 +2897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EWT',
 		'Energy Web',
 		'https://energyweb.org',
+		undefined,
 	],
 	[
 		247,
@@ -2657,6 +2905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UC',
 		'Ulord',
 		'http://ulord.one',
+		undefined,
 	],
 	[
 		248,
@@ -2664,6 +2913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EXOS',
 		'EXOS',
 		'https://economy.openexo.com',
+		undefined,
 	],
 	[
 		249,
@@ -2671,6 +2921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ECA',
 		'Electra',
 		'https://www.electraproject.org',
+		undefined,
 	],
 	[
 		250,
@@ -2678,6 +2929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SOOM',
 		'Soom',
 		'http://www.fourthblockchain.org',
+		undefined,
 	],
 	[
 		251,
@@ -2685,6 +2937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRD',
 		'Redstone',
 		'https://www.redstoneplatform.com',
+		undefined,
 	],
 	[
 		252,
@@ -2692,6 +2945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FREE',
 		'FreeCoin',
 		'https://web.freepay.biz',
+		undefined,
 	],
 	[
 		253,
@@ -2699,6 +2953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NPW',
 		'NewPowerCoin',
 		'https://npw.live',
+		undefined,
 	],
 	[
 		254,
@@ -2706,6 +2961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BST',
 		'BlockStamp',
 		'https://blockstamp.info',
+		undefined,
 	],
 	[
 		255,
@@ -2713,6 +2969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'SmartHoldem',
 		'https://smartholdem.io',
+		undefined,
 	],
 	[
 		256,
@@ -2720,6 +2977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NANO',
 		'Bitcoin Nano',
 		'https://www.btcnano.org',
+		undefined,
 	],
 	[
 		257,
@@ -2727,6 +2985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCC',
 		'Bitcoin Core',
 		'https://thebitcoincore.org',
+		undefined,
 	],
 	[
 		258,
@@ -2734,6 +2993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Zen Protocol',
 		'https://www.zenprotocol.com',
+		undefined,
 	],
 	[
 		259,
@@ -2741,6 +3001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZEST',
 		'Zest',
 		'https://www.zestcoin.io',
+		undefined,
 	],
 	[
 		260,
@@ -2748,6 +3009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ABT',
 		'ArcBlock',
 		'https://arcblock.io',
+		undefined,
 	],
 	[
 		261,
@@ -2755,6 +3017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PION',
 		'Pion',
 		'https://pioncoin.org',
+		undefined,
 	],
 	[
 		262,
@@ -2762,6 +3025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DT3',
 		'DreamTeam3',
 		'https://crypto-dreamteam.com',
+		undefined,
 	],
 	[
 		263,
@@ -2769,6 +3033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZBUX',
 		'Zbux',
 		'https://z-bux.org',
+		undefined,
 	],
 	[
 		264,
@@ -2776,6 +3041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KPL',
 		'Kepler',
 		'https://kepler.cash',
+		undefined,
 	],
 	[
 		265,
@@ -2783,6 +3049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TPAY',
 		'TokenPay',
 		'https://tokenpay.com',
+		undefined,
 	],
 	[
 		266,
@@ -2790,6 +3057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZILLA',
 		'ChainZilla',
 		'https://www.chainzilla.io',
+		undefined,
 	],
 	[
 		267,
@@ -2797,6 +3065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ANK',
 		'Anker',
 		'https://ankerid.com',
+		undefined,
 	],
 	[
 		268,
@@ -2804,6 +3073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCC',
 		'BCChain',
 		'https://github.com/bc-chain/BCC',
+		undefined,
 	],
 	[
 		269,
@@ -2811,6 +3081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HPB',
 		'HPB',
 		'https://hpb.io',
+		undefined,
 	],
 	[
 		270,
@@ -2818,6 +3089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONE',
 		'ONE',
 		'http://www.onechain.one',
+		undefined,
 	],
 	[
 		271,
@@ -2825,6 +3097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SBC',
 		'SBC',
 		'http://www.smartbitcoin.one',
+		undefined,
 	],
 	[
 		272,
@@ -2832,6 +3105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IPC',
 		'IPChain',
 		'https://www.ipcchain.org',
+		undefined,
 	],
 	[
 		273,
@@ -2839,6 +3113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DMTC',
 		'Dominantchain',
 		'https://dominantchain.com',
+		undefined,
 	],
 	[
 		274,
@@ -2846,6 +3121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OGC',
 		'Onegram',
 		'https://onegram.org',
+		undefined,
 	],
 	[
 		275,
@@ -2853,6 +3129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SHIT',
 		'Shitcoin',
 		'https://shitcoin.org',
+		undefined,
 	],
 	[
 		276,
@@ -2860,6 +3137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ANDES',
 		'Andescoin',
 		'https://andes-coin.com',
+		undefined,
 	],
 	[
 		277,
@@ -2867,6 +3145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AREPA',
 		'Arepacoin',
 		'https://arepacoinve.info',
+		undefined,
 	],
 	[
 		278,
@@ -2874,6 +3153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BOLI',
 		'Bolivarcoin',
 		'https://bolis.info',
+		undefined,
 	],
 	[
 		279,
@@ -2881,6 +3161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RIL',
 		'Rilcoin',
 		'https://www.rilcoincrypto.org',
+		undefined,
 	],
 	[
 		280,
@@ -2888,6 +3169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HTR',
 		'Hathor Network',
 		'https://hathor.network',
+		undefined,
 	],
 	[
 		281,
@@ -2895,6 +3177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FCTID',
 		'Factom ID',
 		'https://github.com/FactomProject',
+		undefined,
 	],
 	[
 		282,
@@ -2902,6 +3185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BRAVO',
 		'BRAVO',
 		'https://bravocoin.com',
+		undefined,
 	],
 	[
 		283,
@@ -2909,6 +3193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ALGO',
 		'Algorand',
 		'https://www.algorand.com',
+		undefined,
 	],
 	[
 		284,
@@ -2916,6 +3201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BZX',
 		'Bitcoinzero',
 		'https://bitcoinzerox.net',
+		undefined,
 	],
 	[
 		285,
@@ -2923,6 +3209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GXX',
 		'GravityCoin',
 		'https://www.gravitycoin.io',
+		undefined,
 	],
 	[
 		286,
@@ -2930,6 +3217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HEAT',
 		'HEAT',
 		'https://heatledger.com',
+		undefined,
 	],
 	[
 		287,
@@ -2937,6 +3225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDN',
 		'DigitalNote',
 		'https://digitalnote.biz',
+		undefined,
 	],
 	[
 		288,
@@ -2944,6 +3233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FSN',
 		'FUSION',
 		'https://www.fusion.org',
+		undefined,
 	],
 	[
 		289,
@@ -2951,6 +3241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CPC',
 		'Capricoin',
 		'https://capricoin.org',
+		undefined,
 	],
 	[
 		290,
@@ -2958,6 +3249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BOLD',
 		'Bold',
 		'https://boldprivate.network',
+		undefined,
 	],
 	[
 		291,
@@ -2965,6 +3257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOST',
 		'IOST',
 		'https://iost.io',
+		undefined,
 	],
 	[
 		292,
@@ -2972,6 +3265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TKEY',
 		'Tkeycoin',
 		'https://tkeycoin.com',
+		undefined,
 	],
 	[
 		293,
@@ -2979,6 +3273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'USE',
 		'Usechain',
 		'https://usechain.net',
+		undefined,
 	],
 	[
 		294,
@@ -2986,6 +3281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCZ',
 		'BitcoinCZ',
 		'https://www.bitcoincz.org',
+		undefined,
 	],
 	[
 		295,
@@ -2993,6 +3289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOC',
 		'Iocoin',
 		'https://iocoin.io',
+		undefined,
 	],
 	[
 		296,
@@ -3000,6 +3297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ASF',
 		'Asofe',
 		'https://github.com/TheLightSide/asofe',
+		undefined,
 	],
 	[
 		297,
@@ -3007,6 +3305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MASS',
 		'MASS',
 		'https://www.massnet.org',
+		undefined,
 	],
 	[
 		298,
@@ -3014,6 +3313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FAIR',
 		'FairCoin',
 		'https://faircoin.world',
+		undefined,
 	],
 	[
 		299,
@@ -3021,6 +3321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NUKO',
 		'Nekonium',
 		'https://nekonium.github.io',
+		undefined,
 	],
 	[
 		300,
@@ -3028,6 +3329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GNX',
 		'Genaro Network',
 		'https://genaro.network',
+		undefined,
 	],
 	[
 		301,
@@ -3035,6 +3337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DIVI',
 		'Divi Project',
 		'https://diviproject.org',
+		undefined,
 	],
 	[
 		302,
@@ -3042,6 +3345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CMT',
 		'Community',
 		'https://thecriptocommunity.com',
+		undefined,
 	],
 	[
 		303,
@@ -3049,6 +3353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EUNO',
 		'EUNO',
 		'https://euno.co',
+		undefined,
 	],
 	[
 		304,
@@ -3056,6 +3361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOTX',
 		'IoTeX',
 		'https://iotex.io',
+		undefined,
 	],
 	[
 		305,
@@ -3063,6 +3369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONION',
 		'DeepOnion',
 		'https://deeponion.org',
+		undefined,
 	],
 	[
 		306,
@@ -3070,6 +3377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'8BIT',
 		'8Bit',
 		'https://8bit.cash',
+		undefined,
 	],
 	[
 		307,
@@ -3077,6 +3385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATC',
 		'AToken Coin',
 		'https://www.atoken.com',
+		undefined,
 	],
 	[
 		308,
@@ -3084,6 +3393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTS',
 		'Bitshares',
 		'https://bitshares.org',
+		undefined,
 	],
 	[
 		309,
@@ -3091,6 +3401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CKB',
 		'Nervos CKB',
 		'https://www.nervos.org',
+		undefined,
 	],
 	[
 		310,
@@ -3098,6 +3409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UGAS',
 		'Ultrain',
 		'https://www.ultrain.io',
+		undefined,
 	],
 	[
 		311,
@@ -3105,6 +3417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ADS',
 		'Adshares',
 		'https://adshares.net',
+		undefined,
 	],
 	[
 		312,
@@ -3112,6 +3425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARA',
 		'Aura',
 		'https://auraledger.com',
+		undefined,
 	],
 	[
 		313,
@@ -3119,6 +3433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZIL',
 		'Zilliqa',
 		'https://zilliqa.com',
+		undefined,
 	],
 	[
 		314,
@@ -3126,6 +3441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOAC',
 		'MOAC',
 		'https://moac.io',
+		undefined,
 	],
 	[
 		315,
@@ -3133,6 +3449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SWTC',
 		'SWTC',
 		'http://swtc.top',
+		undefined,
 	],
 	[
 		316,
@@ -3140,6 +3457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VNSC',
 		'vnscoin',
 		'http://www.vnscoin.org',
+		undefined,
 	],
 	[
 		317,
@@ -3147,6 +3465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PLUG',
 		'Pl^g',
 		'https://www.poweredbyplug.com',
+		undefined,
 	],
 	[
 		318,
@@ -3154,6 +3473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MAN',
 		'Matrix AI Network',
 		'https://www.matrix.io',
+		undefined,
 	],
 	[
 		319,
@@ -3161,6 +3481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ECC',
 		'ECCoin',
 		'https://ecc.network',
+		undefined,
 	],
 	[
 		320,
@@ -3168,6 +3489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RPD',
 		'Rapids',
 		'https://www.rapidsnetwork.io',
+		undefined,
 	],
 	[
 		321,
@@ -3175,6 +3497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RAP',
 		'Rapture',
 		'https://our-rapture.com',
+		undefined,
 	],
 	[
 		322,
@@ -3182,6 +3505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GARD',
 		'Hashgard',
 		'https://www.hashgard.io',
+		undefined,
 	],
 	[
 		323,
@@ -3189,6 +3513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZER',
 		'Zero',
 		'https://www.zerocurrency.io',
+		undefined,
 	],
 	[
 		324,
@@ -3196,6 +3521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EBST',
 		'eBoost',
 		'https://eboost.fun',
+		undefined,
 	],
 	[
 		325,
@@ -3203,6 +3529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SHARD',
 		'Shard',
 		'https://shardcoin.io',
+		undefined,
 	],
 	[
 		326,
@@ -3210,6 +3537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LINDA',
 		'Linda Coin',
 		'https://lindacoin.com',
+		undefined,
 	],
 	[
 		327,
@@ -3217,6 +3545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CMM',
 		'Commercium',
 		'https://www.commercium.net',
+		undefined,
 	],
 	[
 		328,
@@ -3224,6 +3553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BLOCK',
 		'Blocknet',
 		'https://blocknet.co',
+		undefined,
 	],
 	[
 		329,
@@ -3231,6 +3561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AUDAX',
 		'AUDAX',
 		'https://www.audaxproject.io',
+		undefined,
 	],
 	[
 		330,
@@ -3238,6 +3569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LUNA',
 		'Terra',
 		'https://terra.money',
+		undefined,
 	],
 	[
 		331,
@@ -3245,6 +3577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZPM',
 		'zPrime',
 		'https://github.com/zprimecoin/zprime',
+		undefined,
 	],
 	[
 		332,
@@ -3252,6 +3585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KUVA',
 		'Kuva Utility Note',
 		'https://www.kuvacash.com',
+		undefined,
 	],
 	[
 		333,
@@ -3259,6 +3593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MEM',
 		'MemCoin',
 		'https://memcoin.org',
+		undefined,
 	],
 	[
 		334,
@@ -3266,6 +3601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CS',
 		'Credits',
 		'https://credits.com',
+		undefined,
 	],
 	[
 		335,
@@ -3273,6 +3609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SWIFT',
 		'SwiftCash',
 		'https://swiftcash.cc',
+		undefined,
 	],
 	[
 		336,
@@ -3280,6 +3617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIX',
 		'FIX',
 		'https://fix.network',
+		undefined,
 	],
 	[
 		337,
@@ -3287,6 +3625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CPC',
 		'CPChain',
 		'https://cpchain.io',
+		undefined,
 	],
 	[
 		338,
@@ -3294,6 +3633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VGO',
 		'VirtualGoodsToken',
 		'http://vgo.life',
+		undefined,
 	],
 	[
 		339,
@@ -3301,6 +3641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DVT',
 		'DeVault',
 		'https://devault.cc',
+		undefined,
 	],
 	[
 		340,
@@ -3308,6 +3649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'N8V',
 		'N8VCoin',
 		'https://n8vcoin.io',
+		undefined,
 	],
 	[
 		341,
@@ -3315,6 +3657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MTNS',
 		'OmotenashiCoin',
 		'http://omotenashicoin.site',
+		undefined,
 	],
 	[
 		342,
@@ -3322,6 +3665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BLAST',
 		'BLAST',
 		'https://blastblastblast.com',
+		undefined,
 	],
 	[
 		343,
@@ -3329,6 +3673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DCT',
 		'DECENT',
 		'https://decent.ch',
+		undefined,
 	],
 	[
 		344,
@@ -3336,6 +3681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AUX',
 		'Auxilium',
 		'https://auxilium.global',
+		undefined,
 	],
 	[
 		345,
@@ -3343,6 +3689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'USDP',
 		'USDP',
 		'http://www.usdp.pro',
+		undefined,
 	],
 	[
 		346,
@@ -3350,6 +3697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HTDF',
 		'HTDF',
 		'https://www.orientwalt.com',
+		undefined,
 	],
 	[
 		347,
@@ -3357,6 +3705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YEC',
 		'Ycash',
 		'https://www.ycash.xyz',
+		undefined,
 	],
 	[
 		348,
@@ -3364,6 +3713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QLC',
 		'QLC Chain',
 		'https://qlcchain.org',
+		undefined,
 	],
 	[
 		349,
@@ -3371,6 +3721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TEA',
 		'Icetea Blockchain',
 		'https://icetea.io',
+		undefined,
 	],
 	[
 		350,
@@ -3378,6 +3729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARW',
 		'ArrowChain',
 		'https://www.arrowchain.io',
+		undefined,
 	],
 	[
 		351,
@@ -3385,6 +3737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MDM',
 		'Medium',
 		'https://www.themedium.io',
+		undefined,
 	],
 	[
 		352,
@@ -3392,6 +3745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CYB',
 		'Cybex',
 		'https://dex.cybex.io',
+		undefined,
 	],
 	[
 		353,
@@ -3399,6 +3753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LTO',
 		'LTO Network',
 		'https://lto.network',
+		undefined,
 	],
 	[
 		354,
@@ -3406,6 +3761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DOT',
 		'Polkadot',
 		'https://polkadot.network',
+		undefined,
 	],
 	[
 		355,
@@ -3413,6 +3769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AEON',
 		'Aeon',
 		'https://www.aeon.cash',
+		undefined,
 	],
 	[
 		356,
@@ -3420,6 +3777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RES',
 		'Resistance',
 		'https://www.resistance.io',
+		undefined,
 	],
 	[
 		357,
@@ -3427,6 +3785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AYA',
 		'Aryacoin',
 		'https://aryacoin.io',
+		undefined,
 	],
 	[
 		358,
@@ -3434,6 +3793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DAPS',
 		'Dapscoin',
 		'https://officialdapscoin.com',
+		undefined,
 	],
 	[
 		359,
@@ -3441,6 +3801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CSC',
 		'CasinoCoin',
 		'https://casinocoin.org',
+		undefined,
 	],
 	[
 		360,
@@ -3448,6 +3809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VSYS',
 		'V Systems',
 		'https://www.v.systems',
+		undefined,
 	],
 	[
 		361,
@@ -3455,6 +3817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NOLLAR',
 		'Nollar',
 		'https://nollar.org',
+		undefined,
 	],
 	[
 		362,
@@ -3462,6 +3825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XNOS',
 		'NOS',
 		'https://nos.cash',
+		undefined,
 	],
 	[
 		363,
@@ -3469,6 +3833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CPU',
 		'CPUchain',
 		'https://cpuchain.org',
+		undefined,
 	],
 	[
 		364,
@@ -3476,6 +3841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LAMB',
 		'Lambda Storage Chain',
 		'https://lambda.im',
+		undefined,
 	],
 	[
 		365,
@@ -3483,6 +3849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VCT',
 		'ValueCyber',
 		'https://valuecyber.org',
+		undefined,
 	],
 	[
 		366,
@@ -3490,6 +3857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CZR',
 		'Canonchain',
 		'http://www.canonchain.com',
+		undefined,
 	],
 	[
 		367,
@@ -3497,6 +3865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ABBC',
 		'ABBC',
 		'https://www.abbcfoundation.com',
+		undefined,
 	],
 	[
 		368,
@@ -3504,6 +3873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HET',
 		'HET',
 		'http://www.hetcoin.info',
+		undefined,
 	],
 	[
 		369,
@@ -3511,6 +3881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XAS',
 		'Asch',
 		'https://asch.io',
+		undefined,
 	],
 	[
 		370,
@@ -3518,6 +3889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VDL',
 		'Vidulum',
 		'https://vidulum.app',
+		undefined,
 	],
 	[
 		371,
@@ -3525,6 +3897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MED',
 		'MediBloc',
 		'https://medibloc.org',
+		undefined,
 	],
 	[
 		372,
@@ -3532,6 +3905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZVC',
 		'ZVChain',
 		'https://www.zvchain.io',
+		undefined,
 	],
 	[
 		373,
@@ -3539,6 +3913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VESTX',
 		'Vestx',
 		'https://www.vestxcoin.com',
+		undefined,
 	],
 	[
 		374,
@@ -3546,6 +3921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DBT',
 		'DarkBit',
 		'https://www.DarkBitPay.com',
+		undefined,
 	],
 	[
 		375,
@@ -3553,6 +3929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEOS',
 		'SuperEOS',
 		'https://github.com/supereos',
+		undefined,
 	],
 	[
 		376,
@@ -3560,6 +3937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MXW',
 		'Maxonrow',
 		'https://maxonrow.com',
+		undefined,
 	],
 	[
 		377,
@@ -3567,6 +3945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZNZ',
 		'ZENZO',
 		'https://zenzo.io',
+		undefined,
 	],
 	[
 		378,
@@ -3574,6 +3953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XCX',
 		'XChain',
 		'https://github.com/xchainxchain',
+		undefined,
 	],
 	[
 		379,
@@ -3581,6 +3961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SOX',
 		'SonicX',
 		'https://sonicx.org',
+		undefined,
 	],
 	[
 		380,
@@ -3588,6 +3969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NYZO',
 		'Nyzo',
 		'https://nyzo.co',
+		undefined,
 	],
 	[
 		381,
@@ -3595,6 +3977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ULC',
 		'ULCoin',
 		'http://www.ulwallet.io',
+		undefined,
 	],
 	[
 		382,
@@ -3602,6 +3985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RYO',
 		'Ryo Currency',
 		'https://ryo-currency.com',
+		undefined,
 	],
 	[
 		383,
@@ -3609,6 +3993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KAL',
 		'Kaleidochain',
 		'https://kaleidochain.io',
+		undefined,
 	],
 	[
 		384,
@@ -3616,6 +4001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XSN',
 		'Stakenet',
 		'https://xsncoin.io',
+		undefined,
 	],
 	[
 		385,
@@ -3623,6 +4009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DOGEC',
 		'DogeCash',
 		'https://dogec.io',
+		undefined,
 	],
 	[
 		386,
@@ -3630,6 +4017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BMV',
 		'Bitcoin Matteo\'s Vision',
 		'https://btcmv.org',
+		undefined,
 	],
 	[
 		387,
@@ -3637,6 +4025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QBC',
 		'Quebecoin',
 		'https://github.com/QuebecoinQBC/quebecoin',
+		undefined,
 	],
 	[
 		388,
@@ -3644,6 +4033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IMG',
 		'ImageCoin',
 		'https://imagecoin.imagehosty.com',
+		undefined,
 	],
 	[
 		389,
@@ -3651,6 +4041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QOS',
 		'QOS',
 		'https://github.com/QOSGroup/qos',
+		undefined,
 	],
 	[
 		390,
@@ -3658,6 +4049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PKT',
 		'PKT',
 		'https://github.com/pkt-cash/pktd',
+		undefined,
 	],
 	[
 		391,
@@ -3665,6 +4057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LHD',
 		'LitecoinHD',
 		'https://ltchd.io',
+		undefined,
 	],
 	[
 		392,
@@ -3672,6 +4065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CENNZ',
 		'CENNZnet',
 		'https://centrality.ai',
+		undefined,
 	],
 	[
 		393,
@@ -3679,6 +4073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HSN',
 		'Hyper Speed Network',
 		'https://www.hsn.link',
+		undefined,
 	],
 	[
 		394,
@@ -3686,6 +4081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRO',
 		'Crypto.org Chain',
 		'https://crypto.org',
+		undefined,
 	],
 	[
 		395,
@@ -3693,6 +4089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UMBRU',
 		'Umbru',
 		'https://umbru.io',
+		undefined,
 	],
 	[
 		396,
@@ -3700,6 +4097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TON',
 		'Free TON',
 		'https://freeton.org',
+		undefined,
 	],
 	[
 		397,
@@ -3707,6 +4105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEAR',
 		'NEAR Protocol',
 		'https://nearprotocol.com',
+		undefined,
 	],
 	[
 		398,
@@ -3714,6 +4113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XPC',
 		'XPChain',
 		'https://www.xpchain.io',
+		undefined,
 	],
 	[
 		399,
@@ -3721,6 +4121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZOC',
 		'01coin',
 		'https://01coin.io',
+		undefined,
 	],
 	[
 		400,
@@ -3728,6 +4129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NIX',
 		'NIX',
 		'https://nixplatform.io',
+		undefined,
 	],
 	[
 		401,
@@ -3735,6 +4137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UC',
 		'Utopiacoin',
 		'https://utopiacoin.org',
+		undefined,
 	],
 	[
 		402,
@@ -3742,6 +4145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GALI',
 		'Galilel',
 		'https://galilel.org',
+		undefined,
 	],
 	[
 		403,
@@ -3749,6 +4153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OLT',
 		'Oneledger',
 		'https://www.oneledger.io',
+		undefined,
 	],
 	[
 		404,
@@ -3756,6 +4161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XBI',
 		'XBI',
 		'https://bitcoinincognito.org',
+		undefined,
 	],
 	[
 		405,
@@ -3763,6 +4169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DONU',
 		'DONU',
 		'https://donu.io',
+		undefined,
 	],
 	[
 		406,
@@ -3770,6 +4177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EARTHS',
 		'Earths',
 		'https://earths.ga',
+		undefined,
 	],
 	[
 		407,
@@ -3777,6 +4185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HDD',
 		'HDDCash',
 		'https://hdd.cash',
+		undefined,
 	],
 	[
 		408,
@@ -3784,6 +4193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SUGAR',
 		'Sugarchain',
 		'https://sugarchain.org',
+		undefined,
 	],
 	[
 		409,
@@ -3791,6 +4201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AILE',
 		'AileCoin',
 		'https://ailecoin.com',
+		undefined,
 	],
 	[
 		410,
@@ -3798,6 +4209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TENT',
 		'TENT',
 		'https://tent.app',
+		undefined,
 	],
 	[
 		411,
@@ -3805,6 +4217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TAN',
 		'Tangerine Network',
 		'https://tangerine-network.io',
+		undefined,
 	],
 	[
 		412,
@@ -3812,6 +4225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AIN',
 		'AIN',
 		'https://www.ainetwork.ai',
+		undefined,
 	],
 	[
 		413,
@@ -3819,6 +4233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MSR',
 		'Masari',
 		'https://getmasari.org',
+		undefined,
 	],
 	[
 		414,
@@ -3826,6 +4241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SUMO',
 		'Sumokoin',
 		'https://www.sumokoin.org',
+		undefined,
 	],
 	[
 		415,
@@ -3833,6 +4249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETN',
 		'Electroneum',
 		'https://electroneum.com',
+		undefined,
 	],
 	[
 		416,
@@ -3840,6 +4257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BYTZ',
 		'BYTZ',
 		'https://bytz.gg',
+		undefined,
 	],
 	[
 		417,
@@ -3847,6 +4265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WOW',
 		'Wownero',
 		'http://wownero.org',
+		undefined,
 	],
 	[
 		418,
@@ -3854,6 +4273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XTNC',
 		'XtendCash',
 		'https://xtendcash.com',
+		undefined,
 	],
 	[
 		419,
@@ -3861,6 +4281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LTHN',
 		'Lethean',
 		'https://lethean.io',
+		undefined,
 	],
 	[
 		420,
@@ -3868,6 +4289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NODE',
 		'NodeHost',
 		'https://nodehost.online',
+		undefined,
 	],
 	[
 		421,
@@ -3875,6 +4297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AGM',
 		'Argoneum',
 		'https://argoneum.net',
+		undefined,
 	],
 	[
 		422,
@@ -3882,6 +4305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCX',
 		'Conceal Network',
 		'https://conceal.network',
+		undefined,
 	],
 	[
 		423,
@@ -3889,6 +4313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TNET',
 		'Title Network',
 		'https://title.network',
+		undefined,
 	],
 	[
 		424,
@@ -3896,6 +4321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TELOS',
 		'TelosCoin',
 		'https://teloscoin.org',
+		undefined,
 	],
 	[
 		425,
@@ -3903,6 +4329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AION',
 		'Aion',
 		'https://aion.network',
+		undefined,
 	],
 	[
 		426,
@@ -3910,6 +4337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BC',
 		'Bitcoin Confidential',
 		'https://www.bitcoinconfidential.cc',
+		undefined,
 	],
 	[
 		427,
@@ -3917,6 +4345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KTV',
 		'KmushiCoin',
 		'https://tierravivaplanet.com',
+		undefined,
 	],
 	[
 		428,
@@ -3924,6 +4353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZCR',
 		'ZCore',
 		'https://zcore.cash',
+		undefined,
 	],
 	[
 		429,
@@ -3931,6 +4361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ERG',
 		'Ergo',
 		'https://ergoplatform.org',
+		undefined,
 	],
 	[
 		430,
@@ -3938,6 +4369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PESO',
 		'Criptopeso',
 		'https://criptopeso.io',
+		undefined,
 	],
 	[
 		431,
@@ -3945,6 +4377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTC2',
 		'Bitcoin 2',
 		'https://www.bitc2.org',
+		undefined,
 	],
 	[
 		432,
@@ -3952,6 +4385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRPHD',
 		'XRPHD',
 		'https://xrphd.org',
+		undefined,
 	],
 	[
 		433,
@@ -3959,6 +4393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WE',
 		'WE Coin',
 		'https://we-corp.io',
+		undefined,
 	],
 	[
 		434,
@@ -3966,6 +4401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KSM',
 		'Kusama',
 		'https://kusama.network',
+		undefined,
 	],
 	[
 		435,
@@ -3973,6 +4409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PCN',
 		'Peepcoin',
 		'https://pxn.foundation/peepcoin',
+		undefined,
 	],
 	[
 		436,
@@ -3980,6 +4417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NCH',
 		'NetCloth',
 		'https://www.netcloth.org',
+		undefined,
 	],
 	[
 		437,
@@ -3987,6 +4425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ICU',
 		'CHIPO',
 		'http://www.chipo.icu',
+		undefined,
 	],
 	[
 		438,
@@ -3994,6 +4433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LN',
 		'LINK',
 		'https://link.network',
+		undefined,
 	],
 	[
 		439,
@@ -4001,6 +4441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DTP',
 		'DeVault Token Protocol',
 		'https://devault.cc/token-protocol.html',
+		undefined,
 	],
 	[
 		440,
@@ -4008,6 +4449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCR',
 		'Bitcoin Royale',
 		'https://bitcoinroyale.org',
+		undefined,
 	],
 	[
 		441,
@@ -4015,6 +4457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AERGO',
 		'AERGO',
 		'https://www.aergo.io',
+		undefined,
 	],
 	[
 		442,
@@ -4022,6 +4465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XTH',
 		'Dothereum',
 		'https://dothereum.net',
+		undefined,
 	],
 	[
 		443,
@@ -4029,6 +4473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LV',
 		'Lava',
 		'https://www.lavatech.org',
+		undefined,
 	],
 	[
 		444,
@@ -4036,6 +4481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PHR',
 		'Phore',
 		'https://phore.io',
+		undefined,
 	],
 	[
 		445,
@@ -4043,6 +4489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VITAE',
 		'Vitae',
 		'https://www.vitaetoken.io',
+		undefined,
 	],
 	[
 		446,
@@ -4050,6 +4497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COCOS',
 		'Cocos-BCX',
 		'https://www.cocosbcx.io',
+		undefined,
 	],
 	[
 		447,
@@ -4057,6 +4505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DIN',
 		'Dinero',
 		'https://dinerocoin.org',
+		undefined,
 	],
 	[
 		448,
@@ -4064,6 +4513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SPL',
 		'Simplicity',
 		'https://simplicity-coin.com',
+		undefined,
 	],
 	[
 		449,
@@ -4071,6 +4521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YCE',
 		'MYCE',
 		'https://myce.world',
+		undefined,
 	],
 	[
 		450,
@@ -4078,6 +4529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XLR',
 		'Solaris',
 		'https://solarisplatform.com',
+		undefined,
 	],
 	[
 		451,
@@ -4085,6 +4537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KTS',
 		'Klimatas',
 		'https://www.klimatas.com',
+		undefined,
 	],
 	[
 		452,
@@ -4092,6 +4545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DGLD',
 		'DGLD',
 		'http://dgld.ch',
+		undefined,
 	],
 	[
 		453,
@@ -4099,6 +4553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XNS',
 		'Insolar',
 		'https://insolar.io',
+		undefined,
 	],
 	[
 		454,
@@ -4106,6 +4561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EM',
 		'EMPOW',
 		'https://empow.io',
+		undefined,
 	],
 	[
 		455,
@@ -4113,6 +4569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SHN',
 		'ShineBlocks',
 		'https://www.shineblocks.com',
+		undefined,
 	],
 	[
 		456,
@@ -4120,6 +4577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEELE',
 		'Seele',
 		'https://seelenet.com',
+		undefined,
 	],
 	[
 		457,
@@ -4127,6 +4585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AE',
 		'æternity',
 		'https://aeternity.com',
+		undefined,
 	],
 	[
 		458,
@@ -4134,6 +4593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ODX',
 		'ObsidianX',
 		'https://obsidianproject.org',
+		undefined,
 	],
 	[
 		459,
@@ -4141,6 +4601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KAVA',
 		'Kava',
 		'https://kava.io',
+		undefined,
 	],
 	[
 		460,
@@ -4148,6 +4609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GLEEC',
 		'GLEEC',
 		'https://gleecoin.com',
+		undefined,
 	],
 	[
 		461,
@@ -4155,6 +4617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIL',
 		'Filecoin',
 		'https://filecoin.io',
+		undefined,
 	],
 	[
 		462,
@@ -4162,6 +4625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RUTA',
 		'Rutanio',
 		'https://rutanio.com',
+		undefined,
 	],
 	[
 		463,
@@ -4169,6 +4633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CSDT',
 		'CSDT',
 		'https://xar.network',
+		undefined,
 	],
 	[
 		464,
@@ -4176,6 +4641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETI',
 		'EtherInc',
 		'https://einc.io',
+		undefined,
 	],
 	[
 		465,
@@ -4183,6 +4649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZSLP',
 		'Zclassic Simple Ledger Protocol',
 		'https://zslp.org',
+		undefined,
 	],
 	[
 		466,
@@ -4190,6 +4657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ERE',
 		'EtherCore',
 		'https://ethercore.org',
+		undefined,
 	],
 	[
 		467,
@@ -4197,6 +4665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DX',
 		'DxChain Token',
 		'https://dxchain.com',
+		undefined,
 	],
 	[
 		468,
@@ -4204,6 +4673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CPS',
 		'Capricoin+',
 		'https://capricoin.org',
+		undefined,
 	],
 	[
 		469,
@@ -4211,6 +4681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTH',
 		'Bithereum',
 		'https://bithereum.network',
+		undefined,
 	],
 	[
 		470,
@@ -4218,6 +4689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MESG',
 		'MESG',
 		'https://mesg.com',
+		undefined,
 	],
 	[
 		471,
@@ -4225,6 +4697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIMK',
 		'FIMK',
 		'https://wallet.fimk.fi',
+		undefined,
 	],
 	[
 		472,
@@ -4232,6 +4705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AR',
 		'Arweave',
 		'https://arweave.org',
+		undefined,
 	],
 	[
 		473,
@@ -4239,6 +4713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OGO',
 		'Origo',
 		'https://origo.network',
+		undefined,
 	],
 	[
 		474,
@@ -4246,6 +4721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ROSE',
 		'Oasis Network',
 		'https://www.oasis-protocol.org',
+		undefined,
 	],
 	[
 		475,
@@ -4253,6 +4729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BARE',
 		'BARE Network',
 		'https://bare.network',
+		undefined,
 	],
 	[
 		476,
@@ -4260,6 +4737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GLEEC',
 		'GleecBTC',
 		'https://gleecbtc.com',
+		undefined,
 	],
 	[
 		477,
@@ -4267,6 +4745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CLR',
 		'Color Coin',
 		'https://color-platform.org',
+		undefined,
 	],
 	[
 		478,
@@ -4274,6 +4753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RNG',
 		'Ring',
 		'https://ringcoin.tech',
+		undefined,
 	],
 	[
 		479,
@@ -4281,6 +4761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OLO',
 		'Tool Global',
 		'https://ibdt.io',
+		undefined,
 	],
 	[
 		480,
@@ -4288,6 +4769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PEXA',
 		'Pexa',
 		'https://pexaproject.com',
+		undefined,
 	],
 	[
 		481,
@@ -4295,6 +4777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOON',
 		'Mooncoin',
 		'https://mooncoin.eco',
+		undefined,
 	],
 	[
 		482,
@@ -4302,6 +4785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OCEAN',
 		'Ocean Protocol',
 		'https://oceanprotocol.com',
+		undefined,
 	],
 	[
 		483,
@@ -4309,6 +4793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BNT',
 		'Bluzelle Native',
 		'https://bluzelle.com',
+		undefined,
 	],
 	[
 		484,
@@ -4316,6 +4801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AMO',
 		'AMO Blockchain',
 		'https://amo.foundation',
+		undefined,
 	],
 	[
 		485,
@@ -4323,6 +4809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FCH',
 		'FreeCash',
 		'https://www.freecash.org',
+		undefined,
 	],
 	[
 		486,
@@ -4330,6 +4817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LAT',
 		'LatticeX',
 		'https://latticex.foundation',
+		undefined,
 	],
 	[
 		487,
@@ -4337,6 +4825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COIN',
 		'Bitcoin Bank',
 		'https://github.com/coin-core/coin',
+		undefined,
 	],
 	[
 		488,
@@ -4344,6 +4833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VEO',
 		'Amoveo',
 		'https://github.com/zack-bitcoin/amoveo',
+		undefined,
 	],
 	[
 		489,
@@ -4351,6 +4841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCA',
 		'Counos Coin',
 		'https://counos.io/cousnocoin',
+		undefined,
 	],
 	[
 		490,
@@ -4358,6 +4849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GFN',
 		'Graphene',
 		'https://getgraphene.io',
+		undefined,
 	],
 	[
 		491,
@@ -4365,6 +4857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIP',
 		'Minter Network',
 		'https://minter.network',
+		undefined,
 	],
 	[
 		492,
@@ -4372,6 +4865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KPG',
 		'Kunpeng Network',
 		'https://kunpeng.network',
+		undefined,
 	],
 	[
 		493,
@@ -4379,6 +4873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIN',
 		'FINL Chain',
 		'http://finl.network',
+		undefined,
 	],
 	[
 		494,
@@ -4386,6 +4881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BAND',
 		'Band',
 		'https://bandprotocol.com',
+		undefined,
 	],
 	[
 		495,
@@ -4393,6 +4889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DROP',
 		'Dropil',
 		'https://dropilchain.com',
+		undefined,
 	],
 	[
 		496,
@@ -4400,6 +4897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BHT',
 		'Bluehelix Chain',
 		'https://bluehelix.network',
+		undefined,
 	],
 	[
 		497,
@@ -4407,6 +4905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LYRA',
 		'Scrypta',
 		'https://scryptachain.org',
+		undefined,
 	],
 	[
 		498,
@@ -4414,6 +4913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CS',
 		'Credits',
 		'https://credits.com',
+		undefined,
 	],
 	[
 		499,
@@ -4421,6 +4921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RUPX',
 		'Rupaya',
 		'https://rupx.io',
+		undefined,
 	],
 	[
 		500,
@@ -4428,6 +4929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'THETA',
 		'Theta',
 		'https://www.thetatoken.org',
+		undefined,
 	],
 	[
 		501,
@@ -4435,6 +4937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SOL',
 		'Solana',
 		'https://solana.com',
+		undefined,
 	],
 	[
 		502,
@@ -4442,6 +4945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'THT',
 		'ThoughtAI',
 		'https://github.com/thoughtnetwork/thought',
+		undefined,
 	],
 	[
 		503,
@@ -4449,6 +4953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CFX',
 		'Conflux',
 		'https://confluxnetwork.org',
+		undefined,
 	],
 	[
 		504,
@@ -4456,6 +4961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KUMA',
 		'Kumacoin',
 		'https://www.kumacoin.dev',
+		undefined,
 	],
 	[
 		505,
@@ -4463,6 +4969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HASH',
 		'Provenance',
 		'https://provenance.io',
+		undefined,
 	],
 	[
 		506,
@@ -4470,6 +4977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CSPR',
 		'Casper',
 		'https://casper.network',
+		undefined,
 	],
 	[
 		507,
@@ -4477,6 +4985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EARTH',
 		'EARTH',
 		'https://www.earth.engineering',
+		undefined,
 	],
 	[
 		508,
@@ -4484,6 +4993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ERD',
 		'Elrond',
 		'https://elrond.com',
+		undefined,
 	],
 	[
 		509,
@@ -4491,6 +5001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CHI',
 		'Xaya',
 		'https://xaya.io',
+		undefined,
 	],
 	[
 		510,
@@ -4498,6 +5009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KOTO',
 		'Koto',
 		'https://ko-to.org',
+		undefined,
 	],
 	[
 		511,
@@ -4505,6 +5017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OTC',
 		'θ',
 		'https://otc.network',
+		undefined,
 	],
 	[
 		512,
@@ -4512,6 +5025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRD',
 		'Radiant',
 		'https://radiant.cash',
+		undefined,
 	],
 	[
 		513,
@@ -4519,6 +5033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEELEN',
 		'Seele-N',
 		'https://seelen.pro',
+		undefined,
 	],
 	[
 		514,
@@ -4526,6 +5041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AETH',
 		'AETH',
 		'https://aeth.io',
+		undefined,
 	],
 	[
 		515,
@@ -4533,6 +5049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DNA',
 		'Idena',
 		'https://idena.io',
+		undefined,
 	],
 	[
 		516,
@@ -4540,6 +5057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VEE',
 		'Virtual Economy Era',
 		'https://www.vee.tech',
+		undefined,
 	],
 	[
 		517,
@@ -4547,6 +5065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SIERRA',
 		'SierraCoin',
 		'https://sierracoin.org',
+		undefined,
 	],
 	[
 		518,
@@ -4554,6 +5073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LET',
 		'Linkeye',
 		'https://www.linkeye.com',
+		undefined,
 	],
 	[
 		519,
@@ -4561,6 +5081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BSC',
 		'Bitcoin Smart Contract',
 		'https://bsc.net',
+		undefined,
 	],
 	[
 		520,
@@ -4568,6 +5089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCV',
 		'BitcoinVIP',
 		'https://www.bitvip.org',
+		undefined,
 	],
 	[
 		521,
@@ -4575,6 +5097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ABA',
 		'Dabacus',
 		'https://www.dabacus.org',
+		undefined,
 	],
 	[
 		522,
@@ -4582,6 +5105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SCC',
 		'StakeCubeCoin',
 		'https://stakecube.net',
+		undefined,
 	],
 	[
 		523,
@@ -4589,6 +5113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EDG',
 		'Edgeware',
 		'https://edgewa.re',
+		undefined,
 	],
 	[
 		524,
@@ -4596,6 +5121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AMS',
 		'AmsterdamCoin',
 		'https://www.amsterdamcoin.com',
+		undefined,
 	],
 	[
 		525,
@@ -4603,6 +5129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GOSS',
 		'GOSSIP Coin',
 		'https://gossipcoin.net',
+		undefined,
 	],
 	[
 		526,
@@ -4610,6 +5137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BU',
 		'BUMO',
 		'https://www.bumo.io',
+		undefined,
 	],
 	[
 		527,
@@ -4617,6 +5145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GRAM',
 		'GRAM',
 		'https://github.com/tongram',
+		undefined,
 	],
 	[
 		528,
@@ -4624,6 +5153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YAP',
 		'Yapstone',
 		'https://yapstone.pro',
+		undefined,
 	],
 	[
 		529,
@@ -4631,6 +5161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SCRT',
 		'Secret Network',
 		'https://scrt.network',
+		undefined,
 	],
 	[
 		530,
@@ -4638,6 +5169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NOVO',
 		'Novo',
 		'https://novocurrency.com',
+		undefined,
 	],
 	[
 		531,
@@ -4645,6 +5177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GHOST',
 		'Ghost',
 		'https://ghostbymcafee.com',
+		undefined,
 	],
 	[
 		532,
@@ -4652,6 +5185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HST',
 		'HST',
 		'https://www.hschain.io',
+		undefined,
 	],
 	[
 		533,
@@ -4659,6 +5193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PRJ',
 		'ProjectCoin',
 		'https://projectcoin.net',
+		undefined,
 	],
 	[
 		534,
@@ -4666,6 +5201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YOU',
 		'YOUChain',
 		'https://youchain.cc',
+		undefined,
 	],
 	[
 		535,
@@ -4673,6 +5209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XHV',
 		'Haven Protocol',
 		'https://havenprotocol.org',
+		undefined,
 	],
 	[
 		536,
@@ -4680,6 +5217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BYND',
 		'Beyondcoin',
 		'https://beyondcoin.io',
+		undefined,
 	],
 	[
 		537,
@@ -4687,6 +5225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'JOYS',
 		'Joys Digital',
 		'https://joys.digital',
+		undefined,
 	],
 	[
 		538,
@@ -4694,6 +5233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VAL',
 		'Valorbit',
 		'https://valorbit.com',
+		undefined,
 	],
 	[
 		539,
@@ -4701,6 +5241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FLOW',
 		'Flow',
 		'https://www.onflow.org',
+		undefined,
 	],
 	[
 		540,
@@ -4708,6 +5249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SMESH',
 		'Spacemesh Coin',
 		'https://spacemesh.io',
+		undefined,
 	],
 	[
 		541,
@@ -4715,6 +5257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SCDO',
 		'SCDO',
 		'https://scdoproject.org',
+		undefined,
 	],
 	[
 		542,
@@ -4722,6 +5265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IQS',
 		'IQ-Cash',
 		'https://iq.cash',
+		undefined,
 	],
 	[
 		543,
@@ -4729,6 +5273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIND',
 		'Compendia',
 		'https://compendia.org',
+		undefined,
 	],
 	[
 		544,
@@ -4736,6 +5281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COINEVO',
 		'Coinevo',
 		'https://coinevo.tech',
+		undefined,
 	],
 	[
 		545,
@@ -4743,6 +5289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SCRIBE',
 		'Scribe',
 		'https://scribe.network',
+		undefined,
 	],
 	[
 		546,
@@ -4750,6 +5297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HYN',
 		'Hyperion',
 		'https://www.hyn.space',
+		undefined,
 	],
 	[
 		547,
@@ -4757,6 +5305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BHP',
 		'BHP',
 		'https://www.bhpa.io',
+		undefined,
 	],
 	[
 		548,
@@ -4764,6 +5313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BBC',
 		'BigBang Core',
 		'https://github.com/bigbangcore',
+		undefined,
 	],
 	[
 		549,
@@ -4771,6 +5321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MKF',
 		'MarketFinance',
 		'https://mkf.io',
+		undefined,
 	],
 	[
 		550,
@@ -4778,6 +5329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDC',
 		'XinFin.Network',
 		'https://xinfin.network',
+		undefined,
 	],
 	[
 		551,
@@ -4785,6 +5337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STR',
 		'Straightedge',
 		'https://straighted.ge',
+		undefined,
 	],
 	[
 		552,
@@ -4792,6 +5345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SUM',
 		'Sumcoin',
 		'https://sumcoin.org',
+		undefined,
 	],
 	[
 		553,
@@ -4799,12 +5353,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HBC',
 		'HuobiChain',
 		'https://www.huobichain.com',
+		undefined,
 	],
 	[
 		554,
 		0x80_00_02_2A,
 		'---',
 		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -4813,6 +5369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCS',
 		'Bitcoin Smart',
 		'http://bcs.info',
+		undefined,
 	],
 	[
 		556,
@@ -4820,6 +5377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KTS',
 		'Kratos',
 		'https://github.com/KuChainNetwork/kratos',
+		undefined,
 	],
 	[
 		557,
@@ -4827,6 +5385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LKR',
 		'Lkrcoin',
 		'https://lkrcoin.io',
+		undefined,
 	],
 	[
 		558,
@@ -4834,6 +5393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TAO',
 		'Tao',
 		'https://tao.network',
+		undefined,
 	],
 	[
 		559,
@@ -4841,6 +5401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XWC',
 		'Whitecoin',
 		'https://www.whitecoin.info',
+		undefined,
 	],
 	[
 		560,
@@ -4848,6 +5409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DEAL',
 		'DEAL',
 		'https://idealcash.io',
+		undefined,
 	],
 	[
 		561,
@@ -4855,6 +5417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NTY',
 		'Nexty',
 		'https://nexty.io',
+		undefined,
 	],
 	[
 		562,
@@ -4862,6 +5425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TOP',
 		'TOP NetWork',
 		'https://www.topnetwork.org',
+		undefined,
 	],
 	[
 		563,
@@ -4869,6 +5433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STARS',
 		'Stargaze',
 		'https://www.stargaze.fi',
+		undefined,
 	],
 	[
 		564,
@@ -4876,6 +5441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AG',
 		'Agoric',
 		'https://agoric.com',
+		undefined,
 	],
 	[
 		565,
@@ -4883,6 +5449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CICO',
 		'Coinicles',
 		'https://github.com/coinicles/cico',
+		undefined,
 	],
 	[
 		566,
@@ -4890,6 +5457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IRIS',
 		'Irisnet',
 		'https://www.irisnet.org',
+		undefined,
 	],
 	[
 		567,
@@ -4897,6 +5465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NCG',
 		'Nine Chronicles',
 		'https://nine-chronicles.com',
+		undefined,
 	],
 	[
 		568,
@@ -4904,6 +5473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LRG',
 		'Large Coin',
 		'https://www.largocoin.io',
+		undefined,
 	],
 	[
 		569,
@@ -4911,6 +5481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SERO',
 		'Super Zero Protocol',
 		'https://sero.cash',
+		undefined,
 	],
 	[
 		570,
@@ -4918,6 +5489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BDX',
 		'Beldex',
 		'https://www.beldex.io',
+		undefined,
 	],
 	[
 		571,
@@ -4925,6 +5497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCXX',
 		'Counos X',
 		'https://www.counos.io/CounosX',
+		undefined,
 	],
 	[
 		572,
@@ -4932,6 +5505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SLS',
 		'Saluscoin',
 		'https://saluscoin.info',
+		undefined,
 	],
 	[
 		573,
@@ -4939,6 +5513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SRM',
 		'Serum',
 		'https://projectserum.com',
+		undefined,
 	],
 	[
 		574,
@@ -4946,6 +5521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VLX',
 		'Velas',
 		'https://velas.com',
+		undefined,
 	],
 	[
 		575,
@@ -4953,6 +5529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VIVT',
 		'VIDT Datalink',
 		'https://about.v-id.org',
+		undefined,
 	],
 	[
 		576,
@@ -4960,6 +5537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BPS',
 		'BitcoinPoS',
 		'https://bitcoinpos.net',
+		undefined,
 	],
 	[
 		577,
@@ -4967,6 +5545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NKN',
 		'NKN',
 		'https://www.nkn.org',
+		undefined,
 	],
 	[
 		578,
@@ -4974,6 +5553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ICL',
 		'ILCOIN',
 		'https://ilcoincrypto.com',
+		undefined,
 	],
 	[
 		579,
@@ -4981,6 +5561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BONO',
 		'Bonorum',
 		'https://www.bonorum.io',
+		undefined,
 	],
 	[
 		580,
@@ -4988,6 +5569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PLC',
 		'PLATINCOIN',
 		'https://platincoin.com/en',
+		undefined,
 	],
 	[
 		581,
@@ -4995,6 +5577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DUN',
 		'Dune',
 		'https://dune.network',
+		undefined,
 	],
 	[
 		582,
@@ -5002,6 +5585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DMCH',
 		'Darmacash',
 		'https://www.darmacash.com',
+		undefined,
 	],
 	[
 		583,
@@ -5009,6 +5593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CTC',
 		'Creditcoin',
 		'https://www.creditcoin.org',
+		undefined,
 	],
 	[
 		584,
@@ -5016,6 +5601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KELP',
 		'Haidai Network',
 		'https://haidai.one',
+		undefined,
 	],
 	[
 		585,
@@ -5023,6 +5609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GBCR',
 		'GoldBCR',
 		'https://goldbcr.io',
+		undefined,
 	],
 	[
 		586,
@@ -5030,6 +5617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDAG',
 		'XDAG',
 		'https://xdag.io',
+		undefined,
 	],
 	[
 		587,
@@ -5037,6 +5625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PRV',
 		'Incognito Privacy',
 		'https://incognito.org',
+		undefined,
 	],
 	[
 		588,
@@ -5044,6 +5633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SCAP',
 		'SafeCapital',
 		'https://www.safecapital.io',
+		undefined,
 	],
 	[
 		589,
@@ -5051,6 +5641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TFUEL',
 		'Theta Fuel',
 		'https://community.theta.tv/tfuel-on-sliver-faq',
+		undefined,
 	],
 	[
 		590,
@@ -5058,6 +5649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GTM',
 		'Gentarium',
 		'https://gtmcoin.io',
+		undefined,
 	],
 	[
 		591,
@@ -5065,6 +5657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RNL',
 		'RentalChain',
 		'https://rentalchain.net',
+		undefined,
 	],
 	[
 		592,
@@ -5072,6 +5665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GRIN',
 		'Grin',
 		'https://grin.mw',
+		undefined,
 	],
 	[
 		593,
@@ -5079,6 +5673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MWC',
 		'MimbleWimbleCoin',
 		'https://www.mwc.mw',
+		undefined,
 	],
 	[
 		594,
@@ -5086,6 +5681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DOCK',
 		'Dock',
 		'https://dock.io',
+		undefined,
 	],
 	[
 		595,
@@ -5093,6 +5689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'POLYX',
 		'Polymesh',
 		'https://polymath.network',
+		undefined,
 	],
 	[
 		596,
@@ -5100,6 +5697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DIVER',
 		'Divergenti',
 		'https://www.divergenti.cl',
+		undefined,
 	],
 	[
 		597,
@@ -5107,6 +5705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XEP',
 		'Electra Protocol',
 		'https://www.electraprotocol.com',
+		undefined,
 	],
 	[
 		598,
@@ -5114,6 +5713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'APN',
 		'Apron',
 		'https://apron.network',
+		undefined,
 	],
 	[
 		599,
@@ -5121,6 +5721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TFC',
 		'Turbo File Coin',
 		'http://turbofil.cc',
+		undefined,
 	],
 	[
 		600,
@@ -5128,6 +5729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UTE',
 		'Unit-e',
 		'https://dtr.org/unit-e',
+		undefined,
 	],
 	[
 		601,
@@ -5135,6 +5737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MTC',
 		'Metacoin',
 		'https://metacoin.network',
+		undefined,
 	],
 	[
 		602,
@@ -5142,6 +5745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NC',
 		'NobodyCash',
 		'https://nobodycash.world',
+		undefined,
 	],
 	[
 		603,
@@ -5149,6 +5753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XINY',
 		'Xinyuehu',
 		'https://xinyuehu.xyz',
+		undefined,
 	],
 	[
 		604,
@@ -5156,6 +5761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DYN',
 		'Dynamo',
 		'https://www.dynamocoin.org',
+		undefined,
 	],
 	[
 		605,
@@ -5163,6 +5769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BUFS',
 		'Buffer',
 		'https://bufferbufs.com',
+		undefined,
 	],
 	[
 		606,
@@ -5170,6 +5777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STOS',
 		'Stratos',
 		'https://thestratos.org',
+		undefined,
 	],
 	[
 		607,
@@ -5177,6 +5785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TON',
 		'TON',
 		'https://toncoin.org',
+		undefined,
 	],
 	[
 		608,
@@ -5184,6 +5793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TAFT',
 		'TAFT',
 		'https://www.tafchain.com',
+		undefined,
 	],
 	[
 		609,
@@ -5191,6 +5801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HYDRA',
 		'HYDRA',
 		'https://hydrachain.org',
+		undefined,
 	],
 	[
 		610,
@@ -5198,6 +5809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NOR',
 		'Noir',
 		'http://www.noirofficial.org',
+		undefined,
 	],
 	[
 		611,
@@ -5205,6 +5817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Manta Network Private Asset',
 		'https://manta.network',
+		undefined,
 	],
 	[
 		612,
@@ -5212,6 +5825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Calamari Network Private Asset',
 		'https://calamari.manta.network',
+		undefined,
 	],
 	[
 		613,
@@ -5219,6 +5833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WCN',
 		'Widecoin',
 		'https://Widecoin.org',
+		undefined,
 	],
 	[
 		614,
@@ -5226,6 +5841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OPT',
 		'Optimistic Ethereum',
 		'https://www.optimism.io',
+		undefined,
 	],
 	[
 		615,
@@ -5233,6 +5849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PSWAP',
 		'PolkaSwap',
 		'https://polkaswap.io',
+		undefined,
 	],
 	[
 		616,
@@ -5240,6 +5857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VAL',
 		'Validator',
 		'https://sora.org/soratokens',
+		undefined,
 	],
 	[
 		617,
@@ -5247,6 +5865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XOR',
 		'Sora',
 		'https://sora.org/soratokens',
+		undefined,
 	],
 	[
 		618,
@@ -5254,6 +5873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SSP',
 		'SmartShare',
 		'http://www.smartshare.vip',
+		undefined,
 	],
 	[
 		619,
@@ -5261,6 +5881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DEI',
 		'DeimosX',
 		'https://deimosx.org',
+		undefined,
 	],
 	[
 		620,
@@ -5268,6 +5889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AXL',
 		'Axelar',
 		'https://axelar.network',
+		undefined,
 	],
 	[
 		621,
@@ -5275,6 +5897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZERO',
 		'Singularity',
 		'https://www.singularity.gold',
+		undefined,
 	],
 	[
 		623,
@@ -5282,6 +5905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BDCASH',
 		'BDCash Protocol',
 		'https://bdcashprotocol.com',
+		undefined,
 	],
 	[
 		624,
@@ -5289,6 +5913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NOBL',
 		'Nobility',
 		'https://github.com/nobilitysociety',
+		undefined,
 	],
 	[
 		625,
@@ -5296,6 +5921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EAST',
 		'Eastcoin',
 		'http://easthub.io',
+		undefined,
 	],
 	[
 		628,
@@ -5303,6 +5929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LORE',
 		'Gitopia',
 		'https://gitopia.com',
+		undefined,
 	],
 	[
 		629,
@@ -5310,6 +5937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FNR',
 		'Fincor',
 		'https://fincor.io',
+		undefined,
 	],
 	[
 		639,
@@ -5317,6 +5945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTSG',
 		'BitSong',
 		'https://bitsong.io',
+		undefined,
 	],
 	[
 		640,
@@ -5324,6 +5953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LFC',
 		'Leofcoin',
 		'https://leofcoin.org',
+		undefined,
 	],
 	[
 		643,
@@ -5331,6 +5961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AZERO',
 		'Aleph Zero',
 		'https://alephzero.org',
+		undefined,
 	],
 	[
 		646,
@@ -5338,6 +5969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XLN',
 		'Lunarium',
 		'https://www.lunariumcoin.com',
+		undefined,
 	],
 	[
 		648,
@@ -5345,6 +5977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZRB',
 		'Zarb',
 		'https://zarb.network',
+		undefined,
 	],
 	[
 		650,
@@ -5352,6 +5985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UCO',
 		'ARCHEthic',
 		'https://archethic.net',
+		undefined,
 	],
 	[
 		660,
@@ -5359,6 +5993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PIRATE',
 		'PirateCash',
 		'https://piratecash.net',
+		undefined,
 	],
 	[
 		663,
@@ -5366,6 +6001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SFRX',
 		'EtherGem Sapphire',
 		'https://egem.io',
+		undefined,
 	],
 	[
 		666,
@@ -5373,6 +6009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ACT',
 		'Achain',
 		'https://www.achain.com',
+		undefined,
 	],
 	[
 		667,
@@ -5380,6 +6017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PRKL',
 		'Perkle',
 		'https://esprezzo.io',
+		undefined,
 	],
 	[
 		668,
@@ -5387,6 +6025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SSC',
 		'SelfSell',
 		'https://www.selfsell.com',
+		undefined,
 	],
 	[
 		669,
@@ -5394,6 +6033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GC',
 		'GateChain',
 		'https://www.gatechain.io',
+		undefined,
 	],
 	[
 		677,
@@ -5401,6 +6041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YUNGE',
 		'Yunge',
 		'https://yunge.one',
+		undefined,
 	],
 	[
 		678,
@@ -5408,6 +6049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Voken',
 		'Voken',
 		'https://voken.io',
+		undefined,
 	],
 	[
 		680,
@@ -5415,6 +6057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Evrynet',
 		'Evrynet',
 		'https://evrynet.io',
+		undefined,
 	],
 	[
 		686,
@@ -5422,6 +6065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KAR',
 		'Karura Network',
 		'https://karura.network',
+		undefined,
 	],
 	[
 		688,
@@ -5429,6 +6073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CET',
 		'CoinEx Chain',
 		'https://www.coinex.org',
+		undefined,
 	],
 	[
 		698,
@@ -5436,6 +6081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VEIL',
 		'Veil',
 		'https://www.veil-project.com',
+		undefined,
 	],
 	[
 		699,
@@ -5443,6 +6089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GIO',
 		'Gio',
 		'https://github.com/qGio',
+		undefined,
 	],
 	[
 		700,
@@ -5450,6 +6097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDAI',
 		'xDai',
 		'https://blockscout.com/poa/dai',
+		undefined,
 	],
 	[
 		707,
@@ -5457,6 +6105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MCOIN',
 		'Moneta Coin',
 		'https://moneta.today/monetacoin',
+		undefined,
 	],
 	[
 		711,
@@ -5464,6 +6113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CHC',
 		'Chaincoin',
 		'https://www.chaincoin.org',
+		undefined,
 	],
 	[
 		713,
@@ -5471,6 +6121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XTL',
 		'Katal Chain',
 		'https://katalchain.com',
+		undefined,
 	],
 	[
 		714,
@@ -5478,6 +6129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BNB',
 		'Binance',
 		'https://www.binance.org',
+		undefined,
 	],
 	[
 		715,
@@ -5485,6 +6137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SIN',
 		'Sinovate',
 		'https://sinovate.io',
+		undefined,
 	],
 	[
 		716,
@@ -5492,6 +6145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DLN',
 		'Delion',
 		'https://delion.online',
+		undefined,
 	],
 	[
 		725,
@@ -5499,6 +6153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MCX',
 		'MultiCash',
 		'https://multicash.io',
+		undefined,
 	],
 	[
 		731,
@@ -5506,6 +6161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BMK',
 		'Bitmark',
 		'https://bitmark.com',
+		undefined,
 	],
 	[
 		734,
@@ -5513,12 +6169,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DENTX',
 		'DENTNet',
 		'https://www.dentnet.io',
+		undefined,
 	],
 	[
 		737,
 		0x80_00_02_E1,
 		'ATOP',
 		'[Financial Blockchain]',
+		undefined,
 		undefined,
 	],
 	[
@@ -5527,6 +6185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RAD',
 		'Centrifuge',
 		'https://centrifuge.io',
+		undefined,
 	],
 	[
 		750,
@@ -5534,6 +6193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XPRT',
 		'Persistence',
 		'https://persistence.one',
+		undefined,
 	],
 	[
 		768,
@@ -5541,6 +6201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BALLZ',
 		'Ballzcoin',
 		'https://ballzcoin.org',
+		undefined,
 	],
 	[
 		770,
@@ -5548,6 +6209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COSA',
 		'Cosanta',
 		'https://github.com/cosanta',
+		undefined,
 	],
 	[
 		771,
@@ -5555,6 +6217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BR',
 		'BR',
 		'https://bolsadigital.com.br',
+		undefined,
 	],
 	[
 		777,
@@ -5562,6 +6225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTW',
 		'Bitcoin World',
 		'http://btw.one',
+		undefined,
 	],
 	[
 		786,
@@ -5569,6 +6233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UIDD',
 		'UIDD',
 		'https://github.com/UIDD/UIDD',
+		undefined,
 	],
 	[
 		787,
@@ -5576,6 +6241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ACA',
 		'Acala',
 		'https://acala.network',
+		undefined,
 	],
 	[
 		788,
@@ -5583,6 +6249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BNC',
 		'Bifrost',
 		'https://bifrost.finance',
+		undefined,
 	],
 	[
 		789,
@@ -5590,6 +6257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TAU',
 		'Lamden',
 		'https://lamden.io',
+		undefined,
 	],
 	[
 		800,
@@ -5597,6 +6265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BEET',
 		'Beetle Coin',
 		'https://beetlecoin.io',
+		undefined,
 	],
 	[
 		801,
@@ -5604,6 +6273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DST',
 		'DSTRA',
 		'https://dstra.io',
+		undefined,
 	],
 	[
 		808,
@@ -5611,6 +6281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QVT',
 		'Qvolta',
 		'https://qvolta.com',
+		undefined,
 	],
 	[
 		811,
@@ -5618,6 +6289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DVPN',
 		'Sentinel',
 		'https://sentinel.co',
+		undefined,
 	],
 	[
 		818,
@@ -5625,6 +6297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VET',
 		'VeChain Token',
 		'https://vechain.com',
+		undefined,
 	],
 	[
 		819,
@@ -5632,6 +6305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'REEF',
 		'Reef',
 		'https://reef.io/',
+		undefined,
 	],
 	[
 		820,
@@ -5639,6 +6313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CLO',
 		'Callisto',
 		'http://callisto.network',
+		undefined,
 	],
 	[
 		822,
@@ -5646,6 +6321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BDB',
 		'BigchainDB',
 		'https://github.com/bigchaindb',
+		undefined,
 	],
 	[
 		828,
@@ -5653,6 +6329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCN',
 		'ComputeCoin',
 		'https://computecoin.network',
+		undefined,
 	],
 	[
 		831,
@@ -5660,6 +6337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRUZ',
 		'cruzbit',
 		'https://github.com/cruzbit/cruzbit',
+		undefined,
 	],
 	[
 		832,
@@ -5667,6 +6345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAPP',
 		'Sapphire',
 		'https://sappcoin.com',
+		undefined,
 	],
 	[
 		833,
@@ -5674,6 +6353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'777',
 		'Jackpot',
 		'https://777coin.win',
+		undefined,
 	],
 	[
 		834,
@@ -5681,6 +6361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KYAN',
 		'Kyanite',
 		'https://kyancoin.net',
+		undefined,
 	],
 	[
 		835,
@@ -5688,6 +6369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AZR',
 		'Azzure',
 		'https://azzurecoin.net',
+		undefined,
 	],
 	[
 		836,
@@ -5695,6 +6377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CFL',
 		'CryptoFlow',
 		'https://cryptoflow.eu',
+		undefined,
 	],
 	[
 		837,
@@ -5702,6 +6385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DASHD',
 		'Dash Diamond',
 		'https://dashdiamond.net',
+		undefined,
 	],
 	[
 		838,
@@ -5709,6 +6393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TRTT',
 		'Trittium',
 		'https://github.com/Trittium/trittium',
+		undefined,
 	],
 	[
 		839,
@@ -5716,6 +6401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'UCR',
 		'Ultra Clear',
 		'https://ucrcoin.net',
+		undefined,
 	],
 	[
 		840,
@@ -5723,6 +6409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PNY',
 		'Peony',
 		'https://github.com/PeonyTeam/peony',
+		undefined,
 	],
 	[
 		841,
@@ -5730,6 +6417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BECN',
 		'Beacon',
 		'https://github.com/beaconcrypto/beacon',
+		undefined,
 	],
 	[
 		842,
@@ -5737,6 +6425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MONK',
 		'Monk',
 		'https://monkcoin.net',
+		undefined,
 	],
 	[
 		843,
@@ -5744,6 +6433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAGA',
 		'CryptoSaga',
 		'https://github.com/cryptosagacoin/SAGA',
+		undefined,
 	],
 	[
 		844,
@@ -5751,6 +6441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SUV',
 		'Suvereno',
 		'https://github.com/decenomy/SUV',
+		undefined,
 	],
 	[
 		845,
@@ -5758,6 +6449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ESK',
 		'EskaCoin',
 		'https://eskacoin.com',
+		undefined,
 	],
 	[
 		846,
@@ -5765,6 +6457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OWO',
 		'OneWorld Coin',
 		'https://oneworldcoin.io',
+		undefined,
 	],
 	[
 		847,
@@ -5772,6 +6465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PEPS',
 		'PEPS Coin',
 		'https://project.peps.today',
+		undefined,
 	],
 	[
 		848,
@@ -5779,6 +6473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIR',
 		'Birake',
 		'https://birake.com',
+		undefined,
 	],
 	[
 		852,
@@ -5786,6 +6481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DSM',
 		'Desmos',
 		'https://desmos.network',
+		undefined,
 	],
 	[
 		853,
@@ -5793,6 +6489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PRCY',
 		'PRCY Coin',
 		'https://prcycoin.com',
+		undefined,
 	],
 	[
 		866,
@@ -5800,6 +6497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOB',
 		'MobileCoin',
 		'https://www.mobilecoin.com',
+		undefined,
 	],
 	[
 		868,
@@ -5807,6 +6505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IF',
 		'Infinitefuture',
 		'https://infinitefuture.top',
+		undefined,
 	],
 	[
 		880,
@@ -5814,6 +6513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LUM',
 		'Lum Network',
 		'https://lum.network',
+		undefined,
 	],
 	[
 		883,
@@ -5821,6 +6521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZBC',
 		'ZooBC',
 		'https://zoobc.com',
+		undefined,
 	],
 	[
 		886,
@@ -5828,6 +6529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ADF',
 		'AD Token',
 		'http://adfunds.org',
+		undefined,
 	],
 	[
 		888,
@@ -5835,6 +6537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEO',
 		'NEO',
 		'https://neo.org',
+		undefined,
 	],
 	[
 		889,
@@ -5842,6 +6545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TOMO',
 		'TOMO',
 		'https://tomochain.com',
+		undefined,
 	],
 	[
 		890,
@@ -5849,6 +6553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XSEL',
 		'Seln',
 		'https://selnx.jp',
+		undefined,
 	],
 	[
 		896,
@@ -5856,6 +6561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LKSC',
 		'LKSCoin',
 		'https://www.lkschain.io',
+		undefined,
 	],
 	[
 		899,
@@ -5863,6 +6569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XEC',
 		'eCash',
 		'https://e.cash',
+		undefined,
 	],
 	[
 		900,
@@ -5870,6 +6577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LMO',
 		'Lumeneo',
 		'https://lumeneo.network',
+		undefined,
 	],
 	[
 		904,
@@ -5877,6 +6585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HNT',
 		'Helium',
 		'https://helium.com',
+		undefined,
 	],
 	[
 		907,
@@ -5884,6 +6593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIS',
 		'StaFi',
 		'https://stafi.io',
+		undefined,
 	],
 	[
 		909,
@@ -5891,6 +6601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAAGE',
 		'Saage',
 		'https://saage.io',
+		undefined,
 	],
 	[
 		916,
@@ -5898,6 +6609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'META',
 		'Metadium',
 		'https://www.metadium.com',
+		undefined,
 	],
 	[
 		917,
@@ -5905,6 +6617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FRA',
 		'Findora',
 		'https://www.findora.org',
+		undefined,
 	],
 	[
 		925,
@@ -5912,6 +6625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DIP',
 		'Dipper Network',
 		'https://www.dippernetwork.com',
+		undefined,
 	],
 	[
 		931,
@@ -5919,6 +6633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RUNE',
 		'THORChain (RUNE)',
 		'https://thorchain.org',
+		undefined,
 	],
 	[
 		955,
@@ -5926,6 +6641,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LTP',
 		'LifetionCoin',
 		'https://cointobanks.com',
+		undefined,
 	],
 	[
 		958,
@@ -5933,6 +6649,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'KickSoccer',
 		'https://kicksoccercoin.com',
+		undefined,
 	],
 	[
 		966,
@@ -5940,6 +6657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MATIC',
 		'Matic',
 		'https://matic.network',
+		undefined,
 	],
 	[
 		970,
@@ -5947,6 +6665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TWINS',
 		'TWINS',
 		'https://win.win',
+		undefined,
 	],
 	[
 		988,
@@ -5954,6 +6673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XAZAB',
 		'Xazab core',
 		'https://github.com/xazab',
+		undefined,
 	],
 	[
 		989,
@@ -5961,6 +6681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AIOZ',
 		'AIOZ',
 		'https://aioz.network',
+		undefined,
 	],
 	[
 		991,
@@ -5968,6 +6689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PEC',
 		'Phoenix',
 		'https://github.com/phoenixchain/phoenix',
+		undefined,
 	],
 	[
 		996,
@@ -5975,6 +6697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OKT',
 		'OKChain Token',
 		'https://www.okex.com/okchain',
+		undefined,
 	],
 	[
 		997,
@@ -5982,6 +6705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SUM',
 		'Solidum',
 		'https://solidum.network',
+		undefined,
 	],
 	[
 		998,
@@ -5989,6 +6713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LBTC',
 		'Lightning Bitcoin',
 		'http://lbtc.io',
+		undefined,
 	],
 	[
 		999,
@@ -5996,6 +6721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCD',
 		'Bitcoin Diamond',
 		'http://btcd.io',
+		undefined,
 	],
 	[
 		1000,
@@ -6003,6 +6729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTN',
 		'Bitcoin New',
 		'http://bitcoinnew.org',
+		undefined,
 	],
 	[
 		1001,
@@ -6010,6 +6737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TT',
 		'ThunderCore',
 		'https://thundercore.com',
+		undefined,
 	],
 	[
 		1002,
@@ -6017,6 +6745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BKT',
 		'BanKitt',
 		'https://www.bankitt.network',
+		undefined,
 	],
 	[
 		1003,
@@ -6024,6 +6753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NODL',
 		'Nodle',
 		'https://nodle.io',
+		undefined,
 	],
 	[
 		1007,
@@ -6031,6 +6761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FTM',
 		'Fantom',
 		'https://fantom.foundation',
+		undefined,
 	],
 	[
 		1010,
@@ -6038,6 +6769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HT',
 		'Huobi ECO Chain',
 		'https://www.hecochain.com',
+		undefined,
 	],
 	[
 		1011,
@@ -6045,6 +6777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ELV',
 		'Eluvio',
 		'https://eluv.io',
+		undefined,
 	],
 	[
 		1013,
@@ -6052,6 +6785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIC',
 		'Beincrypto',
 		'https://beincrypto.org',
+		undefined,
 	],
 	[
 		1020,
@@ -6059,6 +6793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EVC',
 		'Evrice',
 		'https://evrice.com',
+		undefined,
 	],
 	[
 		1022,
@@ -6066,6 +6801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRD',
 		'Radix DLT',
 		'https://www.radixdlt.com',
+		undefined,
 	],
 	[
 		1023,
@@ -6073,6 +6809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONE',
 		'HARMONY-ONE',
 		'https://harmony.one',
+		undefined,
 	],
 	[
 		1024,
@@ -6080,6 +6817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONT',
 		'Ontology',
 		'https://ont.io',
+		undefined,
 	],
 	[
 		1026,
@@ -6087,6 +6825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KEX',
 		'Kira Exchange Token',
 		'https://kiraex.com',
+		undefined,
 	],
 	[
 		1027,
@@ -6094,6 +6833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MCM',
 		'Mochimo',
 		'https://mochimo.org',
+		undefined,
 	],
 	[
 		1032,
@@ -6101,6 +6841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCR',
 		'BTCR',
 		'https://github.com/did-btcr',
+		undefined,
 	],
 	[
 		1111,
@@ -6108,6 +6849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BBC',
 		'Big Bitcoin',
 		'http://bigbitcoins.org',
+		undefined,
 	],
 	[
 		1120,
@@ -6115,6 +6857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RISE',
 		'RISE',
 		'https://rise.vision',
+		undefined,
 	],
 	[
 		1122,
@@ -6122,6 +6865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CMT',
 		'CyberMiles Token',
 		'https://www.cybermiles.io',
+		undefined,
 	],
 	[
 		1128,
@@ -6129,6 +6873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETSC',
 		'Ethereum Social',
 		'https://ethereumsocial.kr',
+		undefined,
 	],
 	[
 		1129,
@@ -6136,6 +6881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DFI',
 		'DeFiChain',
 		'https://defichain.com',
+		undefined,
 	],
 	[
 		1137,
@@ -6143,6 +6889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'$DAG',
 		'Constellation Labs',
 		'https://constellationnetwork.io',
+		undefined,
 	],
 	[
 		1145,
@@ -6150,6 +6897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CDY',
 		'Bitcoin Candy',
 		'http://www.bitcoincandy.one',
+		undefined,
 	],
 	[
 		1170,
@@ -6157,6 +6905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HOO',
 		'Hoo Smart Chain',
 		'https://www.hoosmartchain.com',
+		undefined,
 	],
 	[
 		1234,
@@ -6164,6 +6913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ALPH',
 		'Alephium',
 		'https://github.com/alephium/alephium',
+		undefined,
 	],
 	[
 		1285,
@@ -6171,6 +6921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOVR',
 		'Moonriver',
 		'https://github.com/PureStake/moonbeam',
+		undefined,
 	],
 	[
 		1337,
@@ -6178,6 +6929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DFC',
 		'Defcoin',
 		'http://defcoin-ng.org',
+		undefined,
 	],
 	[
 		1397,
@@ -6185,12 +6937,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HYC',
 		'Hycon',
 		'https://hycon.io',
+		undefined,
 	],
 	[
 		1410,
 		0x80_00_05_82,
 		'TENTSLP',
 		'TENT Simple Ledger Protocol',
+		undefined,
 		undefined,
 	],
 	[
@@ -6199,6 +6953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Taler',
 		'http://taler.site',
+		undefined,
 	],
 	[
 		1533,
@@ -6206,6 +6961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BEAM',
 		'Beam',
 		'https://www.beam.mw',
+		undefined,
 	],
 	[
 		1616,
@@ -6213,6 +6969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ELF',
 		'AELF',
 		'https://aelf.io',
+		undefined,
 	],
 	[
 		1618,
@@ -6220,6 +6977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AUDL',
 		'AUDL',
 		'https://aud.one',
+		undefined,
 	],
 	[
 		1620,
@@ -6227,6 +6985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATH',
 		'Atheios',
 		'https://atheios.com',
+		undefined,
 	],
 	[
 		1642,
@@ -6234,6 +6993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEW',
 		'Newton',
 		'https://www.newtonproject.org',
+		undefined,
 	],
 	[
 		1657,
@@ -6241,6 +7001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTA',
 		'Btachain',
 		'https://bitcoinasset.io',
+		undefined,
 	],
 	[
 		1688,
@@ -6248,6 +7009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCX',
 		'BitcoinX',
 		'https://bcx.org',
+		undefined,
 	],
 	[
 		1729,
@@ -6255,6 +7017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XTZ',
 		'Tezos',
 		'https://tezos.com',
+		undefined,
 	],
 	[
 		1776,
@@ -6262,6 +7025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LBTC',
 		'Liquid BTC',
 		'https://blockstream.com/liquid',
+		undefined,
 	],
 	[
 		1777,
@@ -6269,6 +7033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BBP',
 		'Biblepay',
 		'https://www.biblepay.org',
+		undefined,
 	],
 	[
 		1784,
@@ -6276,6 +7041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'JPYS',
 		'JPY Stablecoin',
 		'https://settlenet.io',
+		undefined,
 	],
 	[
 		1789,
@@ -6283,6 +7049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VEGA',
 		'Vega Protocol',
 		'https://vega.xyz',
+		undefined,
 	],
 	[
 		1815,
@@ -6290,6 +7057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ADA',
 		'Cardano',
 		'https://www.cardanohub.org/en/home',
+		undefined,
 	],
 	[
 		1856,
@@ -6297,6 +7065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TES',
 		'Teslacoin',
 		'https://www.tesla-coin.com',
+		undefined,
 	],
 	[
 		1888,
@@ -6304,6 +7073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZTX',
 		'Zetrix',
 		'https://zetrix.com/',
+		undefined,
 	],
 	[
 		1899,
@@ -6311,6 +7081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XEC',
 		'eCash token',
 		'https://e.cash',
+		undefined,
 	],
 	[
 		1901,
@@ -6318,6 +7089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CLC',
 		'Classica',
 		'https://github.com/classica',
+		undefined,
 	],
 	[
 		1919,
@@ -6325,6 +7097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VIPS',
 		'VIPSTARCOIN',
 		'https://www.vipstarcoin.jp',
+		undefined,
 	],
 	[
 		1926,
@@ -6332,6 +7105,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CITY',
 		'City Coin',
 		'https://city-chain.org',
+		undefined,
 	],
 	[
 		1955,
@@ -6339,6 +7113,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XX',
 		'xx coin',
 		'https://xx.network',
+		undefined,
 	],
 	[
 		1977,
@@ -6346,6 +7121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XMX',
 		'Xuma',
 		'http://www.xumacoin.org',
+		undefined,
 	],
 	[
 		1984,
@@ -6353,6 +7129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TRTL',
 		'TurtleCoin',
 		'https://turtlecoin.lol',
+		undefined,
 	],
 	[
 		1987,
@@ -6360,6 +7137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EGEM',
 		'EtherGem',
 		'https://egem.io',
+		undefined,
 	],
 	[
 		1989,
@@ -6367,6 +7145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HODL',
 		'HOdlcoin',
 		'https://hodlcoin.com',
+		undefined,
 	],
 	[
 		1990,
@@ -6374,6 +7153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PHL',
 		'Placeholders',
 		'https://placeh.io',
+		undefined,
 	],
 	[
 		1991,
@@ -6381,6 +7161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SC',
 		'Sia',
 		'https://sia.tech',
+		undefined,
 	],
 	[
 		1996,
@@ -6388,6 +7169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MYT',
 		'Mineyourtime',
 		'https://mineyourtime.com',
+		undefined,
 	],
 	[
 		1997,
@@ -6395,6 +7177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'POLIS',
 		'Polis',
 		'https://polispay.org',
+		undefined,
 	],
 	[
 		1998,
@@ -6402,6 +7185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XMCC',
 		'Monoeci',
 		'https://monoeci.io',
+		undefined,
 	],
 	[
 		1999,
@@ -6409,6 +7193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COLX',
 		'ColossusXT',
 		'https://colossusxt.io',
+		undefined,
 	],
 	[
 		2000,
@@ -6416,6 +7201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GIN',
 		'GinCoin',
 		'https://gincoin.io',
+		undefined,
 	],
 	[
 		2001,
@@ -6423,6 +7209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MNP',
 		'MNPCoin',
 		'https://mnpcoin.pro',
+		undefined,
 	],
 	[
 		2017,
@@ -6430,6 +7217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KIN',
 		'Kin',
 		'https://www.kinecosystem.org',
+		undefined,
 	],
 	[
 		2018,
@@ -6437,6 +7225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EOSC',
 		'EOSClassic',
 		'https://eos-classic.io',
+		undefined,
 	],
 	[
 		2019,
@@ -6444,6 +7233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GBT',
 		'GoldBean Token',
 		'http://www.adfunds.org',
+		undefined,
 	],
 	[
 		2020,
@@ -6451,6 +7241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PKC',
 		'PKC',
 		'https://www.pkc.ink',
+		undefined,
 	],
 	[
 		2021,
@@ -6458,6 +7249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SKT',
 		'Sukhavati',
 		'https://sukhavati.io',
+		undefined,
 	],
 	[
 		2022,
@@ -6465,6 +7257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XHT',
 		'Xinghuo Token',
 		'https://xinghuo.space',
+		undefined,
 	],
 	[
 		2048,
@@ -6472,6 +7265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MCASH',
 		'MCashChain',
 		'https://mcash.network',
+		undefined,
 	],
 	[
 		2049,
@@ -6479,6 +7273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TRUE',
 		'TrueChain',
 		'https://www.truechain.pro',
+		undefined,
 	],
 	[
 		2112,
@@ -6486,6 +7281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IoTE',
 		'IoTE',
 		'https://www.iote.one',
+		undefined,
 	],
 	[
 		2137,
@@ -6493,6 +7289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRG',
 		'Ergon',
 		'https://ergon.moe',
+		undefined,
 	],
 	[
 		2221,
@@ -6500,6 +7297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ASK',
 		'ASK',
 		'https://permission.io',
+		undefined,
 	],
 	[
 		2301,
@@ -6507,6 +7305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QTUM',
 		'QTUM',
 		'https://qtum.org/en',
+		undefined,
 	],
 	[
 		2302,
@@ -6514,6 +7313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETP',
 		'Metaverse',
 		'https://mvs.org',
+		undefined,
 	],
 	[
 		2303,
@@ -6521,6 +7321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GXC',
 		'GXChain',
 		'https://www.gxb.io',
+		undefined,
 	],
 	[
 		2304,
@@ -6528,6 +7329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRP',
 		'CranePay',
 		'https://cranepay.io',
+		undefined,
 	],
 	[
 		2305,
@@ -6535,6 +7337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ELA',
 		'Elastos',
 		'https://www.elastos.org',
+		undefined,
 	],
 	[
 		2338,
@@ -6542,6 +7345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SNOW',
 		'Snowblossom',
 		'https://snowblossom.org',
+		undefined,
 	],
 	[
 		2570,
@@ -6549,6 +7353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AOA',
 		'Aurora',
 		'https://www.aurorachain.io',
+		undefined,
 	],
 	[
 		2894,
@@ -6556,6 +7361,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'REOSC',
 		'REOSC Ecosystem',
 		'https://www.reosc.io',
+		undefined,
 	],
 	[
 		3003,
@@ -6563,6 +7369,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LUX',
 		'LUX',
 		'https://luxcore.io',
+		undefined,
 	],
 	[
 		3030,
@@ -6570,6 +7377,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XHB',
 		'Hedera HBAR',
 		'https://www.hedera.com',
+		undefined,
 	],
 	[
 		3077,
@@ -6577,6 +7385,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COS',
 		'Contentos',
 		'https://www.contentos.io',
+		undefined,
 	],
 	[
 		3381,
@@ -6584,6 +7393,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DYN',
 		'Dynamic',
 		'https://duality.solutions/dynamic',
+		undefined,
 	],
 	[
 		3383,
@@ -6591,6 +7401,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEQ',
 		'Sequence',
 		'https://duality.solutions/sequence',
+		undefined,
 	],
 	[
 		3552,
@@ -6598,6 +7409,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DEO',
 		'Destocoin',
 		'https://desto.io',
+		undefined,
 	],
 	[
 		3564,
@@ -6605,6 +7417,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DST',
 		'DeStream',
 		'https://destream.io',
+		undefined,
 	],
 	[
 		2718,
@@ -6612,6 +7425,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NAS',
 		'Nebulas',
 		'https://nebulas.io',
+		undefined,
 	],
 	[
 		2941,
@@ -6619,6 +7433,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BND',
 		'Blocknode',
 		'https://blocknode.tech',
+		undefined,
 	],
 	[
 		3276,
@@ -6626,6 +7441,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCC',
 		'CodeChain',
 		'https://codechain.io',
+		undefined,
 	],
 	[
 		3377,
@@ -6633,6 +7449,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ROI',
 		'ROIcoin',
 		'https://roi-coin.com',
+		undefined,
 	],
 	[
 		4040,
@@ -6640,6 +7457,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FC8',
 		'FCH Network',
 		'https://fch.network',
+		undefined,
 	],
 	[
 		4096,
@@ -6647,6 +7465,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YEE',
 		'YeeCo',
 		'https://www.yeeco.io',
+		undefined,
 	],
 	[
 		4218,
@@ -6654,6 +7473,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOTA',
 		'IOTA',
 		'https://www.iota.org',
+		undefined,
 	],
 	[
 		4242,
@@ -6661,6 +7481,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AXE',
 		'Axe',
 		'https://github.com/AXErunners/axe',
+		undefined,
 	],
 	[
 		4343,
@@ -6668,6 +7489,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XYM',
 		'Symbol',
 		'https://github.com/nemtech/catapult-server',
+		undefined,
 	],
 	[
 		5248,
@@ -6675,6 +7497,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIC',
 		'FIC',
 		'https://ficnetwork.com',
+		undefined,
 	],
 	[
 		5353,
@@ -6682,6 +7505,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HNS',
 		'Handshake',
 		'https://handshake.org',
+		undefined,
 	],
 	[
 		5555,
@@ -6689,6 +7513,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FUND',
 		'Unification',
 		'https://unification.com',
+		undefined,
 	],
 	[
 		5757,
@@ -6696,6 +7521,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STX',
 		'Blockstack',
 		'https://github.com/blockstack/blockstack-core',
+		undefined,
 	],
 	[
 		5895,
@@ -6703,6 +7529,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VOW',
 		'VowChain VOW',
 		'https://vowchain.net',
+		undefined,
 	],
 	[
 		5920,
@@ -6710,6 +7537,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SLU',
 		'SILUBIUM',
 		'https://github.com/SilubiumProject/slucore',
+		undefined,
 	],
 	[
 		6060,
@@ -6717,6 +7545,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GO',
 		'GoChain GO',
 		'https://gochain.io',
+		undefined,
 	],
 	[
 		6174,
@@ -6724,6 +7553,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOI',
 		'My Own Internet',
 		'https://moi-id.life',
+		undefined,
 	],
 	[
 		6666,
@@ -6731,6 +7561,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BPA',
 		'Bitcoin Pizza',
 		'http://p.top',
+		undefined,
 	],
 	[
 		6688,
@@ -6738,6 +7569,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAFE',
 		'SAFE',
 		'http://www.anwang.com',
+		undefined,
 	],
 	[
 		6969,
@@ -6745,6 +7577,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ROGER',
 		'TheHolyrogerCoin',
 		'https://github.com/TheHolyRoger/TheHolyRogerCoin',
+		undefined,
 	],
 	[
 		7091,
@@ -6752,6 +7585,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TOPL',
 		'Topl',
 		'https://www.topl.co',
+		undefined,
 	],
 	[
 		7777,
@@ -6759,6 +7593,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTV',
 		'Bitvote',
 		'https://www.bitvote.one',
+		undefined,
 	],
 	[
 		8000,
@@ -6766,6 +7601,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SKY',
 		'Skycoin',
 		'https://www.skycoin.net',
+		undefined,
 	],
 	[
 		8080,
@@ -6773,6 +7609,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'DSRV',
 		'https://www.dsrvlabs.com',
+		undefined,
 	],
 	[
 		8192,
@@ -6780,6 +7617,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PAC',
 		'pacprotocol',
 		'https://www.pacprotocol.com',
+		undefined,
 	],
 	[
 		8217,
@@ -6787,6 +7625,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KLAY',
 		'KLAY',
 		'https://www.klaytn.com',
+		undefined,
 	],
 	[
 		8339,
@@ -6794,6 +7633,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTQ',
 		'BitcoinQuark',
 		'https://www.bitcoinquark.org',
+		undefined,
 	],
 	[
 		8444,
@@ -6801,12 +7641,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XCH',
 		'Chia',
 		'https://www.chia.net',
+		undefined,
 	],
 	[
 		8520,
 		0x80_00_21_48,
 		'---',
 		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -6815,6 +7657,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SBTC',
 		'Super Bitcoin',
 		'https://www.superbtc.org',
+		undefined,
 	],
 	[
 		8964,
@@ -6822,6 +7665,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NULS',
 		'NULS',
 		'https://nuls.io',
+		undefined,
 	],
 	[
 		8999,
@@ -6829,6 +7673,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTP',
 		'Bitcoin Pay',
 		'http://www.btceasypay.com',
+		undefined,
 	],
 	[
 		9000,
@@ -6836,6 +7681,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AVAX',
 		'Avalanche',
 		'https://www.avax.network',
+		undefined,
 	],
 	[
 		9001,
@@ -6843,6 +7689,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARB',
 		'Arbitrum',
 		'https://arbitrum.io',
+		undefined,
 	],
 	[
 		9002,
@@ -6850,6 +7697,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BOBA',
 		'Boba',
 		'https://boba.network',
+		undefined,
 	],
 	[
 		9003,
@@ -6857,6 +7705,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LOOP',
 		'Loopring',
 		'https://loopring.org',
+		undefined,
 	],
 	[
 		9004,
@@ -6864,6 +7713,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STARK',
 		'Starkware',
 		'https://starkware.co',
+		undefined,
 	],
 	[
 		9005,
@@ -6871,6 +7721,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AVAXC',
 		'Avalanche C-Chain',
 		'https://www.avax.network',
+		undefined,
 	],
 	[
 		9006,
@@ -6878,6 +7729,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BSC',
 		'Binance Smart Chain',
 		'https://www.binance.org/en/smartChain',
+		undefined,
 	],
 	[
 		9797,
@@ -6885,6 +7737,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NRG',
 		'Energi',
 		'https://www.energi.world',
+		undefined,
 	],
 	[
 		9888,
@@ -6892,6 +7745,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTF',
 		'Bitcoin Faith',
 		'http://bitcoinfaith.org',
+		undefined,
 	],
 	[
 		9999,
@@ -6899,6 +7753,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GOD',
 		'Bitcoin God',
 		'https://www.bitcoingod.org',
+		undefined,
 	],
 	[
 		10_000,
@@ -6906,6 +7761,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FO',
 		'FIBOS',
 		'https://fibos.io',
+		undefined,
 	],
 	[
 		10_226,
@@ -6913,6 +7769,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RTM',
 		'Raptoreum',
 		'https://raptoreum.com',
+		undefined,
 	],
 	[
 		10_291,
@@ -6920,6 +7777,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRC',
 		'XRhodium',
 		'https://www.xrhodium.org',
+		undefined,
 	],
 	[
 		10_605,
@@ -6927,6 +7785,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XPI',
 		'Lotus',
 		'https://givelotus.org',
+		undefined,
 	],
 	[
 		11_111,
@@ -6934,6 +7793,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ESS',
 		'Essentia One',
 		'https://essentia.one',
+		undefined,
 	],
 	[
 		12_345,
@@ -6941,6 +7801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IPOS',
 		'IPOS',
 		'https://iposlab.com',
+		undefined,
 	],
 	[
 		12_586,
@@ -6948,6 +7809,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MINA',
 		'Mina',
 		'https://minaprotocol.com',
+		undefined,
 	],
 	[
 		13_107,
@@ -6955,6 +7817,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTY',
 		'BitYuan',
 		'https://www.bityuan.com',
+		undefined,
 	],
 	[
 		13_108,
@@ -6962,6 +7825,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YCC',
 		'Yuan Chain Coin',
 		'https://www.yuan.org',
+		undefined,
 	],
 	[
 		15_845,
@@ -6969,6 +7833,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SDGO',
 		'SanDeGo',
 		'http://www.sandego.net',
+		undefined,
 	],
 	[
 		16_181,
@@ -6976,6 +7841,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XTX',
 		'Totem Live Network',
 		'https://totem.live',
+		undefined,
 	],
 	[
 		16_754,
@@ -6983,6 +7849,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARDR',
 		'Ardor',
 		'https://www.jelurida.com',
+		undefined,
 	],
 	[
 		18_000,
@@ -6990,6 +7857,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MTR',
 		'Meter',
 		'https://Meter.io',
+		undefined,
 	],
 	[
 		19_165,
@@ -6997,6 +7865,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAFE',
 		'Safecoin',
 		'https://www.safecoin.org',
+		undefined,
 	],
 	[
 		19_167,
@@ -7004,6 +7873,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FLUX',
 		'Flux',
 		'https://runonflux.io',
+		undefined,
 	],
 	[
 		19_169,
@@ -7011,6 +7881,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RITO',
 		'Ritocoin',
 		'https://www.ritocoin.org',
+		undefined,
 	],
 	[
 		20_036,
@@ -7018,6 +7889,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XND',
 		'ndau',
 		'https://ndau.io',
+		undefined,
 	],
 	[
 		22_504,
@@ -7025,6 +7897,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PWR',
 		'PWRcoin',
 		'https://github.com/Plainkoin/PWRcoin',
+		undefined,
 	],
 	[
 		25_252,
@@ -7032,6 +7905,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BELL',
 		'Bellcoin',
 		'https://bellcoin.web4u.jp',
+		undefined,
 	],
 	[
 		25_718,
@@ -7039,6 +7913,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CHX',
 		'Own',
 		'https://wallet.weown.com',
+		undefined,
 	],
 	[
 		31_102,
@@ -7046,6 +7921,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ESN',
 		'EtherSocial Network',
 		'https://ethersocial.network',
+		undefined,
 	],
 	[
 		31_337,
@@ -7053,6 +7929,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'ThePower.io',
 		'https://thepower.io',
+		undefined,
 	],
 	[
 		33_416,
@@ -7060,6 +7937,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TEO',
 		'Trust Eth reOrigin',
 		'https://tao.foundation',
+		undefined,
 	],
 	[
 		33_878,
@@ -7067,6 +7945,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCS',
 		'Bitcoin Stake',
 		'http://www.btcscoin.com',
+		undefined,
 	],
 	[
 		34_952,
@@ -7074,6 +7953,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTT',
 		'ByteTrade',
 		'https://bytetrade.io',
+		undefined,
 	],
 	[
 		37_992,
@@ -7081,6 +7961,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FXTC',
 		'FixedTradeCoin',
 		'https://fixedtradecoin.org',
+		undefined,
 	],
 	[
 		39_321,
@@ -7088,6 +7969,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AMA',
 		'Amabig',
 		'https://amabig.com',
+		undefined,
 	],
 	[
 		43_028,
@@ -7095,6 +7977,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AXIV',
 		'AXIV',
 		'https://phore.io',
+		undefined,
 	],
 	[
 		49_262,
@@ -7102,6 +7985,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EVE',
 		'evan.network',
 		'https://evan.network',
+		undefined,
 	],
 	[
 		49_344,
@@ -7109,6 +7993,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STASH',
 		'STASH',
 		'https://stashpay.io',
+		undefined,
 	],
 	[
 		52_752,
@@ -7116,6 +8001,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CELO',
 		'Celo',
 		'https://celo.org',
+		undefined,
 	],
 	[
 		65_536,
@@ -7123,6 +8009,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KETH',
 		'Krypton World',
 		'http:/krypton.world',
+		undefined,
 	],
 	[
 		69_420,
@@ -7130,6 +8017,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GRLC',
 		'Garlicoin',
 		'https://garlicoin.io',
+		undefined,
 	],
 	[
 		70_007,
@@ -7137,6 +8025,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GWL',
 		'Gewel',
 		'https://gewel.io',
+		undefined,
 	],
 	[
 		77_777,
@@ -7144,6 +8033,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZYN',
 		'Wethio',
 		'https://wethio.io',
+		undefined,
 	],
 	[
 		88_888,
@@ -7151,6 +8041,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'RYO',
 		'c0ban',
 		'https://www.c0ban.co',
+		undefined,
 	],
 	[
 		99_999,
@@ -7158,6 +8049,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WICC',
 		'Waykichain',
 		'http://www.waykichain.com',
+		undefined,
 	],
 	[
 		100_500,
@@ -7165,6 +8057,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HOME',
 		'HomeCoin',
 		'https://homecoin.ru',
+		undefined,
 	],
 	[
 		101_010,
@@ -7172,6 +8065,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STC',
 		'Starcoin',
 		'https://starcoin.org',
+		undefined,
 	],
 	[
 		105_105,
@@ -7179,6 +8073,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STRAX',
 		'Strax',
 		'http://www.stratisplatform.com',
+		undefined,
 	],
 	[
 		200_625,
@@ -7186,6 +8081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AKA',
 		'Akroma',
 		'https://akroma.io',
+		undefined,
 	],
 	[
 		200_665,
@@ -7193,6 +8089,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GENOM',
 		'GENOM',
 		'https://genom.tech',
+		undefined,
 	],
 	[
 		246_529,
@@ -7200,6 +8097,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ATS',
 		'ARTIS sigma1',
 		'https://artis.eco',
+		undefined,
 	],
 	[
 		314_159,
@@ -7207,12 +8105,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PI',
 		'Pi Network',
 		'http://minepi.com',
+		undefined,
 	],
 	[
 		333_332,
 		0x80_05_16_14,
 		'VALUE',
 		'Value Chain',
+		undefined,
 		undefined,
 	],
 	[
@@ -7221,6 +8121,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'3333',
 		'Pi Value Consensus',
 		undefined,
+		undefined,
 	],
 	[
 		424_242,
@@ -7228,6 +8129,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'X42',
 		'x42',
 		'http://www.x42.tech',
+		undefined,
 	],
 	[
 		666_666,
@@ -7235,6 +8137,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VITE',
 		'Vite',
 		'https://www.vite.org',
+		undefined,
 	],
 	[
 		888_888,
@@ -7242,6 +8145,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEA',
 		'Second Exchange Alliance',
 		'https://www.seaio.cc',
+		undefined,
 	],
 	[
 		1_171_337,
@@ -7249,6 +8153,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ILT',
 		'iOlite',
 		'https://iolite.io',
+		undefined,
 	],
 	[
 		1_313_114,
@@ -7256,6 +8161,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ETHO',
 		'Ether-1',
 		'https://www.ether1.org',
+		undefined,
 	],
 	[
 		1_313_500,
@@ -7263,6 +8169,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XERO',
 		'Xerom',
 		'https://www.xerom.org',
+		undefined,
 	],
 	[
 		1_712_144,
@@ -7270,6 +8177,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LAX',
 		'LAPO',
 		'https://lapo.io',
+		undefined,
 	],
 	[
 		3_924_011,
@@ -7277,6 +8185,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EPK',
 		'EPIK Protocol',
 		'https://www.epik-protocol.io',
+		undefined,
 	],
 	[
 		4_741_444,
@@ -7284,6 +8193,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HYD',
 		'Hydra Token',
 		'https://iop.global/hydra-token',
+		undefined,
 	],
 	[
 		5_249_353,
@@ -7291,6 +8201,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BCO',
 		'BitcoinOre',
 		'http://bitcoinore.org',
+		undefined,
 	],
 	[
 		5_249_354,
@@ -7298,6 +8209,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BHD',
 		'BitcoinHD',
 		'https://btchd.org',
+		undefined,
 	],
 	[
 		5_264_462,
@@ -7305,6 +8217,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PTN',
 		'PalletOne',
 		'https://pallet.one',
+		undefined,
 	],
 	[
 		5_718_350,
@@ -7312,6 +8225,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WAN',
 		'Wanchain',
 		'https://wanchain.org',
+		undefined,
 	],
 	[
 		5_741_564,
@@ -7319,6 +8233,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WAVES',
 		'Waves',
 		'https://wavesplatform.com',
+		undefined,
 	],
 	[
 		6_517_357,
@@ -7326,6 +8241,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CRM',
 		'Creamcoin',
 		'https://explorer.creamcoin.com/',
+		undefined,
 	],
 	[
 		7_562_605,
@@ -7333,6 +8249,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEM',
 		'Semux',
 		'https://semux.org',
+		undefined,
 	],
 	[
 		7_567_736,
@@ -7340,6 +8257,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ION',
 		'ION',
 		'https://ionomy.com',
+		undefined,
 	],
 	[
 		7_777_777,
@@ -7347,6 +8265,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FCT',
 		'FirmaChain',
 		'https://www.firmachain.org',
+		undefined,
 	],
 	[
 		7_825_266,
@@ -7354,6 +8273,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WGR',
 		'WGR',
 		'https://wagerr.com',
+		undefined,
 	],
 	[
 		7_825_267,
@@ -7361,6 +8281,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'OBSR',
 		'OBServer',
 		'https://obsr.org',
+		undefined,
 	],
 	[
 		8_163_271,
@@ -7368,6 +8289,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AFS',
 		'ANFS',
 		'https://www.anfs.network',
+		undefined,
 	],
 	[
 		15_118_976,
@@ -7375,6 +8297,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDS',
 		'XDS',
 		'https://github.com/xds-decentralised',
+		undefined,
 	],
 	[
 		61_717_561,
@@ -7382,6 +8305,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AQUA',
 		'Aquachain',
 		'https://aquachain.github.io',
+		undefined,
 	],
 	[
 		88_888_888,
@@ -7389,6 +8313,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HATCH',
 		'Hatch',
 		'https://hatch.ga',
+		undefined,
 	],
 	[
 		91_927_009,
@@ -7396,6 +8321,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'kUSD',
 		'kUSD',
 		'https://kowala.tech',
+		undefined,
 	],
 	[
 		99_999_996,
@@ -7403,6 +8329,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GENS',
 		'GENS',
 		'https://genshiro.equilibrium.io',
+		undefined,
 	],
 	[
 		99_999_997,
@@ -7410,6 +8337,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EQ',
 		'EQ',
 		'https://equilibrium.io',
+		undefined,
 	],
 	[
 		99_999_998,
@@ -7417,6 +8345,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FLUID',
 		'Fluid Chains',
 		'https://www.fluidchains.com',
+		undefined,
 	],
 	[
 		99_999_999,
@@ -7424,6 +8353,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QKC',
 		'QuarkChain',
 		'https://www.quarkchain.io',
+		undefined,
 	],
 	[
 		608_589_380,
@@ -7431,5 +8361,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FVDC',
 		'ForumCoin',
 		'https://fvd.nl',
+		undefined,
 	],
 ];

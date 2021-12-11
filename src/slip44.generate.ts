@@ -2,36 +2,26 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import fetch from 'node-fetch';
 import { outdent } from 'outdent';
+import remarkParse from 'remark-parse';
+import remarkStringify from 'remark-stringify';
+import remarkGfm from 'remark-gfm';
+import unified from 'unified';
+import visit from 'unist-util-visit';
+import type { Text, Link, TableRow, TableCell } from 'mdast';
+import { z } from 'zod';
 
-interface ParsedCoin {
-	title: undefined | string;
-	url: undefined | string;
-}
+export const remark = unified().use(remarkParse).use(remarkStringify).use(remarkGfm).freeze();
 
-interface ParsedRow extends ParsedCoin {
-	coinType: number;
-	derivationPathComponent: number;
-	symbol: undefined | string;
-}
+const parsedRowSchema = z.object({
+	coinType: z.number().int().nonnegative(),
+	derivationPathComponent: z.number().int().gte(0x80_00_00_00),
+	symbol: z.string().optional(),
+	title: z.string().optional(),
+	url: z.string().optional(),
+	comment: z.string().optional(),
+});
 
-function parseCoin(
-	coin: string,
-): ParsedCoin {
-	let title;
-	let url;
-
-	if (coin) {
-		const regExpExecArray = /^\[(.+?)]\((.+?)\)$/.exec(coin);
-
-		if (regExpExecArray) {
-			[ /* match */, title, url ] = regExpExecArray;
-		} else {
-			title = coin;
-		}
-	}
-
-	return { title, url };
-}
+type ParsedRow = z.infer<typeof parsedRowSchema>;
 
 function stringify(x: undefined | number | string): string {
 	if (x === undefined) {
@@ -49,33 +39,78 @@ async function main() {
 	const response = await fetch('https://raw.githubusercontent.com/satoshilabs/slips/master/slip-0044.md');
 	const text = await response.text();
 
-	const rows = (
-		text
-			.split('\n')
-			.map(line => line.split('|'))
-			.filter(columns => columns.length === 4)
-			.map(columns => columns.map(column => column.trim()))
-			.map(([
-				coinType,
-				derivationPathComponent,
-				symbol,
-				coin,
-			]): ParsedRow => ({
-				coinType: Number.parseInt(coinType, 10),
-				derivationPathComponent: Number.parseInt(derivationPathComponent, 16),
-				symbol: symbol ? symbol : undefined,
-				...parseCoin(coin),
-			}))
-			.filter(({
-				coinType,
-				derivationPathComponent,
-				title,
-			}) => (
-				Number.isSafeInteger(coinType)
-					&& Number.isSafeInteger(derivationPathComponent)
-					&& title
-			))
-	);
+	const rootMarkdownAst = remark.parse(text);
+	const rows: ParsedRow[] = [];
+
+	visit<TableRow>(rootMarkdownAst, 'tableRow', tableRow => {
+		const [
+			coinTypeTableCell,
+			derivationPathComponentTableCell,
+			symbolTableCell,
+			coinDescriptionTableCell,
+		] = tableRow.children as Array<undefined | TableCell>;
+
+		const coinType = (
+			coinTypeTableCell
+				&& Number.parseInt(remark.stringify(coinTypeTableCell).trim(), 10)
+		);
+
+		const derivationPathComponent = (
+			derivationPathComponentTableCell
+				&& Number.parseInt(remark.stringify(derivationPathComponentTableCell).trim(), 16)
+		);
+
+		const symbol = (
+			symbolTableCell
+				&& remark.stringify(symbolTableCell).trim()
+		) || undefined;
+
+		let title: undefined | string;
+		let url: undefined | string;
+		let comment: undefined | string;
+
+		if (coinDescriptionTableCell) {
+			visit<Text>(coinDescriptionTableCell, 'text', node => {
+				if (title) {
+					comment = node.value.trim();
+				} else {
+					title = node.value.trim();
+				}
+			});
+
+			visit<Link>(coinDescriptionTableCell, 'link', node => {
+				url = node.url;
+				title = (
+					node.children
+						.map(child => remark.stringify(child).trim())
+						.join(' ')
+				).trim();
+			});
+		}
+
+		const parsedRow = parsedRowSchema.safeParse({
+			coinType,
+			derivationPathComponent,
+			/* eslint-disable @typescript-eslint/prefer-nullish-coalescing */
+			symbol: symbol?.trim() || undefined,
+			title: title?.trim() || undefined,
+			url: url?.trim() || undefined,
+			comment: comment?.trim() || undefined,
+			/* eslint-enable @typescript-eslint/prefer-nullish-coalescing */
+		});
+
+		if (
+			parsedRow.success
+				&& (
+					parsedRow.data.symbol
+						|| parsedRow.data.title
+						|| parsedRow.data.url
+						|| parsedRow.data.comment
+				)
+		) {
+			rows.push(parsedRow.data);
+		}
+	});
 
 	const typescript = [
 		outdent`
@@ -95,6 +130,7 @@ async function main() {
 				symbol: undefined | RegisteredCoinSymbol,
 				name: string,
 				url: undefined | string,
+				comment: undefined | string,
 			];
 
 			export const registeredCoinTypes: RegisteredCoinType[] = [
@@ -105,6 +141,7 @@ async function main() {
 			symbol,
 			title,
 			url,
+			comment,
 		}) => (
 			outdent`
 				[
@@ -113,6 +150,7 @@ async function main() {
 					${stringify(symbol)},
 					${stringify(title)},
 					${stringify(url)},
+					${stringify(comment)},
 				],
 			`
 		)),

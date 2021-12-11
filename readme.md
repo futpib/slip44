@@ -11,7 +11,16 @@ TypeScript code is [updated daily automatically](https://github.com/futpib/slip4
 ```typescript
 import { registeredCoinTypes } from 'slip44';
 
-registeredCoinTypes.find(([ _coinType, _derivationPathComponent, symbol, _name, _url ]) => symbol === 'BTC')
+registeredCoinTypes.find(([
+	_coinType,
+	_derivationPathComponent,
+	symbol,
+	_name,
+	_url,
+	_comment
+]) => {
+	return symbol === 'BTC';
+});
 
-//  [ 0, 2147483648, 'BTC', 'Bitcoin', 'https://bitcoin.org' ]
+//  [ 0, 2147483648, 'BTC', 'Bitcoin', 'https://bitcoin.org', undefined ]
 ```
