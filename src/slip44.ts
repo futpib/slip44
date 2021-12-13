@@ -716,6 +716,7 @@ export type RegisteredCoinSymbol =
 | 'BKT'
 | 'NODL'
 | 'FTM'
+| 'RPG'
 | 'HT'
 | 'ELV'
 | 'BIC'
@@ -6761,6 +6762,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FTM',
 		'Fantom',
 		'https://fantom.foundation',
+		undefined,
+	],
+	[
+		1008,
+		0x80_00_03_F0,
+		'RPG',
+		'RPG',
+		'https://rangersprotocol.com',
 		undefined,
 	],
 	[
