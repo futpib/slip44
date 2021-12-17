@@ -612,6 +612,7 @@ export type RegisteredCoinSymbol =
 | 'BDCASH'
 | 'NOBL'
 | 'EAST'
+| 'KDA'
 | 'LORE'
 | 'FNR'
 | 'BTSG'
@@ -704,6 +705,7 @@ export type RegisteredCoinSymbol =
 | 'LTP'
 | 'MATIC'
 | 'TWINS'
+| 'VCG'
 | 'XAZAB'
 | 'AIOZ'
 | 'PEC'
@@ -5925,6 +5927,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		626,
+		0x80_00_02_72,
+		'KDA',
+		'Kadena',
+		'https://kadena.io',
+		undefined,
+	],
+	[
 		628,
 		0x80_00_02_74,
 		'LORE',
@@ -6666,6 +6676,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TWINS',
 		'TWINS',
 		'https://win.win',
+		undefined,
+	],
+	[
+		987,
+		0x80_00_03_DB,
+		'VCG',
+		'VipCoin.Gold',
+		'https://vipcoin.gold',
 		undefined,
 	],
 	[
