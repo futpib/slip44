@@ -615,6 +615,7 @@ export type RegisteredCoinSymbol =
 | 'KDA'
 | 'LORE'
 | 'FNR'
+| 'NEXUS'
 | 'BTSG'
 | 'LFC'
 | 'AZERO'
@@ -5948,6 +5949,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FNR',
 		'Fincor',
 		'https://fincor.io',
+		undefined,
+	],
+	[
+		630,
+		0x80_00_02_76,
+		'NEXUS',
+		'Nexus',
+		'http://www.thenexus.game',
 		undefined,
 	],
 	[
