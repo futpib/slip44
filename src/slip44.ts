@@ -656,6 +656,7 @@ export type RegisteredCoinSymbol =
 | 'ACA'
 | 'BNC'
 | 'TAU'
+| 'PDEX'
 | 'BEET'
 | 'DST'
 | 'QVT'
@@ -6277,6 +6278,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TAU',
 		'Lamden',
 		'https://lamden.io',
+		undefined,
+	],
+	[
+		799,
+		0x80_00_03_1F,
+		'PDEX',
+		'Polkadex',
+		'https://polkadex.trade',
 		undefined,
 	],
 	[
