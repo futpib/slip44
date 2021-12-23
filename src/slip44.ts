@@ -609,6 +609,7 @@ export type RegisteredCoinSymbol =
 | 'DEI'
 | 'AXL'
 | 'ZERO'
+| 'ALPHA'
 | 'BDCASH'
 | 'NOBL'
 | 'EAST'
@@ -5902,6 +5903,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ZERO',
 		'Singularity',
 		'https://www.singularity.gold',
+		undefined,
+	],
+	[
+		622,
+		0x80_00_02_6E,
+		'ALPHA',
+		'AlphaDAO',
+		'https://www.alphadao.money',
 		undefined,
 	],
 	[
