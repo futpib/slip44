@@ -629,6 +629,8 @@ export type RegisteredCoinSymbol =
 | 'PRKL'
 | 'SSC'
 | 'GC'
+| 'PLGR'
+| 'MPLGR'
 | 'YUNGE'
 | 'Voken'
 | 'Evrynet'
@@ -6063,6 +6065,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GC',
 		'GateChain',
 		'https://www.gatechain.io',
+		undefined,
+	],
+	[
+		670,
+		0x80_00_02_9E,
+		'PLGR',
+		'Pledger',
+		'https://www.pledger.finance',
+		undefined,
+	],
+	[
+		671,
+		0x80_00_02_9F,
+		'MPLGR',
+		'Pledger',
+		'https://www.pledger.finance',
 		undefined,
 	],
 	[
