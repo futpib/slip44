@@ -6988,6 +6988,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		1237,
+		0x80_00_04_D5,
+		undefined,
+		'Nostr',
+		'https://github.com/fiatjaf/nostr',
+		undefined,
+	],
+	[
 		1285,
 		0x80_00_05_05,
 		'MOVR',
