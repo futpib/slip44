@@ -744,6 +744,7 @@ export type RegisteredCoinSymbol =
 | 'HOO'
 | 'ALPH'
 | 'MOVR'
+| 'WEI'
 | 'DFC'
 | 'HYC'
 | 'TENTSLP'
@@ -7001,6 +7002,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOVR',
 		'Moonriver',
 		'https://github.com/PureStake/moonbeam',
+		undefined,
+	],
+	[
+		1308,
+		0x80_00_05_1C,
+		'WEI',
+		'WEI',
+		'https://weicrypto.com',
 		undefined,
 	],
 	[
