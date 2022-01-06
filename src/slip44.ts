@@ -385,7 +385,7 @@ export type RegisteredCoinSymbol =
 | 'HSN'
 | 'CRO'
 | 'UMBRU'
-| 'TON'
+| 'EVER'
 | 'NEAR'
 | 'XPC'
 | 'ZOC'
@@ -649,7 +649,7 @@ export type RegisteredCoinSymbol =
 | 'BMK'
 | 'DENTX'
 | 'ATOP'
-| 'RAD'
+| 'CFG'
 | 'XPRT'
 | 'BALLZ'
 | 'COSA'
@@ -702,7 +702,7 @@ export type RegisteredCoinSymbol =
 | 'LMO'
 | 'HNT'
 | 'FIS'
-| 'SAAGE'
+| 'SGE'
 | 'META'
 | 'FRA'
 | 'DIP'
@@ -4103,9 +4103,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		396,
 		0x80_00_01_8C,
-		'TON',
-		'Free TON',
-		'https://freeton.org',
+		'EVER',
+		'Everscale',
+		'https://everscale.network/',
 		undefined,
 	],
 	[
@@ -6231,7 +6231,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		747,
 		0x80_00_02_EB,
-		'RAD',
+		'CFG',
 		'Centrifuge',
 		'https://centrifuge.io',
 		undefined,
@@ -6655,7 +6655,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		909,
 		0x80_00_03_8D,
-		'SAAGE',
+		'SGE',
 		'Saage',
 		'https://saage.io',
 		undefined,
