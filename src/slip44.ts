@@ -614,6 +614,7 @@ export type RegisteredCoinSymbol =
 | 'NOBL'
 | 'EAST'
 | 'KDA'
+| 'SOUL'
 | 'LORE'
 | 'FNR'
 | 'NEXUS'
@@ -641,6 +642,7 @@ export type RegisteredCoinSymbol =
 | 'XDAI'
 | 'MCOIN'
 | 'CHC'
+| 'SERF'
 | 'XTL'
 | 'BNB'
 | 'SIN'
@@ -5949,6 +5951,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		627,
+		0x80_00_02_73,
+		'SOUL',
+		'Phantasma',
+		'https://phantasma.io/',
+		undefined,
+	],
+	[
 		628,
 		0x80_00_02_74,
 		'LORE',
@@ -6162,6 +6172,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CHC',
 		'Chaincoin',
 		'https://www.chaincoin.org',
+		undefined,
+	],
+	[
+		712,
+		0x80_00_02_C8,
+		'SERF',
+		'Serfnet',
+		'https://serfnet.online',
 		undefined,
 	],
 	[
