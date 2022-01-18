@@ -709,6 +709,7 @@ export type RegisteredCoinSymbol =
 | 'FRA'
 | 'DIP'
 | 'RUNE'
+| 'YCN'
 | 'LTP'
 | 'MATIC'
 | 'TWINS'
@@ -908,6 +909,7 @@ export type RegisteredCoinSymbol =
 | 'PTN'
 | 'WAN'
 | 'WAVES'
+| 'WEST'
 | 'CRM'
 | 'SEM'
 | 'ION'
@@ -6711,6 +6713,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		942,
+		0x80_00_03_AE,
+		'YCN',
+		'Yilacoin',
+		'https://yilacoin.eu.org',
+		undefined,
+	],
+	[
 		955,
 		0x80_00_03_BB,
 		'LTP',
@@ -8340,6 +8350,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WAVES',
 		'Waves',
 		'https://wavesplatform.com',
+		undefined,
+	],
+	[
+		5_741_565,
+		0x80_57_9B_FD,
+		'WEST',
+		'Waves Enterprise',
+		'https://wavesenterprise.com',
 		undefined,
 	],
 	[
