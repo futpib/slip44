@@ -653,6 +653,7 @@ export type RegisteredCoinSymbol =
 | 'ATOP'
 | 'CFG'
 | 'XPRT'
+| 'HONEY'
 | 'BALLZ'
 | 'COSA'
 | 'BR'
@@ -6262,6 +6263,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XPRT',
 		'Persistence',
 		'https://persistence.one',
+		undefined,
+	],
+	[
+		757,
+		0x80_00_02_F5,
+		'HONEY',
+		'HoneyWood',
+		'https://honeywood.io',
 		undefined,
 	],
 	[
