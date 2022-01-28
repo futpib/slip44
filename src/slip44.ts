@@ -842,7 +842,7 @@ export type RegisteredCoinSymbol =
 | 'NULS'
 | 'BTP'
 | 'AVAX'
-| 'ARB'
+| 'ARB1'
 | 'BOBA'
 | 'LOOP'
 | 'STARK'
@@ -7812,7 +7812,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		9001,
 		0x80_00_23_29,
-		'ARB',
+		'ARB1',
 		'Arbitrum',
 		'https://arbitrum.io',
 		undefined,
