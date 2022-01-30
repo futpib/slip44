@@ -618,6 +618,7 @@ export type RegisteredCoinSymbol =
 | 'LORE'
 | 'FNR'
 | 'NEXUS'
+| 'POKT'
 | 'BTSG'
 | 'LFC'
 | 'AZERO'
@@ -5983,6 +5984,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEXUS',
 		'Nexus',
 		'http://www.thenexus.game',
+		undefined,
+	],
+	[
+		635,
+		0x80_00_02_7B,
+		'POKT',
+		'Pocket Network',
+		'https://www.pokt.network',
 		undefined,
 	],
 	[
