@@ -1,6 +1,6 @@
 {
   "name": "slip44",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "TypeScript version of https://github.com/satoshilabs/slips/blob/master/slip-0044.md",
   "author": "futpib <futpib@gmail.com>",
   "license": "MIT",
