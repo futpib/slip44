@@ -869,6 +869,7 @@ export type RegisteredCoinSymbol =
 | 'FLUX'
 | 'RITO'
 | 'XND'
+| 'C4EI'
 | 'PWR'
 | 'BELL'
 | 'CHX'
@@ -8024,6 +8025,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XND',
 		'ndau',
 		'https://ndau.io',
+		undefined,
+	],
+	[
+		21_004,
+		0x80_00_52_0C,
+		'C4EI',
+		'c4ei',
+		'https://c4ei.net',
 		undefined,
 	],
 	[
