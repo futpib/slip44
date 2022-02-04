@@ -691,6 +691,7 @@ export type RegisteredCoinSymbol =
 | 'OWO'
 | 'PEPS'
 | 'BIR'
+| 'MOBIC'
 | 'DSM'
 | 'PRCY'
 | 'MOB'
@@ -6569,6 +6570,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BIR',
 		'Birake',
 		'https://birake.com',
+		undefined,
+	],
+	[
+		849,
+		0x80_00_03_51,
+		'MOBIC',
+		'MobilityCoin',
+		'https://github.com/decenomy/MOBIC',
 		undefined,
 	],
 	[
