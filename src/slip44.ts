@@ -816,6 +816,7 @@ export type RegisteredCoinSymbol =
 | 'BND'
 | 'CCC'
 | 'ROI'
+| 'CY'
 | 'FC8'
 | 'YEE'
 | 'IOTA'
@@ -7594,6 +7595,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ROI',
 		'ROIcoin',
 		'https://roi-coin.com',
+		undefined,
+	],
+	[
+		3601,
+		0x80_00_0E_11,
+		'CY',
+		'Cybits',
+		'https://cybits.org',
 		undefined,
 	],
 	[
