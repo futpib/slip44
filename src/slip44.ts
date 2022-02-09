@@ -712,6 +712,7 @@ export type RegisteredCoinSymbol =
 | 'FRA'
 | 'DIP'
 | 'RUNE'
+| 'KCN'
 | 'YCN'
 | 'LTP'
 | 'MATIC'
@@ -822,6 +823,7 @@ export type RegisteredCoinSymbol =
 | 'IOTA'
 | 'AXE'
 | 'XYM'
+| 'SBC'
 | 'FIC'
 | 'HNS'
 | 'FUND'
@@ -830,6 +832,7 @@ export type RegisteredCoinSymbol =
 | 'SLU'
 | 'GO'
 | 'MOI'
+| 'RSC'
 | 'BPA'
 | 'SAFE'
 | 'ROGER'
@@ -6742,6 +6745,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		941,
+		0x80_00_03_AD,
+		'KCN',
+		'Kylacoin',
+		'https://kylacoin.v6.army',
+		undefined,
+	],
+	[
 		942,
 		0x80_00_03_AE,
 		'YCN',
@@ -7646,6 +7657,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		5006,
+		0x80_00_13_8E,
+		'SBC',
+		'Senior Block Coin',
+		'https://seniorblockchain.io',
+		undefined,
+	],
+	[
 		5248,
 		0x80_00_14_80,
 		'FIC',
@@ -7707,6 +7726,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOI',
 		'My Own Internet',
 		'https://moi-id.life',
+		undefined,
+	],
+	[
+		6599,
+		0x80_00_19_C7,
+		'RSC',
+		'Royal Sports City',
+		'https://royalsportscity.com',
 		undefined,
 	],
 	[
