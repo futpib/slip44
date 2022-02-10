@@ -837,6 +837,7 @@ export type RegisteredCoinSymbol =
 | 'SAFE'
 | 'ROGER'
 | 'TOPL'
+| 'SHFT'
 | 'BTV'
 | 'SKY'
 | 'PAC'
@@ -7766,6 +7767,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TOPL',
 		'Topl',
 		'https://www.topl.co',
+		undefined,
+	],
+	[
+		7341,
+		0x80_00_1C_AD,
+		'SHFT',
+		'Shyft',
+		'https://shyft.network',
 		undefined,
 	],
 	[
