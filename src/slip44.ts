@@ -889,6 +889,7 @@ export type RegisteredCoinSymbol =
 | 'EVE'
 | 'STASH'
 | 'CELO'
+| 'TH'
 | 'KETH'
 | 'GRLC'
 | 'GWL'
@@ -8199,6 +8200,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CELO',
 		'Celo',
 		'https://celo.org',
+		undefined,
+	],
+	[
+		61_616,
+		0x80_00_F0_B0,
+		'TH',
+		'TianHe',
+		'http://tianhe.io',
 		undefined,
 	],
 	[
