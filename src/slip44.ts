@@ -659,6 +659,7 @@ export type RegisteredCoinSymbol =
 | 'COSA'
 | 'BR'
 | 'BTW'
+| 'PLCU'
 | 'UIDD'
 | 'ACA'
 | 'BNC'
@@ -667,6 +668,7 @@ export type RegisteredCoinSymbol =
 | 'BEET'
 | 'DST'
 | 'QVT'
+| 'ASTR'
 | 'DVPN'
 | 'VET'
 | 'REEF'
@@ -920,6 +922,7 @@ export type RegisteredCoinSymbol =
 | 'WAN'
 | 'WAVES'
 | 'WEST'
+| 'ABC'
 | 'CRM'
 | 'SEM'
 | 'ION'
@@ -6323,6 +6326,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		780,
+		0x80_00_03_0C,
+		'PLCU',
+		'PLC Ultima',
+		'https://plcultima.com/',
+		undefined,
+	],
+	[
 		786,
 		0x80_00_03_12,
 		'UIDD',
@@ -6384,6 +6395,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QVT',
 		'Qvolta',
 		'https://qvolta.com',
+		undefined,
+	],
+	[
+		810,
+		0x80_00_03_2A,
+		'ASTR',
+		'Astar Network',
+		'https://astar.network',
 		undefined,
 	],
 	[
@@ -8448,6 +8467,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WEST',
 		'Waves Enterprise',
 		'https://wavesenterprise.com',
+		undefined,
+	],
+	[
+		6_382_179,
+		0x80_61_62_63,
+		'ABC',
+		'Abcmint',
+		'https://github.com/abcmint/abcmint',
 		undefined,
 	],
 	[
