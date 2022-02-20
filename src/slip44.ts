@@ -315,7 +315,7 @@ export type RegisteredCoinSymbol =
 | 'ZER'
 | 'EBST'
 | 'SHARD'
-| 'LINDA'
+| 'MRX'
 | 'CMM'
 | 'BLOCK'
 | 'AUDAX'
@@ -648,6 +648,7 @@ export type RegisteredCoinSymbol =
 | 'BNB'
 | 'SIN'
 | 'DLN'
+| 'BONTE'
 | 'MCX'
 | 'BMK'
 | 'DENTX'
@@ -3560,9 +3561,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		326,
 		0x80_00_01_46,
-		'LINDA',
-		'Linda Coin',
-		'https://lindacoin.com',
+		'MRX',
+		'Metrix Coin',
+		'https://metrixcoin.com',
 		undefined,
 	],
 	[
@@ -6235,6 +6236,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DLN',
 		'Delion',
 		'https://delion.online',
+		undefined,
+	],
+	[
+		717,
+		0x80_00_02_CD,
+		'BONTE',
+		'Bontecoin',
+		'https://bontecoin.com',
 		undefined,
 	],
 	[
