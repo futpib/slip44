@@ -618,6 +618,7 @@ export type RegisteredCoinSymbol =
 | 'LORE'
 | 'FNR'
 | 'NEXUS'
+| 'CALL'
 | 'POKT'
 | 'BTSG'
 | 'LFC'
@@ -5996,6 +5997,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'NEXUS',
 		'Nexus',
 		'http://www.thenexus.game',
+		undefined,
+	],
+	[
+		633,
+		0x80_00_02_79,
+		'CALL',
+		'Callchain',
+		'https://www.callchain.cc',
 		undefined,
 	],
 	[
