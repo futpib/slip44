@@ -620,6 +620,7 @@ export type RegisteredCoinSymbol =
 | 'NEXUS'
 | 'CALL'
 | 'POKT'
+| 'EMIT'
 | 'BTSG'
 | 'LFC'
 | 'AZERO'
@@ -6013,6 +6014,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'POKT',
 		'Pocket Network',
 		'https://www.pokt.network',
+		undefined,
+	],
+	[
+		636,
+		0x80_00_02_7C,
+		'EMIT',
+		'EMIT',
+		'https://emit.technology',
 		undefined,
 	],
 	[
