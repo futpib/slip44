@@ -563,7 +563,7 @@ export type RegisteredCoinSymbol =
 | 'CCXX'
 | 'SLS'
 | 'SRM'
-| 'VLX'
+| '---'
 | 'VIVT'
 | 'BPS'
 | 'NKN'
@@ -760,6 +760,7 @@ export type RegisteredCoinSymbol =
 | 'DFC'
 | 'HYC'
 | 'TENTSLP'
+| 'AAC'
 | 'BEAM'
 | 'ELF'
 | 'AUDL'
@@ -810,18 +811,19 @@ export type RegisteredCoinSymbol =
 | 'ELA'
 | 'SNOW'
 | 'AOA'
+| 'NAS'
 | 'REOSC'
+| 'BND'
 | 'LUX'
 | 'XHB'
 | 'COS'
+| 'CCC'
+| 'SXP'
+| 'ROI'
 | 'DYN'
 | 'SEQ'
 | 'DEO'
 | 'DST'
-| 'NAS'
-| 'BND'
-| 'CCC'
-| 'ROI'
 | 'CY'
 | 'FC8'
 | 'YEE'
@@ -922,6 +924,7 @@ export type RegisteredCoinSymbol =
 | 'BCO'
 | 'BHD'
 | 'PTN'
+| 'VLX'
 | 'WAN'
 | 'WAVES'
 | 'WEST'
@@ -5547,9 +5550,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		574,
 		0x80_00_02_3E,
-		'VLX',
-		'Velas',
-		'https://velas.com',
+		'---',
+		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -7153,6 +7156,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		1512,
+		0x80_00_05_E8,
+		'AAC',
+		'Double-A Chain',
+		'https://www.acuteangle.com/',
+		undefined,
+	],
+	[
 		1524,
 		0x80_00_05_F4,
 		undefined,
@@ -7561,11 +7572,27 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		2718,
+		0x80_00_0A_9E,
+		'NAS',
+		'Nebulas',
+		'https://nebulas.io',
+		undefined,
+	],
+	[
 		2894,
 		0x80_00_0B_4E,
 		'REOSC',
 		'REOSC Ecosystem',
 		'https://www.reosc.io',
+		undefined,
+	],
+	[
+		2941,
+		0x80_00_0B_7D,
+		'BND',
+		'Blocknode',
+		'https://blocknode.tech',
 		undefined,
 	],
 	[
@@ -7590,6 +7617,30 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'COS',
 		'Contentos',
 		'https://www.contentos.io',
+		undefined,
+	],
+	[
+		3276,
+		0x80_00_0C_CC,
+		'CCC',
+		'CodeChain',
+		'https://codechain.io',
+		undefined,
+	],
+	[
+		3333,
+		0x80_00_0D_05,
+		'SXP',
+		'Solar',
+		'https://solar.org',
+		undefined,
+	],
+	[
+		3377,
+		0x80_00_0D_31,
+		'ROI',
+		'ROIcoin',
+		'https://roi-coin.com',
 		undefined,
 	],
 	[
@@ -7622,38 +7673,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DST',
 		'DeStream',
 		'https://destream.io',
-		undefined,
-	],
-	[
-		2718,
-		0x80_00_0A_9E,
-		'NAS',
-		'Nebulas',
-		'https://nebulas.io',
-		undefined,
-	],
-	[
-		2941,
-		0x80_00_0B_7D,
-		'BND',
-		'Blocknode',
-		'https://blocknode.tech',
-		undefined,
-	],
-	[
-		3276,
-		0x80_00_0C_CC,
-		'CCC',
-		'CodeChain',
-		'https://codechain.io',
-		undefined,
-	],
-	[
-		3377,
-		0x80_00_0D_31,
-		'ROI',
-		'ROIcoin',
-		'https://roi-coin.com',
 		undefined,
 	],
 	[
@@ -8470,6 +8489,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PTN',
 		'PalletOne',
 		'https://pallet.one',
+		undefined,
+	],
+	[
+		5_655_640,
+		0x80_56_4C_58,
+		'VLX',
+		'Velas',
+		'https://velas.com',
 		undefined,
 	],
 	[
