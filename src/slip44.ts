@@ -635,8 +635,14 @@ export type RegisteredCoinSymbol =
 | 'GC'
 | 'PLGR'
 | 'MPLGR'
+| 'KNOX'
+| 'ZED'
+| 'CNDL'
+| 'WLKR'
+| 'WLKRR'
 | 'YUNGE'
 | 'Voken'
+| 'APL'
 | 'Evrynet'
 | 'KAR'
 | 'CET'
@@ -6140,6 +6146,46 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		672,
+		0x80_00_02_A0,
+		'KNOX',
+		'Knox',
+		'https://www.knox.exchange',
+		undefined,
+	],
+	[
+		673,
+		0x80_00_02_A1,
+		'ZED',
+		'ZED',
+		'https://zed.network',
+		undefined,
+	],
+	[
+		674,
+		0x80_00_02_A2,
+		'CNDL',
+		'Candle',
+		'https://candlelabs.org',
+		undefined,
+	],
+	[
+		675,
+		0x80_00_02_A3,
+		'WLKR',
+		'Walker Crypto Innovation Index',
+		'https://wlkr.finance',
+		undefined,
+	],
+	[
+		676,
+		0x80_00_02_A4,
+		'WLKRR',
+		'Walker',
+		'https://wlkr.finance',
+		undefined,
+	],
+	[
 		677,
 		0x80_00_02_A5,
 		'YUNGE',
@@ -6153,6 +6199,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Voken',
 		'Voken',
 		'https://voken.io',
+		undefined,
+	],
+	[
+		679,
+		0x80_00_02_A7,
+		'APL',
+		'Apollo',
+		'https://aplfintech.com',
 		undefined,
 	],
 	[
