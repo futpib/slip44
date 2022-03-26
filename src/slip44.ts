@@ -839,6 +839,7 @@ export type RegisteredCoinSymbol =
 | 'SBC'
 | 'FIC'
 | 'HNS'
+| 'ISK'
 | 'FUND'
 | 'STX'
 | 'VOW'
@@ -7799,6 +7800,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HNS',
 		'Handshake',
 		'https://handshake.org',
+		undefined,
+	],
+	[
+		5404,
+		0x80_00_15_1C,
+		'ISK',
+		'ISKRA',
+		'https://iskra.world',
 		undefined,
 	],
 	[
