@@ -6855,7 +6855,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_AD,
 		'KCN',
 		'Kylacoin',
-		'https://kylacoin.v6.army',
+		'https://kylacoin.eu.org',
 		undefined,
 	],
 	[
