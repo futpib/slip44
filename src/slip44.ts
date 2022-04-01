@@ -834,6 +834,7 @@ export type RegisteredCoinSymbol =
 | 'FC8'
 | 'YEE'
 | 'IOTA'
+| 'SMR'
 | 'AXE'
 | 'XYM'
 | 'SBC'
@@ -7760,6 +7761,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'IOTA',
 		'IOTA',
 		'https://www.iota.org',
+		undefined,
+	],
+	[
+		4219,
+		0x80_00_10_7B,
+		'SMR',
+		'Shimmer',
+		'https://shimmer.network',
 		undefined,
 	],
 	[
