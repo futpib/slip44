@@ -923,6 +923,7 @@ export type RegisteredCoinSymbol =
 | 'X42'
 | 'VITE'
 | 'SEA'
+| 'AMAX'
 | 'ILT'
 | 'ETHO'
 | 'XERO'
@@ -8489,6 +8490,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEA',
 		'Second Exchange Alliance',
 		'https://www.seaio.cc',
+		undefined,
+	],
+	[
+		1_048_576,
+		0x80_10_00_00,
+		'AMAX',
+		'Armonia Meta Chain',
+		'https://amax.network',
 		undefined,
 	],
 	[
