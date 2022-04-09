@@ -780,6 +780,7 @@ export type RegisteredCoinSymbol =
 | 'JPYS'
 | 'VEGA'
 | 'ADA'
+| 'CUBE'
 | 'TES'
 | 'ZTX'
 | 'XEC'
@@ -7330,6 +7331,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ADA',
 		'Cardano',
 		'https://www.cardanohub.org/en/home',
+		undefined,
+	],
+	[
+		1818,
+		0x80_00_07_1A,
+		'CUBE',
+		'Cube Chain Native Token',
+		'https://www.cube.network/',
 		undefined,
 	],
 	[
