@@ -667,6 +667,7 @@ export type RegisteredCoinSymbol =
 | 'BALLZ'
 | 'COSA'
 | 'BR'
+| 'PLSR'
 | 'BTW'
 | 'PLCU'
 | 'UIDD'
@@ -727,6 +728,7 @@ export type RegisteredCoinSymbol =
 | 'YCN'
 | 'LTP'
 | 'MATIC'
+| 'UNW'
 | 'TWINS'
 | 'VCG'
 | 'XAZAB'
@@ -6406,6 +6408,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		775,
+		0x80_00_03_07,
+		'PLSR',
+		'Pulsar Coin',
+		'https://github.com/PulsarCoin/Pulsar-Coin-Cryptocurrency',
+		undefined,
+	],
+	[
 		777,
 		0x80_00_03_09,
 		'BTW',
@@ -6891,6 +6901,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MATIC',
 		'Matic',
 		'https://matic.network',
+		undefined,
+	],
+	[
+		968,
+		0x80_00_03_C8,
+		'UNW',
+		'UNW',
+		'https://unichain.world',
 		undefined,
 	],
 	[
