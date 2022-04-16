@@ -618,6 +618,7 @@ export type RegisteredCoinSymbol =
 | 'LORE'
 | 'FNR'
 | 'NEXUS'
+| 'QTZ'
 | 'CALL'
 | 'POKT'
 | 'EMIT'
@@ -678,6 +679,7 @@ export type RegisteredCoinSymbol =
 | 'BEET'
 | 'DST'
 | 'QVT'
+| 'SDN'
 | 'ASTR'
 | 'DVPN'
 | 'VET'
@@ -730,6 +732,7 @@ export type RegisteredCoinSymbol =
 | 'MATIC'
 | 'UNW'
 | 'TWINS'
+| 'AU'
 | 'VCG'
 | 'XAZAB'
 | 'AIOZ'
@@ -6016,6 +6019,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		631,
+		0x80_00_02_77,
+		'QTZ',
+		'Quartz',
+		'https://unique.network/quartz/',
+		undefined,
+	],
+	[
 		633,
 		0x80_00_02_79,
 		'CALL',
@@ -6496,6 +6507,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		809,
+		0x80_00_03_29,
+		'SDN',
+		'Shiden Network',
+		'https://shiden.astar.network/',
+		undefined,
+	],
+	[
 		810,
 		0x80_00_03_2A,
 		'ASTR',
@@ -6917,6 +6936,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TWINS',
 		'TWINS',
 		'https://win.win',
+		undefined,
+	],
+	[
+		985,
+		0x80_00_03_D9,
+		'AU',
+		'Autonomy',
+		'https://bitmark.com/autonomy',
 		undefined,
 	],
 	[
