@@ -873,7 +873,7 @@ export type RegisteredCoinSymbol =
 | 'ARB1'
 | 'BOBA'
 | 'LOOP'
-| 'STARK'
+| 'STRK'
 | 'AVAXC'
 | 'BSC'
 | 'NRG'
@@ -8093,9 +8093,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		9004,
 		0x80_00_23_2C,
-		'STARK',
-		'Starkware',
-		'https://starkware.co',
+		'STRK',
+		'StarkNet',
+		'https://starknet.io',
 		undefined,
 	],
 	[
