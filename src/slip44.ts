@@ -906,6 +906,7 @@ export type RegisteredCoinSymbol =
 | 'BTT'
 | 'FXTC'
 | 'AMA'
+| 'FACT'
 | 'AXIV'
 | 'EVE'
 | 'STASH'
@@ -8360,6 +8361,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AMA',
 		'Amabig',
 		'https://amabig.com',
+		undefined,
+	],
+	[
+		42_069,
+		0x80_00_A4_55,
+		'FACT',
+		'FACT0RN',
+		'https://github.com/FACT0RN/FACT0RN',
 		undefined,
 	],
 	[
