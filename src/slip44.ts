@@ -724,6 +724,7 @@ export type RegisteredCoinSymbol =
 | 'SGE'
 | 'META'
 | 'FRA'
+| 'CCD'
 | 'DIP'
 | 'RUNE'
 | 'KCN'
@@ -6865,6 +6866,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FRA',
 		'Findora',
 		'https://www.findora.org',
+		undefined,
+	],
+	[
+		919,
+		0x80_00_03_97,
+		'CCD',
+		'Concordium',
+		'https://www.concordium.com/',
 		undefined,
 	],
 	[
