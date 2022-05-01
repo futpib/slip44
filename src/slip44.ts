@@ -624,6 +624,8 @@ export type RegisteredCoinSymbol =
 | 'EMIT'
 | 'BTSG'
 | 'LFC'
+| 'KCS'
+| 'KCC'
 | 'AZERO'
 | 'XLN'
 | 'ZRB'
@@ -6066,6 +6068,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LFC',
 		'Leofcoin',
 		'https://leofcoin.org',
+		undefined,
+	],
+	[
+		641,
+		0x80_00_02_81,
+		'KCS',
+		'KuCoin Shares',
+		'https://kcs.foundation',
+		undefined,
+	],
+	[
+		642,
+		0x80_00_02_82,
+		'KCC',
+		'KuCoin Community Chain',
+		'https://kcc.io',
 		undefined,
 	],
 	[
