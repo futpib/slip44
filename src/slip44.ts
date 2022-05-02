@@ -757,6 +757,7 @@ export type RegisteredCoinSymbol =
 | 'XRD'
 | 'ONE'
 | 'ONT'
+| 'CZZ'
 | 'KEX'
 | 'MCM'
 | 'BTCR'
@@ -7140,6 +7141,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ONT',
 		'Ontology',
 		'https://ont.io',
+		undefined,
+	],
+	[
+		1025,
+		0x80_00_04_01,
+		'CZZ',
+		'Classzz',
+		'https://classzz.com/',
 		undefined,
 	],
 	[
