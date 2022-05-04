@@ -770,6 +770,7 @@ export type RegisteredCoinSymbol =
 | 'CDY'
 | 'HOO'
 | 'ALPH'
+| 'GLMR'
 | 'MOVR'
 | 'WEI'
 | 'DFC'
@@ -7253,6 +7254,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Nostr',
 		'https://github.com/fiatjaf/nostr',
+		undefined,
+	],
+	[
+		1284,
+		0x80_00_05_04,
+		'GLMR',
+		'Moonbeam',
+		'https://github.com/PureStake/moonbeam',
 		undefined,
 	],
 	[
