@@ -708,6 +708,7 @@ export type RegisteredCoinSymbol =
 | 'PEPS'
 | 'BIR'
 | 'MOBIC'
+| 'FLS'
 | 'DSM'
 | 'PRCY'
 | 'MOB'
@@ -6742,6 +6743,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MOBIC',
 		'MobilityCoin',
 		'https://github.com/decenomy/MOBIC',
+		undefined,
+	],
+	[
+		850,
+		0x80_00_03_52,
+		'FLS',
+		'Flits',
+		'https://flitswallet.app/',
 		undefined,
 	],
 	[
