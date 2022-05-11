@@ -652,6 +652,7 @@ export type RegisteredCoinSymbol =
 | 'VEIL'
 | 'GIO'
 | 'XDAI'
+| 'COM'
 | 'MCOIN'
 | 'CHC'
 | 'SERF'
@@ -6295,6 +6296,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XDAI',
 		'xDai',
 		'https://blockscout.com/poa/dai',
+		undefined,
+	],
+	[
+		701,
+		0x80_00_02_BD,
+		'COM',
+		'Commercio.network',
+		'https://commercio.network',
 		undefined,
 	],
 	[
