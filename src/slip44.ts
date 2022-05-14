@@ -630,6 +630,7 @@ export type RegisteredCoinSymbol =
 | 'XLN'
 | 'ZRB'
 | 'UCO'
+| 'WMP'
 | 'PIRATE'
 | 'SFRX'
 | 'ACT'
@@ -647,6 +648,8 @@ export type RegisteredCoinSymbol =
 | 'Voken'
 | 'APL'
 | 'Evrynet'
+| 'NENG'
+| 'CHTA'
 | 'KAR'
 | 'CET'
 | 'VEIL'
@@ -770,6 +773,7 @@ export type RegisteredCoinSymbol =
 | 'DFI'
 | '$DAG'
 | 'CDY'
+| 'EFI'
 | 'HOO'
 | 'ALPH'
 | 'GLMR'
@@ -6123,6 +6127,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		655,
+		0x80_00_02_8F,
+		'WMP',
+		'WAMP',
+		'https://wamp-proto.org/',
+		undefined,
+	],
+	[
 		660,
 		0x80_00_02_94,
 		'PIRATE',
@@ -6256,6 +6268,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Evrynet',
 		'Evrynet',
 		'https://evrynet.io',
+		undefined,
+	],
+	[
+		681,
+		0x80_00_02_A9,
+		'NENG',
+		'Nengcoin',
+		'https://nengcoin.org/',
+		undefined,
+	],
+	[
+		682,
+		0x80_00_02_AA,
+		'CHTA',
+		'Cheetahcoin',
+		'https://cheetahcoin.org/',
 		undefined,
 	],
 	[
@@ -7248,6 +7276,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CDY',
 		'Bitcoin Candy',
 		'http://www.bitcoincandy.one',
+		undefined,
+	],
+	[
+		1155,
+		0x80_00_04_83,
+		'EFI',
+		'Efinity',
+		'https://efinity.io/',
 		undefined,
 	],
 	[
