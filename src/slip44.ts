@@ -656,6 +656,7 @@ export type RegisteredCoinSymbol =
 | 'GIO'
 | 'XDAI'
 | 'COM'
+| 'CCC'
 | 'MCOIN'
 | 'CHC'
 | 'SERF'
@@ -6330,6 +6331,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		701,
 		0x80_00_02_BD,
 		'COM',
+		'Commercio.network',
+		'https://commercio.network',
+		undefined,
+	],
+	[
+		702,
+		0x80_00_02_BE,
+		'CCC',
 		'Commercio.network',
 		'https://commercio.network',
 		undefined,
