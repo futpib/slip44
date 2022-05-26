@@ -607,7 +607,7 @@ export type RegisteredCoinSymbol =
 | 'XOR'
 | 'SSP'
 | 'DEI'
-| 'AXL'
+| '---'
 | 'ZERO'
 | 'ALPHA'
 | 'BDCASH'
@@ -689,6 +689,7 @@ export type RegisteredCoinSymbol =
 | 'SDN'
 | 'ASTR'
 | 'DVPN'
+| 'MEER'
 | 'VET'
 | 'REEF'
 | 'CLO'
@@ -725,6 +726,7 @@ export type RegisteredCoinSymbol =
 | 'TOMO'
 | 'XSEL'
 | 'LKSC'
+| 'AS'
 | 'XEC'
 | 'LMO'
 | 'HNT'
@@ -5946,9 +5948,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		620,
 		0x80_00_02_6C,
-		'AXL',
-		'Axelar',
-		'https://axelar.network',
+		'---',
+		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -6600,6 +6602,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		813,
+		0x80_00_03_2D,
+		'MEER',
+		'Qitmeer',
+		'https://github.com/Qitmeer',
+		undefined,
+	],
+	[
 		818,
 		0x80_00_03_32,
 		'VET',
@@ -6885,6 +6895,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'LKSC',
 		'LKSCoin',
 		'https://www.lkschain.io',
+		undefined,
+	],
+	[
+		898,
+		0x80_00_03_82,
+		'AS',
+		'Assetchain',
+		'https://github.com/assetcloud/AssetChain',
 		undefined,
 	],
 	[
