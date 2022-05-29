@@ -732,6 +732,7 @@ export type RegisteredCoinSymbol =
 | 'HNT'
 | 'FIS'
 | 'SGE'
+| 'GERT'
 | 'META'
 | 'FRA'
 | 'CCD'
@@ -6943,6 +6944,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SGE',
 		'Saage',
 		'https://saage.io',
+		undefined,
+	],
+	[
+		911,
+		0x80_00_03_8F,
+		'GERT',
+		'Gert',
+		'https://gert.app',
 		undefined,
 	],
 	[
