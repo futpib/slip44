@@ -749,6 +749,7 @@ export type RegisteredCoinSymbol =
 | 'XAZAB'
 | 'AIOZ'
 | 'PEC'
+| 'XRB'
 | 'OKT'
 | 'SUM'
 | 'LBTC'
@@ -7088,6 +7089,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PEC',
 		'Phoenix',
 		'https://github.com/phoenixchain/phoenix',
+		undefined,
+	],
+	[
+		993,
+		0x80_00_03_E1,
+		'XRB',
+		'X Currency',
+		'https://x-currency.org',
 		undefined,
 	],
 	[
