@@ -627,6 +627,7 @@ export type RegisteredCoinSymbol =
 | 'KCS'
 | 'KCC'
 | 'AZERO'
+| 'LX'
 | 'XLN'
 | 'ZRB'
 | 'UCO'
@@ -2639,8 +2640,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		206,
 		0x80_00_00_CE,
 		'ATP',
-		'PlatON',
-		'https://www.platon.network',
+		'Alaya',
+		'https://www.alaya.network',
 		undefined,
 	],
 	[
@@ -4879,8 +4880,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		486,
 		0x80_00_01_E6,
 		'LAT',
-		'LatticeX',
-		'https://latticex.foundation',
+		'PlatON',
+		'https://www.platon.network',
 		undefined,
 	],
 	[
@@ -6105,6 +6106,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AZERO',
 		'Aleph Zero',
 		'https://alephzero.org',
+		undefined,
+	],
+	[
+		645,
+		0x80_00_02_85,
+		'LX',
+		'Lynx',
+		'https://lynxprotocol.org',
 		undefined,
 	],
 	[
