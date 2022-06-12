@@ -653,6 +653,7 @@ export type RegisteredCoinSymbol =
 | 'CHTA'
 | 'KAR'
 | 'CET'
+| 'KLV'
 | 'VEIL'
 | 'GIO'
 | 'XDAI'
@@ -759,6 +760,7 @@ export type RegisteredCoinSymbol =
 | 'TT'
 | 'BKT'
 | 'NODL'
+| 'PCOIN'
 | 'FTM'
 | 'RPG'
 | 'HT'
@@ -839,6 +841,7 @@ export type RegisteredCoinSymbol =
 | 'CRP'
 | 'ELA'
 | 'SNOW'
+| 'XIN'
 | 'AOA'
 | 'NAS'
 | 'REOSC'
@@ -6317,6 +6320,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		690,
+		0x80_00_02_B2,
+		'KLV',
+		'KleverChain',
+		'https://klever.finance/kleverchain/',
+		undefined,
+	],
+	[
 		698,
 		0x80_00_02_BA,
 		'VEIL',
@@ -7173,6 +7184,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		1004,
+		0x80_00_03_EC,
+		'PCOIN',
+		'PCOIN',
+		'https://github.com/pcoinproject/pcoin',
+		undefined,
+	],
+	[
 		1007,
 		0x80_00_03_EF,
 		'FTM',
@@ -7826,6 +7845,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SNOW',
 		'Snowblossom',
 		'https://snowblossom.org',
+		undefined,
+	],
+	[
+		2365,
+		0x80_00_09_3D,
+		'XIN',
+		'Mixin',
+		'https://mixin.one',
 		undefined,
 	],
 	[
