@@ -790,6 +790,7 @@ export type RegisteredCoinSymbol =
 | 'DFC'
 | 'HYC'
 | 'TENTSLP'
+| 'XSC'
 | 'AAC'
 | 'BEAM'
 | 'ELF'
@@ -7429,6 +7430,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TENTSLP',
 		'TENT Simple Ledger Protocol',
 		undefined,
+		undefined,
+	],
+	[
+		1510,
+		0x80_00_05_E6,
+		'XSC',
+		'XT Smart Chain',
+		'https://xsc.pub/',
 		undefined,
 	],
 	[
