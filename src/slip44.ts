@@ -654,6 +654,7 @@ export type RegisteredCoinSymbol =
 | 'KAR'
 | 'CET'
 | 'KLV'
+| 'VTBC'
 | 'VEIL'
 | 'GIO'
 | 'XDAI'
@@ -6326,6 +6327,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KLV',
 		'KleverChain',
 		'https://klever.finance/kleverchain/',
+		undefined,
+	],
+	[
+		694,
+		0x80_00_02_B6,
+		'VTBC',
+		'VTB Community',
+		'https://vtbcommunity.org',
 		undefined,
 	],
 	[
