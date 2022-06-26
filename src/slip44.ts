@@ -753,6 +753,7 @@ export type RegisteredCoinSymbol =
 | 'AIOZ'
 | 'PEC'
 | 'XRB'
+| 'QUAI'
 | 'OKT'
 | 'SUM'
 | 'LBTC'
@@ -7130,6 +7131,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		994,
+		0x80_00_03_E2,
+		'QUAI',
+		'Quai Network',
+		'https://quai.network/',
+		undefined,
+	],
+	[
 		996,
 		0x80_00_03_E4,
 		'OKT',
@@ -8085,8 +8094,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		5757,
 		0x80_00_16_7D,
 		'STX',
-		'Blockstack',
-		'https://github.com/blockstack/blockstack-core',
+		'Stacks',
+		'https://github.com/stacks-network/stacks-blockchain',
 		undefined,
 	],
 	[
