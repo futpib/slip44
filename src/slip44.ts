@@ -632,6 +632,7 @@ export type RegisteredCoinSymbol =
 | 'ZRB'
 | 'UCO'
 | 'WMP'
+| 'KOIN'
 | 'PIRATE'
 | 'SFRX'
 | 'ACT'
@@ -747,6 +748,7 @@ export type RegisteredCoinSymbol =
 | 'MATIC'
 | 'UNW'
 | 'TWINS'
+| 'TLOS'
 | 'AU'
 | 'VCG'
 | 'XAZAB'
@@ -6155,6 +6157,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		659,
+		0x80_00_02_93,
+		'KOIN',
+		'Koinos',
+		'https://koinos.io/',
+		undefined,
+	],
+	[
 		660,
 		0x80_00_02_94,
 		'PIRATE',
@@ -7080,6 +7090,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TWINS',
 		'TWINS',
 		'https://win.win',
+		undefined,
+	],
+	[
+		977,
+		0x80_00_03_D1,
+		'TLOS',
+		'Telos',
+		'https://www.telos.net/',
 		undefined,
 	],
 	[
