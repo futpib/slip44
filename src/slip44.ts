@@ -610,7 +610,7 @@ export type RegisteredCoinSymbol =
 | '---'
 | 'ZERO'
 | 'ALPHA'
-| 'BDCASH'
+| 'BDECO'
 | 'NOBL'
 | 'EAST'
 | 'KDA'
@@ -682,6 +682,7 @@ export type RegisteredCoinSymbol =
 | 'PLSR'
 | 'BTW'
 | 'PLCU'
+| 'SUI'
 | 'UIDD'
 | 'ACA'
 | 'BNC'
@@ -5983,8 +5984,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		623,
 		0x80_00_02_6F,
-		'BDCASH',
-		'BDCash Protocol',
+		'BDECO',
+		'BDCashProtocol Ecosystem',
 		'https://bdcashprotocol.com',
 		undefined,
 	],
@@ -6554,6 +6555,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PLCU',
 		'PLC Ultima',
 		'https://plcultima.com/',
+		undefined,
+	],
+	[
+		784,
+		0x80_00_03_10,
+		'SUI',
+		'Sui',
+		'https://sui.io',
 		undefined,
 	],
 	[
