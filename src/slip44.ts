@@ -882,6 +882,7 @@ export type RegisteredCoinSymbol =
 | 'RSC'
 | 'BPA'
 | 'SAFE'
+| 'COTI'
 | 'ROGER'
 | 'TOPL'
 | 'SHFT'
@@ -6145,7 +6146,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		650,
 		0x80_00_02_8A,
 		'UCO',
-		'ARCHEthic',
+		'Archethic',
 		'https://archethic.net',
 		undefined,
 	],
@@ -8179,6 +8180,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SAFE',
 		'SAFE',
 		'http://www.anwang.com',
+		undefined,
+	],
+	[
+		6779,
+		0x80_00_1A_7B,
+		'COTI',
+		'COTI',
+		'https://coti.io',
 		undefined,
 	],
 	[
