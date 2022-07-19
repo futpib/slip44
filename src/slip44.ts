@@ -682,6 +682,7 @@ export type RegisteredCoinSymbol =
 | 'PLSR'
 | 'BTW'
 | 'PLCU'
+| 'PLCUX'
 | 'SUI'
 | 'UIDD'
 | 'ACA'
@@ -927,6 +928,7 @@ export type RegisteredCoinSymbol =
 | 'PWR'
 | 'BELL'
 | 'CHX'
+| 'FLR'
 | 'ESN'
 | 'TEO'
 | 'BTCS'
@@ -6559,6 +6561,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		781,
+		0x80_00_03_0D,
+		'PLCUX',
+		'PLC Ultima X',
+		'https://plcultima.com/',
+		undefined,
+	],
+	[
 		784,
 		0x80_00_03_10,
 		'SUI',
@@ -8548,6 +8558,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CHX',
 		'Own',
 		'https://wallet.weown.com',
+		undefined,
+	],
+	[
+		30_001,
+		0x80_00_75_31,
+		'FLR',
+		'Flare',
+		'https://flare.xyz/',
 		undefined,
 	],
 	[
