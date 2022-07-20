@@ -622,6 +622,7 @@ export type RegisteredCoinSymbol =
 | 'CALL'
 | 'POKT'
 | 'EMIT'
+| 'APTOS'
 | 'BTSG'
 | 'LFC'
 | 'KCS'
@@ -874,6 +875,7 @@ export type RegisteredCoinSymbol =
 | 'FIC'
 | 'HNS'
 | 'ISK'
+| 'ALTME'
 | 'FUND'
 | 'STX'
 | 'VOW'
@@ -6081,6 +6083,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		637,
+		0x80_00_02_7D,
+		'APTOS',
+		'Aptos',
+		'https://aptoslabs.com',
+		undefined,
+	],
+	[
 		639,
 		0x80_00_02_7F,
 		'BTSG',
@@ -8118,6 +8128,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ISK',
 		'ISKRA',
 		'https://iskra.world',
+		undefined,
+	],
+	[
+		5467,
+		0x80_00_15_5B,
+		'ALTME',
+		'ALTME',
+		'https://altme.io',
 		undefined,
 	],
 	[
