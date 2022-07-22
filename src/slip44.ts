@@ -842,6 +842,7 @@ export type RegisteredCoinSymbol =
 | 'TRUE'
 | 'IoTE'
 | 'XRG'
+| 'CHZ'
 | 'ASK'
 | 'QTUM'
 | 'ETP'
@@ -7864,6 +7865,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'XRG',
 		'Ergon',
 		'https://ergon.moe',
+		undefined,
+	],
+	[
+		2182,
+		0x80_00_08_88,
+		'CHZ',
+		'Chiliz',
+		'https://www.chiliz.com',
 		undefined,
 	],
 	[
