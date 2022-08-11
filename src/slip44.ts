@@ -658,7 +658,7 @@ export type RegisteredCoinSymbol =
 | 'KLV'
 | 'VTBC'
 | 'VEIL'
-| 'GIO'
+| 'GTB'
 | 'XDAI'
 | 'COM'
 | 'CCC'
@@ -6374,9 +6374,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		699,
 		0x80_00_02_BB,
-		'GIO',
-		'Gio',
-		'https://github.com/qGio',
+		'GTB',
+		'GotaBit',
+		'https://github.com/gotabit',
 		undefined,
 	],
 	[
@@ -7881,6 +7881,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ASK',
 		'ASK',
 		'https://permission.io',
+		undefined,
+	],
+	[
+		2285,
+		0x80_00_08_ED,
+		undefined,
+		'Qiyi Chain',
+		'https://github.com/qiyichain/peculiar',
 		undefined,
 	],
 	[
