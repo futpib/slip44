@@ -695,7 +695,7 @@ export type RegisteredCoinSymbol =
 | 'QVT'
 | 'SDN'
 | 'ASTR'
-| 'DVPN'
+| '---'
 | 'MEER'
 | 'VET'
 | 'REEF'
@@ -748,6 +748,7 @@ export type RegisteredCoinSymbol =
 | 'KCN'
 | 'YCN'
 | 'LTP'
+| 'VKAX'
 | 'MATIC'
 | 'UNW'
 | 'TWINS'
@@ -6670,9 +6671,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		811,
 		0x80_00_03_2B,
-		'DVPN',
-		'Sentinel',
-		'https://sentinel.co',
+		'---',
+		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -7097,6 +7098,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'KickSoccer',
 		'https://kicksoccercoin.com',
+		undefined,
+	],
+	[
+		960,
+		0x80_00_03_C0,
+		'VKAX',
+		'Vkax',
+		'https://vkax.xyz',
 		undefined,
 	],
 	[
