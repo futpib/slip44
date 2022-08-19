@@ -552,7 +552,7 @@ export type RegisteredCoinSymbol =
 | 'DEAL'
 | 'NTY'
 | 'TOP'
-| 'STARS'
+| '---'
 | 'AG'
 | 'CICO'
 | 'IRIS'
@@ -758,6 +758,7 @@ export type RegisteredCoinSymbol =
 | 'XAZAB'
 | 'AIOZ'
 | 'PEC'
+| 'UNT'
 | 'XRB'
 | 'QUAI'
 | 'OKT'
@@ -890,6 +891,7 @@ export type RegisteredCoinSymbol =
 | 'COTI'
 | 'ROGER'
 | 'TOPL'
+| 'KLY'
 | 'SHFT'
 | 'BTV'
 | 'SKY'
@@ -898,6 +900,7 @@ export type RegisteredCoinSymbol =
 | 'BTQ'
 | 'XCH'
 | '---'
+| 'PLMNT'
 | 'SBTC'
 | 'NULS'
 | 'BTP'
@@ -5511,9 +5514,9 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		563,
 		0x80_00_02_33,
-		'STARS',
-		'Stargaze',
-		'https://www.stargaze.fi',
+		'---',
+		'reserved',
+		undefined,
 		undefined,
 	],
 	[
@@ -7181,6 +7184,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		992,
+		0x80_00_03_E0,
+		'UNT',
+		'Unit',
+		'https://github.com/RebornMetaverse/Unit-reborn',
+		undefined,
+	],
+	[
 		993,
 		0x80_00_03_E1,
 		'XRB',
@@ -8261,6 +8272,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		7331,
+		0x80_00_1C_A3,
+		'KLY',
+		'KLYNTAR',
+		'https://github.com/KLYN74R',
+		undefined,
+	],
+	[
 		7341,
 		0x80_00_1C_AD,
 		'SHFT',
@@ -8330,6 +8349,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'---',
 		'reserved',
 		undefined,
+		undefined,
+	],
+	[
+		8680,
+		0x80_00_21_E8,
+		'PLMNT',
+		'Planetmint',
+		'https://planetmint.io',
 		undefined,
 	],
 	[
