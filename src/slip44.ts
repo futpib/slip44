@@ -619,6 +619,7 @@ export type RegisteredCoinSymbol =
 | 'FNR'
 | 'NEXUS'
 | 'QTZ'
+| 'XMA'
 | 'CALL'
 | 'POKT'
 | 'EMIT'
@@ -628,6 +629,7 @@ export type RegisteredCoinSymbol =
 | 'KCS'
 | 'KCC'
 | 'AZERO'
+| 'TREE'
 | 'LX'
 | 'XLN'
 | 'ZRB'
@@ -743,6 +745,7 @@ export type RegisteredCoinSymbol =
 | 'META'
 | 'FRA'
 | 'CCD'
+| 'AVN'
 | 'DIP'
 | 'RUNE'
 | 'KCN'
@@ -6064,6 +6067,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		632,
+		0x80_00_02_78,
+		'XMA',
+		'Massa',
+		'https://massa.net/',
+		undefined,
+	],
+	[
 		633,
 		0x80_00_02_79,
 		'CALL',
@@ -6133,6 +6144,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AZERO',
 		'Aleph Zero',
 		'https://alephzero.org',
+		undefined,
+	],
+	[
+		644,
+		0x80_00_02_84,
+		'TREE',
+		'Tree',
+		'https://github.com/thepen2/Tree_CLI',
 		undefined,
 	],
 	[
@@ -7053,6 +7072,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CCD',
 		'Concordium',
 		'https://www.concordium.com/',
+		undefined,
+	],
+	[
+		921,
+		0x80_00_03_99,
+		'AVN',
+		'Avian Network',
+		'https://www.avn.network/',
 		undefined,
 	],
 	[
@@ -9133,6 +9160,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FVDC',
 		'ForumCoin',
 		'https://fvd.nl',
+		undefined,
+	],
+	[
+		1_179_993_420,
+		0xC6_55_45_4C,
+		undefined,
+		'Fuel',
+		'https://www.fuel.network',
 		undefined,
 	],
 ];
