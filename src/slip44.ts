@@ -621,6 +621,7 @@ export type RegisteredCoinSymbol =
 | 'QTZ'
 | 'XMA'
 | 'CALL'
+| 'VAL'
 | 'POKT'
 | 'EMIT'
 | 'APTOS'
@@ -726,6 +727,7 @@ export type RegisteredCoinSymbol =
 | 'FLS'
 | 'DSM'
 | 'PRCY'
+| 'HVH'
 | 'MOB'
 | 'IF'
 | 'LUM'
@@ -764,6 +766,7 @@ export type RegisteredCoinSymbol =
 | 'UNT'
 | 'XRB'
 | 'QUAI'
+| 'CAPS'
 | 'OKT'
 | 'SUM'
 | 'LBTC'
@@ -935,6 +938,7 @@ export type RegisteredCoinSymbol =
 | 'RITO'
 | 'XND'
 | 'C4EI'
+| 'PCT'
 | 'PWR'
 | 'BELL'
 | 'CHX'
@@ -960,6 +964,8 @@ export type RegisteredCoinSymbol =
 | 'HOME'
 | 'STC'
 | 'STRAX'
+| 'KAS'
+| 'APTA'
 | 'AKA'
 | 'GENOM'
 | 'ATS'
@@ -6083,6 +6089,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		634,
+		0x80_00_02_7A,
+		'VAL',
+		'Validity',
+		'https://validitytech.com',
+		undefined,
+	],
+	[
 		635,
 		0x80_00_02_7B,
 		'POKT',
@@ -6414,7 +6428,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		701,
 		0x80_00_02_BD,
 		'COM',
-		'Commercio.network',
+		'Commercio',
 		'https://commercio.network',
 		undefined,
 	],
@@ -6422,7 +6436,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		702,
 		0x80_00_02_BE,
 		'CCC',
-		'Commercio.network',
+		'Commercio Cash Credit',
 		'https://commercio.network',
 		undefined,
 	],
@@ -6923,6 +6937,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		858,
+		0x80_00_03_5A,
+		'HVH',
+		'HAVAH',
+		'https://intro.havah.io/',
+		undefined,
+	],
+	[
 		866,
 		0x80_00_03_62,
 		'MOB',
@@ -7232,6 +7254,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'QUAI',
 		'Quai Network',
 		'https://quai.network/',
+		undefined,
+	],
+	[
+		995,
+		0x80_00_03_E3,
+		'CAPS',
+		'Ternoa',
+		'https://www.ternoa.network/',
 		undefined,
 	],
 	[
@@ -8635,6 +8665,14 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 	],
 	[
+		21_888,
+		0x80_00_55_80,
+		'PCT',
+		'Pactus',
+		'https://pactus.org',
+		undefined,
+	],
+	[
 		22_504,
 		0x80_00_57_E8,
 		'PWR',
@@ -8840,6 +8878,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'STRAX',
 		'Strax',
 		'http://www.stratisplatform.com',
+		undefined,
+	],
+	[
+		111_111,
+		0x80_01_B2_07,
+		'KAS',
+		'Kaspa',
+		'https://kaspa.org',
+		undefined,
+	],
+	[
+		161_803,
+		0x80_02_78_0B,
+		'APTA',
+		'Bloqs4Good',
+		'https://bloqs4good.com',
 		undefined,
 	],
 	[
