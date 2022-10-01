@@ -7,7 +7,7 @@ import remarkStringify from 'remark-stringify';
 import remarkGfm from 'remark-gfm';
 import unified from 'unified';
 import visit from 'unist-util-visit';
-import type { Text, Link, TableRow, TableCell } from 'mdast';
+import type { Text, TableRow, TableCell } from 'mdast';
 import { z } from 'zod';
 
 export const remark = unified().use(remarkParse).use(remarkStringify).use(remarkGfm).freeze();
@@ -17,8 +17,6 @@ const parsedRowSchema = z.object({
 	derivationPathComponent: z.number().int().gte(0x80_00_00_00),
 	symbol: z.string().optional(),
 	title: z.string().optional(),
-	url: z.string().optional(),
-	comment: z.string().optional(),
 });
 
 type ParsedRow = z.infer<typeof parsedRowSchema>;
@@ -66,25 +64,10 @@ async function main() {
 		) || undefined;
 
 		let title: undefined | string;
-		let url: undefined | string;
-		let comment: undefined | string;
 
 		if (coinDescriptionTableCell) {
 			visit<Text>(coinDescriptionTableCell, 'text', node => {
-				if (title) {
-					comment = node.value.trim();
-				} else {
-					title = node.value.trim();
-				}
-			});
-
-			visit<Link>(coinDescriptionTableCell, 'link', node => {
-				url = node.url;
-				title = (
-					node.children
-						.map(child => remark.stringify(child).trim())
-						.join(' ')
-				).trim();
+				title = node.value.trim();
 			});
 		}
 
@@ -94,8 +77,6 @@ async function main() {
 			/* eslint-disable @typescript-eslint/prefer-nullish-coalescing */
 			symbol: symbol?.trim() || undefined,
 			title: title?.trim() || undefined,
-			url: url?.trim() || undefined,
-			comment: comment?.trim() || undefined,
 			/* eslint-enable @typescript-eslint/prefer-nullish-coalescing */
 		});
 
@@ -104,8 +85,6 @@ async function main() {
 				&& (
 					parsedRow.data.symbol
 						|| parsedRow.data.title
-						|| parsedRow.data.url
-						|| parsedRow.data.comment
 				)
 		) {
 			rows.push(parsedRow.data);
@@ -129,8 +108,6 @@ async function main() {
 				derivationPathComponent: number,
 				symbol: undefined | RegisteredCoinSymbol,
 				name: string,
-				url: undefined | string,
-				comment: undefined | string,
 			];
 
 			export const registeredCoinTypes: RegisteredCoinType[] = [
@@ -140,8 +117,6 @@ async function main() {
 			derivationPathComponent,
 			symbol,
 			title,
-			url,
-			comment,
 		}) => (
 			outdent`
 				[
@@ -149,8 +124,6 @@ async function main() {
 					${stringifyHex(derivationPathComponent)},
 					${stringify(symbol)},
 					${stringify(title)},
-					${stringify(url)},
-					${stringify(comment)},
 				],
 			`
 		)),
