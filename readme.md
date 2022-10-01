@@ -20,5 +20,5 @@ registeredCoinTypes.find(([
 	return symbol === 'BTC';
 });
 
-//  [ 0, 2147483648, 'BTC', 'Bitcoin', 'https://bitcoin.org', undefined ]
+//  [ 0, 2147483648, 'BTC', 'Bitcoin' ]
 ```
