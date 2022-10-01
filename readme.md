@@ -16,8 +16,6 @@ registeredCoinTypes.find(([
 	_derivationPathComponent,
 	symbol,
 	_name,
-	_url,
-	_comment
 ]) => {
 	return symbol === 'BTC';
 });
