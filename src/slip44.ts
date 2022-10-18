@@ -696,6 +696,7 @@ export type RegisteredCoinSymbol =
 | 'PDEX'
 | 'BEET'
 | 'DST'
+| 'ZKS'
 | 'QVT'
 | 'SDN'
 | 'ASTR'
@@ -834,7 +835,9 @@ export type RegisteredCoinSymbol =
 | 'XX'
 | 'XMX'
 | 'TRTL'
+| 'SLRT'
 | 'EGEM'
+| 'MIRA'
 | 'HODL'
 | 'PHL'
 | 'SC'
@@ -5274,6 +5277,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DSTRA',
 	],
 	[
+		804,
+		0x80_00_03_24,
+		'ZKS',
+		'zkSync',
+	],
+	[
 		808,
 		0x80_00_03_28,
 		'QVT',
@@ -6120,10 +6129,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TurtleCoin',
 	],
 	[
+		1985,
+		0x80_00_07_C1,
+		'SLRT',
+		'Solarti Chain',
+	],
+	[
 		1987,
 		0x80_00_07_C3,
 		'EGEM',
 		'EtherGem',
+	],
+	[
+		1988,
+		0x80_00_07_C4,
+		'MIRA',
+		'Mira Chain',
 	],
 	[
 		1989,
@@ -7029,7 +7050,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		1_313_114,
 		0x80_14_09_5A,
 		'ETHO',
-		'Ether-1',
+		'Etho Protocol',
 	],
 	[
 		1_313_500,
