@@ -836,6 +836,7 @@ export type RegisteredCoinSymbol =
 | 'XMX'
 | 'TRTL'
 | 'SLRT'
+| 'QTH'
 | 'EGEM'
 | 'MIRA'
 | 'HODL'
@@ -916,6 +917,7 @@ export type RegisteredCoinSymbol =
 | 'PLMNT'
 | 'SBTC'
 | 'NULS'
+| 'BBC'
 | 'JGC'
 | 'BTP'
 | 'AVAX'
@@ -6135,6 +6137,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Solarti Chain',
 	],
 	[
+		1986,
+		0x80_00_07_C2,
+		'QTH',
+		'Qing Tong Horizon',
+	],
+	[
 		1987,
 		0x80_00_07_C3,
 		'EGEM',
@@ -6625,6 +6633,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_23_04,
 		'NULS',
 		'NULS',
+	],
+	[
+		8997,
+		0x80_00_23_25,
+		'BBC',
+		'Babacoin',
 	],
 	[
 		8998,
