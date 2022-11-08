@@ -625,6 +625,7 @@ export type RegisteredCoinSymbol =
 | 'POKT'
 | 'EMIT'
 | 'APTOS'
+| 'ADON'
 | 'BTSG'
 | 'LFC'
 | 'KCS'
@@ -635,6 +636,9 @@ export type RegisteredCoinSymbol =
 | 'XLN'
 | 'ZRB'
 | 'UCO'
+| 'SFX'
+| 'SFT'
+| 'WSFX'
 | 'WMP'
 | 'KOIN'
 | 'PIRATE'
@@ -673,6 +677,7 @@ export type RegisteredCoinSymbol =
 | 'SIN'
 | 'DLN'
 | 'BONTE'
+| 'PMC'
 | 'MCX'
 | 'HEALIOS'
 | 'BMK'
@@ -888,6 +893,7 @@ export type RegisteredCoinSymbol =
 | 'SMR'
 | 'AXE'
 | 'XYM'
+| 'C4E'
 | 'SBC'
 | 'FIC'
 | 'HNS'
@@ -4853,6 +4859,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Aptos',
 	],
 	[
+		638,
+		0x80_00_02_7E,
+		'ADON',
+		'ADON',
+	],
+	[
 		639,
 		0x80_00_02_7F,
 		'BTSG',
@@ -4911,6 +4923,24 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_8A,
 		'UCO',
 		'Archethic',
+	],
+	[
+		651,
+		0x80_00_02_8B,
+		'SFX',
+		'Safex Cash',
+	],
+	[
+		652,
+		0x80_00_02_8C,
+		'SFT',
+		'Safex Token',
+	],
+	[
+		653,
+		0x80_00_02_8D,
+		'WSFX',
+		'Wrapped Safex Cash',
 	],
 	[
 		655,
@@ -5139,6 +5169,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_CD,
 		'BONTE',
 		'Bontecoin',
+	],
+	[
+		718,
+		0x80_00_02_CE,
+		'PMC',
+		'Peer Meta Coin',
 	],
 	[
 		725,
@@ -6453,6 +6489,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_10_F7,
 		'XYM',
 		'Symbol',
+	],
+	[
+		4444,
+		0x80_00_11_5C,
+		'C4E',
+		'Chain4Energy',
 	],
 	[
 		5006,
