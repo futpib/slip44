@@ -690,9 +690,11 @@ export type RegisteredCoinSymbol =
 | 'COSA'
 | 'BR'
 | 'PLSR'
+| 'KEY'
 | 'BTW'
-| 'PLCU'
+| 'PLCUC'
 | 'PLCUX'
+| 'PLCU'
 | 'SUI'
 | 'UIDD'
 | 'ACA'
@@ -767,6 +769,7 @@ export type RegisteredCoinSymbol =
 | 'UNW'
 | 'TWINS'
 | 'TLOS'
+| 'TAFECO'
 | 'AU'
 | 'VCG'
 | 'XAZAB'
@@ -799,10 +802,12 @@ export type RegisteredCoinSymbol =
 | 'KEX'
 | 'MCM'
 | 'BTCR'
+| 'MFID'
 | 'BBC'
 | 'RISE'
 | 'CMT'
 | 'ETSC'
+| 'DFI'
 | 'DFI'
 | '$DAG'
 | 'CDY'
@@ -853,6 +858,7 @@ export type RegisteredCoinSymbol =
 | 'COLX'
 | 'GIN'
 | 'MNP'
+| 'MLN'
 | 'KIN'
 | 'EOSC'
 | 'GBT'
@@ -861,6 +867,8 @@ export type RegisteredCoinSymbol =
 | 'XHT'
 | 'MCASH'
 | 'TRUE'
+| 'KILT'
+| 'SAMA'
 | 'IoTE'
 | 'XRG'
 | 'CHZ'
@@ -958,7 +966,7 @@ export type RegisteredCoinSymbol =
 | 'PWR'
 | 'BELL'
 | 'CHX'
-| 'FLR'
+| '---'
 | 'ESN'
 | 'TEO'
 | 'BTCS'
@@ -989,6 +997,7 @@ export type RegisteredCoinSymbol =
 | 'VALUE'
 | '3333'
 | 'X42'
+| 'SCR'
 | 'VITE'
 | 'SEA'
 | 'AMAX'
@@ -5249,6 +5258,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Pulsar Coin',
 	],
 	[
+		776,
+		0x80_00_03_08,
+		'KEY',
+		'Keymaker Coin',
+	],
+	[
 		777,
 		0x80_00_03_09,
 		'BTW',
@@ -5257,14 +5272,20 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		780,
 		0x80_00_03_0C,
-		'PLCU',
-		'PLC Ultima',
+		'PLCUC',
+		'PLC Ultima Classic',
 	],
 	[
 		781,
 		0x80_00_03_0D,
 		'PLCUX',
 		'PLC Ultima X',
+	],
+	[
+		782,
+		0x80_00_03_0E,
+		'PLCU',
+		'PLC Ultima',
 	],
 	[
 		784,
@@ -5717,6 +5738,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Telos',
 	],
 	[
+		981,
+		0x80_00_03_D5,
+		'TAFECO',
+		'Taf ECO Chain',
+	],
+	[
 		985,
 		0x80_00_03_D9,
 		'AU',
@@ -5909,6 +5936,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BTCR',
 	],
 	[
+		1042,
+		0x80_00_04_12,
+		'MFID',
+		'Moonfish ID',
+	],
+	[
 		1111,
 		0x80_00_04_57,
 		'BBC',
@@ -5937,6 +5970,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_04_69,
 		'DFI',
 		'DeFiChain',
+	],
+	[
+		1130,
+		0x80_00_04_6A,
+		'DFI',
+		'DeFiChain EVM Network',
 	],
 	[
 		1137,
@@ -6245,6 +6284,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MNPCoin',
 	],
 	[
+		2002,
+		0x80_00_07_D2,
+		'MLN',
+		'Miraland',
+	],
+	[
 		2017,
 		0x80_00_07_E1,
 		'KIN',
@@ -6291,6 +6336,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_01,
 		'TRUE',
 		'TrueChain',
+	],
+	[
+		2086,
+		0x80_00_08_26,
+		'KILT',
+		'KILT Spiritnet',
+	],
+	[
+		2109,
+		0x80_00_08_3D,
+		'SAMA',
+		'Exosama Network',
 	],
 	[
 		2112,
@@ -6889,8 +6946,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		30_001,
 		0x80_00_75_31,
-		'FLR',
-		'Flare',
+		'---',
+		'reserved',
 	],
 	[
 		31_102,
@@ -7077,6 +7134,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_06_79_32,
 		'X42',
 		'x42',
+	],
+	[
+		534_352,
+		0x80_08_27_50,
+		'SCR',
+		'Scroll',
 	],
 	[
 		666_666,
