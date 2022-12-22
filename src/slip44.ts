@@ -634,6 +634,7 @@ export type RegisteredCoinSymbol =
 | 'TREE'
 | 'LX'
 | 'XLN'
+| 'CIC'
 | 'ZRB'
 | 'UCO'
 | 'SFX'
@@ -660,6 +661,7 @@ export type RegisteredCoinSymbol =
 | 'Evrynet'
 | 'NENG'
 | 'CHTA'
+| 'OAS'
 | 'KAR'
 | 'CET'
 | 'KLV'
@@ -789,6 +791,7 @@ export type RegisteredCoinSymbol =
 | 'BKT'
 | 'NODL'
 | 'PCOIN'
+| 'TAO'
 | 'FTM'
 | 'RPG'
 | 'HT'
@@ -902,6 +905,7 @@ export type RegisteredCoinSymbol =
 | 'AXE'
 | 'XYM'
 | 'C4E'
+| 'XVM'
 | 'SBC'
 | 'FIC'
 | 'HNS'
@@ -953,6 +957,7 @@ export type RegisteredCoinSymbol =
 | 'MINA'
 | 'BTY'
 | 'YCC'
+| 'WAX'
 | 'SDGO'
 | 'XTX'
 | 'ARDR'
@@ -4922,6 +4927,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Lunarium',
 	],
 	[
+		647,
+		0x80_00_02_87,
+		'CIC',
+		'CIC Chain',
+	],
+	[
 		648,
 		0x80_00_02_88,
 		'ZRB',
@@ -5076,6 +5087,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_AA,
 		'CHTA',
 		'Cheetahcoin',
+	],
+	[
+		685,
+		0x80_00_02_AD,
+		'OAS',
+		'Oasys',
 	],
 	[
 		686,
@@ -5858,6 +5875,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PCOIN',
 	],
 	[
+		1005,
+		0x80_00_03_ED,
+		'TAO',
+		'Bittensor',
+	],
+	[
 		1007,
 		0x80_00_03_EF,
 		'FTM',
@@ -6554,6 +6577,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Chain4Energy',
 	],
 	[
+		4919,
+		0x80_00_13_37,
+		'XVM',
+		'Venidium',
+	],
+	[
 		5006,
 		0x80_00_13_8E,
 		'SBC',
@@ -6864,6 +6893,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_33_34,
 		'YCC',
 		'Yuan Chain Coin',
+	],
+	[
+		14_001,
+		0x80_00_36_B1,
+		'WAX',
+		'Worldwide Asset Exchange',
 	],
 	[
 		15_845,
