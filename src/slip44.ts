@@ -636,6 +636,7 @@ export type RegisteredCoinSymbol =
 | 'XLN'
 | 'CIC'
 | 'ZRB'
+| 'LCN'
 | 'UCO'
 | 'SFX'
 | 'SFT'
@@ -679,7 +680,7 @@ export type RegisteredCoinSymbol =
 | 'SIN'
 | 'DLN'
 | 'BONTE'
-| 'PMC'
+| 'PEER'
 | 'MCX'
 | 'HEALIOS'
 | 'BMK'
@@ -829,6 +830,7 @@ export type RegisteredCoinSymbol =
 | 'ELF'
 | 'AUDL'
 | 'ATH'
+| 'LUME'
 | 'NEW'
 | 'BTA'
 | 'BCX'
@@ -971,6 +973,7 @@ export type RegisteredCoinSymbol =
 | 'PWR'
 | 'BELL'
 | 'CHX'
+| 'NEXA'
 | '---'
 | 'ESN'
 | 'TEO'
@@ -4939,6 +4942,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Zarb',
 	],
 	[
+		649,
+		0x80_00_02_89,
+		'LCN',
+		'Lyncoin',
+	],
+	[
 		650,
 		0x80_00_02_8A,
 		'UCO',
@@ -5199,8 +5208,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		718,
 		0x80_00_02_CE,
-		'PMC',
-		'Peer Meta Coin',
+		'PEER',
+		'Peer',
 	],
 	[
 		725,
@@ -6115,6 +6124,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Atheios',
 	],
 	[
+		1627,
+		0x80_00_06_5B,
+		'LUME',
+		'Lume Web',
+	],
+	[
 		1642,
 		0x80_00_06_6A,
 		'NEW',
@@ -6977,6 +6992,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_64_76,
 		'CHX',
 		'Own',
+	],
+	[
+		29_223,
+		0x80_00_72_27,
+		'NEXA',
+		'Nexa',
 	],
 	[
 		30_001,
