@@ -497,7 +497,7 @@ export type RegisteredCoinSymbol =
 | 'HASH'
 | 'CSPR'
 | 'EARTH'
-| 'ERD'
+| 'EGLD'
 | 'CHI'
 | 'KOTO'
 | 'OTC'
@@ -636,7 +636,7 @@ export type RegisteredCoinSymbol =
 | 'XLN'
 | 'CIC'
 | 'ZRB'
-| 'LCN'
+| '---'
 | 'UCO'
 | 'SFX'
 | 'SFT'
@@ -764,8 +764,7 @@ export type RegisteredCoinSymbol =
 | 'DIP'
 | 'GHM'
 | 'RUNE'
-| 'KCN'
-| 'YCN'
+| '---'
 | 'LTP'
 | 'VKAX'
 | 'MATIC'
@@ -1001,6 +1000,7 @@ export type RegisteredCoinSymbol =
 | 'AKA'
 | 'GENOM'
 | 'ATS'
+| 'ZAMA'
 | 'PI'
 | 'VALUE'
 | '3333'
@@ -4098,8 +4098,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		508,
 		0x80_00_01_FC,
-		'ERD',
-		'Elrond',
+		'EGLD',
+		'MultiversX',
 	],
 	[
 		509,
@@ -4944,8 +4944,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		649,
 		0x80_00_02_89,
-		'LCN',
-		'Lyncoin',
+		'---',
+		'reserved',
 	],
 	[
 		650,
@@ -5712,14 +5712,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		941,
 		0x80_00_03_AD,
-		'KCN',
-		'Kylacoin',
-	],
-	[
-		942,
-		0x80_00_03_AE,
-		'YCN',
-		'Yilacoin',
+		'---',
+		'reserved',
 	],
 	[
 		955,
@@ -7166,6 +7160,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_03_C3_01,
 		'ATS',
 		'ARTIS sigma1',
+	],
+	[
+		261_131,
+		0x80_03_FC_0B,
+		'ZAMA',
+		'Zama',
 	],
 	[
 		314_159,
