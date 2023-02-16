@@ -641,6 +641,7 @@ export type RegisteredCoinSymbol =
 | 'SFX'
 | 'SFT'
 | 'WSFX'
+| 'USDG'
 | 'WMP'
 | 'KOIN'
 | 'PIRATE'
@@ -889,7 +890,7 @@ export type RegisteredCoinSymbol =
 | 'REOSC'
 | 'BND'
 | 'LUX'
-| 'XHB'
+| 'HBAR'
 | 'COS'
 | 'CCC'
 | 'SXP'
@@ -4972,6 +4973,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Wrapped Safex Cash',
 	],
 	[
+		654,
+		0x80_00_02_8E,
+		'USDG',
+		'US Digital Gold',
+	],
+	[
 		655,
 		0x80_00_02_8F,
 		'WMP',
@@ -6486,7 +6493,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		3030,
 		0x80_00_0B_D6,
-		'XHB',
+		'HBAR',
 		'Hedera HBAR',
 	],
 	[
