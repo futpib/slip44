@@ -190,7 +190,7 @@ export type RegisteredCoinSymbol =
 | 'TRX'
 | 'KOBO'
 | 'HUSH'
-| 'BANANO'
+| 'BAN'
 | 'ETF'
 | 'OMNI'
 | 'BIFI'
@@ -717,6 +717,7 @@ export type RegisteredCoinSymbol =
 | 'REEF'
 | 'CLO'
 | 'BDB'
+| 'ACE'
 | 'CCN'
 | 'CRUZ'
 | 'SAPP'
@@ -743,6 +744,7 @@ export type RegisteredCoinSymbol =
 | 'HVH'
 | 'MOB'
 | 'IF'
+| 'NAM'
 | 'LUM'
 | 'ZBC'
 | 'ADF'
@@ -766,6 +768,7 @@ export type RegisteredCoinSymbol =
 | 'GHM'
 | 'RUNE'
 | '---'
+| 'UNLOCK'
 | 'LTP'
 | 'VKAX'
 | 'MATIC'
@@ -793,6 +796,7 @@ export type RegisteredCoinSymbol =
 | 'NODL'
 | 'PCOIN'
 | 'TAO'
+| 'HSK'
 | 'FTM'
 | 'RPG'
 | 'HT'
@@ -820,6 +824,7 @@ export type RegisteredCoinSymbol =
 | 'ALPH'
 | 'GLMR'
 | 'MOVR'
+| 'WPC'
 | 'WEI'
 | 'DFC'
 | 'HYC'
@@ -827,12 +832,15 @@ export type RegisteredCoinSymbol =
 | 'XSC'
 | 'AAC'
 | 'BEAM'
+| 'APC'
 | 'ELF'
 | 'AUDL'
 | 'ATH'
 | 'LUME'
 | 'NEW'
 | 'BTA'
+| 'NEOX'
+| 'MEWC'
 | 'BCX'
 | 'XTZ'
 | 'LBTC'
@@ -870,6 +878,7 @@ export type RegisteredCoinSymbol =
 | 'PKC'
 | 'SKT'
 | 'XHT'
+| 'ANY'
 | 'MCASH'
 | 'TRUE'
 | 'KILT'
@@ -885,6 +894,7 @@ export type RegisteredCoinSymbol =
 | 'ELA'
 | 'SNOW'
 | 'XIN'
+| 'NEXI'
 | 'AOA'
 | 'NAS'
 | 'REOSC'
@@ -929,12 +939,14 @@ export type RegisteredCoinSymbol =
 | 'SHFT'
 | 'BTV'
 | 'SKY'
+| 'BOC'
 | 'PAC'
 | 'KLAY'
 | 'BTQ'
 | 'XCH'
 | '---'
 | 'PLMNT'
+| 'GGX'
 | 'SBTC'
 | 'NULS'
 | 'BBC'
@@ -1047,6 +1059,7 @@ export type RegisteredCoinType = [
 	name: string,
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		0,
@@ -2239,8 +2252,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		198,
 		0x80_00_00_C6,
-		'BANANO',
-		'Bananos',
+		'BAN',
+		'Banano',
 	],
 	[
 		199,
@@ -5261,6 +5274,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Persistence',
 	],
 	[
+		753,
+		0x80_00_02_F1,
+		undefined,
+		'Age X25519 Encryption',
+	],
+	[
+		754,
+		0x80_00_02_F2,
+		undefined,
+		'Age NIST Encryption',
+	],
+	[
 		757,
 		0x80_00_02_F5,
 		'HONEY',
@@ -5429,6 +5454,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BigchainDB',
 	],
 	[
+		827,
+		0x80_00_03_3B,
+		'ACE',
+		'Endurance',
+	],
+	[
 		828,
 		0x80_00_03_3C,
 		'CCN',
@@ -5585,6 +5616,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Infinitefuture',
 	],
 	[
+		877,
+		0x80_00_03_6D,
+		'NAM',
+		'Namada',
+	],
+	[
 		880,
 		0x80_00_03_70,
 		'LUM',
@@ -5721,6 +5758,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_AD,
 		'---',
 		'reserved',
+	],
+	[
+		945,
+		0x80_00_03_B1,
+		'UNLOCK',
+		'Jasiri protocol',
 	],
 	[
 		955,
@@ -5891,6 +5934,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Bittensor',
 	],
 	[
+		1006,
+		0x80_00_03_EE,
+		'HSK',
+		'HashKey Chain',
+	],
+	[
 		1007,
 		0x80_00_03_EF,
 		'FTM',
@@ -6059,6 +6108,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Moonriver',
 	],
 	[
+		1298,
+		0x80_00_05_12,
+		'WPC',
+		'Wpc',
+	],
+	[
 		1308,
 		0x80_00_05_1C,
 		'WEI',
@@ -6107,6 +6162,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Beam',
 	],
 	[
+		1555,
+		0x80_00_06_13,
+		'APC',
+		'Apc Chain',
+	],
+	[
 		1616,
 		0x80_00_06_50,
 		'ELF',
@@ -6141,6 +6202,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_06_79,
 		'BTA',
 		'Btachain',
+	],
+	[
+		1668,
+		0x80_00_06_84,
+		'NEOX',
+		'Neoxa',
+	],
+	[
+		1669,
+		0x80_00_06_85,
+		'MEWC',
+		'Meowcoin',
 	],
 	[
 		1688,
@@ -6365,6 +6438,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Xinghuo Token',
 	],
 	[
+		2046,
+		0x80_00_07_FE,
+		'ANY',
+		'Any',
+	],
+	[
 		2048,
 		0x80_00_08_00,
 		'MCASH',
@@ -6459,6 +6538,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_09_3D,
 		'XIN',
 		'Mixin',
+	],
+	[
+		2500,
+		0x80_00_09_C4,
+		'NEXI',
+		'Nexi',
 	],
 	[
 		2570,
@@ -6731,6 +6816,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DSRV',
 	],
 	[
+		8181,
+		0x80_00_1F_F5,
+		'BOC',
+		'BeOne Chain',
+	],
+	[
 		8192,
 		0x80_00_20_00,
 		'PAC',
@@ -6765,6 +6856,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_21_E8,
 		'PLMNT',
 		'Planetmint',
+	],
+	[
+		8866,
+		0x80_00_22_A2,
+		'GGX',
+		'Golden Gate',
 	],
 	[
 		8888,
