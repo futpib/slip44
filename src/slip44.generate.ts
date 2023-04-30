@@ -100,7 +100,6 @@ async function main() {
 				name: string,
 			];
 
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			export const registeredCoinTypes: RegisteredCoinType[] = [
 		`,
 		...rows.map(({

@@ -5,7 +5,6 @@ export type RegisteredCoinType = [
 	name: string,
 ];
 
-// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		0,
