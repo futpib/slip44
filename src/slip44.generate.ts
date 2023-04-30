@@ -93,20 +93,10 @@ async function main() {
 
 	const typescript = [
 		outdent`
-			export type RegisteredCoinSymbol =
-		`,
-		...rows.flatMap(({ symbol }) => symbol ? [ symbol ] : []).map(symbol => (
-			outdent`
-				| ${stringify(symbol)}
-			`
-		)),
-		';',
-
-		outdent`
 			export type RegisteredCoinType = [
 				coinType: number,
 				derivationPathComponent: number,
-				symbol: undefined | RegisteredCoinSymbol,
+				symbol: undefined | string,
 				name: string,
 			];
 
