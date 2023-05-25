@@ -4183,6 +4183,30 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Peer',
 	],
 	[
+		719,
+		0x80_00_02_CF,
+		'ZET',
+		'Zetacoin',
+	],
+	[
+		720,
+		0x80_00_02_D0,
+		'ABY',
+		'Artbyte',
+	],
+	[
+		722,
+		0x80_00_02_D2,
+		'IL8P',
+		'InfiniLooP',
+	],
+	[
+		724,
+		0x80_00_02_D4,
+		'XVC',
+		'Vanillacash',
+	],
+	[
 		725,
 		0x80_00_02_D5,
 		'MCX',
@@ -4717,12 +4741,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'THORChain (RUNE)',
 	],
 	[
-		932,
-		0x80_00_03_A4,
-		'CACAO',
-		'Maya Protocol',
-	],
-	[
 		941,
 		0x80_00_03_AD,
 		'---',
@@ -4919,6 +4937,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_F0,
 		'RPG',
 		'RPG',
+	],
+	[
+		1009,
+		0x80_00_03_F1,
+		'LAKE',
+		'iconLake',
 	],
 	[
 		1010,
@@ -6057,7 +6081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		21_888,
 		0x80_00_55_80,
-		'PCT',
+		'PAC',
 		'Pactus',
 	],
 	[
@@ -6065,6 +6089,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_57_E8,
 		'PWR',
 		'PWRcoin',
+	],
+	[
+		23_000,
+		0x80_00_59_D8,
+		'EPIC',
+		'Epic Cash',
 	],
 	[
 		25_252,
