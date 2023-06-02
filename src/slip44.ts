@@ -2637,8 +2637,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		438,
 		0x80_00_01_B6,
-		'LN',
-		'LINK',
+		'FNSA',
+		'FINSCHIA',
 	],
 	[
 		439,
@@ -5003,6 +5003,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_04_03,
 		'MCM',
 		'Mochimo',
+	],
+	[
+		1028,
+		0x80_00_04_04,
+		'PLS',
+		'Pulse Coin',
 	],
 	[
 		1032,
