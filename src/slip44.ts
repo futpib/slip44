@@ -5089,6 +5089,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Alephium',
 	],
 	[
+		1236,
+		0x80_00_04_D4,
+		undefined,
+		'Masca',
+	],
+	[
 		1237,
 		0x80_00_04_D5,
 		undefined,
@@ -5123,6 +5129,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_05_39,
 		'DFC',
 		'Defcoin',
+	],
+	[
+		1348,
+		0x80_00_05_44,
+		'ISLM',
+		'IslamicCoin',
 	],
 	[
 		1397,
@@ -5533,6 +5545,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Elastos',
 	],
 	[
+		2309,
+		0x80_00_09_05,
+		'SAMA',
+		'Moonsama Network',
+	],
+	[
 		2338,
 		0x80_00_09_22,
 		'SNOW',
@@ -5785,6 +5803,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TheHolyrogerCoin',
 	],
 	[
+		7027,
+		0x80_00_1B_73,
+		'ELLA',
+		'Ella the heart',
+	],
+	[
+		7028,
+		0x80_00_1B_74,
+		'AA',
+		'Arthera',
+	],
+	[
 		7091,
 		0x80_00_1B_B3,
 		'TOPL',
@@ -5801,6 +5831,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1C_AD,
 		'SHFT',
 		'Shyft',
+	],
+	[
+		7518,
+		0x80_00_1D_5E,
+		'MEV',
+		'MEVerse',
 	],
 	[
 		7777,
