@@ -4375,6 +4375,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DSTRA',
 	],
 	[
+		802,
+		0x80_00_03_22,
+		'CY',
+		'Cyberyen',
+	],
+	[
 		804,
 		0x80_00_03_24,
 		'ZKS',
@@ -4607,6 +4613,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_6D,
 		'NAM',
 		'Namada',
+	],
+	[
+		878,
+		0x80_00_03_6E,
+		'SCR',
+		'Scorum Network',
 	],
 	[
 		880,
@@ -5503,6 +5515,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Chiliz',
 	],
 	[
+		2199,
+		0x80_00_08_97,
+		'SAMA',
+		'Moonsama Network',
+	],
+	[
 		2221,
 		0x80_00_08_AD,
 		'ASK',
@@ -5543,12 +5561,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_09_01,
 		'ELA',
 		'Elastos',
-	],
-	[
-		2309,
-		0x80_00_09_05,
-		'SAMA',
-		'Moonsama Network',
 	],
 	[
 		2338,
@@ -5839,6 +5851,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MEVerse',
 	],
 	[
+		7576,
+		0x80_00_1D_98,
+		'ADIL',
+		'ADIL Chain',
+	],
+	[
 		7777,
 		0x80_00_1E_61,
 		'BTV',
@@ -5903,6 +5921,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_22_A2,
 		'GGX',
 		'Golden Gate',
+	],
+	[
+		8886,
+		0x80_00_22_B6,
+		'GGXT',
+		'Golden Gate Sydney',
 	],
 	[
 		8888,
@@ -6011,6 +6035,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_28_33,
 		'XRC',
 		'XRhodium',
+	],
+	[
+		10_507,
+		0x80_00_29_0B,
+		'NUM',
+		'Numbers Protocol',
 	],
 	[
 		10_605,
