@@ -3949,6 +3949,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Ekta',
 	],
 	[
+		657,
+		0x80_00_02_91,
+		'YDA',
+		'YadaCoin',
+	],
+	[
 		659,
 		0x80_00_02_93,
 		'KOIN',
@@ -4579,6 +4585,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Flits',
 	],
 	[
+		851,
+		0x80_00_03_53,
+		'FRECO',
+		'Freco',
+	],
+	[
 		852,
 		0x80_00_03_54,
 		'DSM',
@@ -4709,6 +4721,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_8F,
 		'GERT',
 		'Gert',
+	],
+	[
+		913,
+		0x80_00_03_91,
+		'VARA',
+		'Vara Network',
 	],
 	[
 		916,
