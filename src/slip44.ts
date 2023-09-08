@@ -3801,7 +3801,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		632,
 		0x80_00_02_78,
-		'XMA',
+		'MAS',
 		'Massa',
 	],
 	[
@@ -5008,7 +5008,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		1023,
 		0x80_00_03_FF,
 		'ONE',
-		'HARMONY-ONE',
+		'HARMONY-ONE (Legacy)',
 	],
 	[
 		1024,
@@ -5803,6 +5803,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'My Own Internet',
 	],
 	[
+		6532,
+		0x80_00_19_84,
+		'UM',
+		'Penumbra',
+	],
+	[
 		6599,
 		0x80_00_19_C7,
 		'RSC',
@@ -6041,6 +6047,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_27_10,
 		'FO',
 		'FIBOS',
+	],
+	[
+		10_111,
+		0x80_00_27_7F,
+		'DHP',
+		'dHealth',
 	],
 	[
 		10_226,
