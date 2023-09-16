@@ -3967,6 +3967,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PirateCash',
 	],
 	[
+		661,
+		0x80_00_02_95,
+		'UNQ',
+		'Unique',
+	],
+	[
 		663,
 		0x80_00_02_97,
 		'SFRX',
@@ -4075,6 +4081,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Cheetahcoin',
 	],
 	[
+		683,
+		0x80_00_02_AB,
+		'ALEO',
+		'Aleo Network',
+	],
+	[
 		685,
 		0x80_00_02_AD,
 		'OAS',
@@ -4139,6 +4151,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_C3,
 		'MCOIN',
 		'Moneta Coin',
+	],
+	[
+		710,
+		0x80_00_02_C6,
+		'FURY',
+		'Highbury',
 	],
 	[
 		711,
@@ -5103,8 +5121,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		1155,
 		0x80_00_04_83,
-		'EFI',
-		'Efinity',
+		'ENJ',
+		'Enjin Coin',
 	],
 	[
 		1170,
@@ -5687,6 +5705,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0E_11,
 		'CY',
 		'Cybits',
+	],
+	[
+		3757,
+		0x80_00_0E_AD,
+		'MPC',
+		'Partisia Blockchain',
 	],
 	[
 		4040,
