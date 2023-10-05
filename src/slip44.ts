@@ -5149,6 +5149,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Nostr',
 	],
 	[
+		1280,
+		0x80_00_05_00,
+		undefined,
+		'Kudos Setler',
+	],
+	[
 		1284,
 		0x80_00_05_04,
 		'GLMR',
@@ -5491,6 +5497,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Sukhavati',
 	],
 	[
+		2024,
+		0x80_00_07_E8,
+		'USBC',
+		'Universal Ledger USBC',
+	],
+	[
 		2022,
 		0x80_00_07_E6,
 		'XHT',
@@ -5513,6 +5525,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_01,
 		'TRUE',
 		'TrueChain',
+	],
+	[
+		2050,
+		0x80_00_08_02,
+		'MOVO',
+		'Movo Smart Chain',
 	],
 	[
 		2086,
@@ -5561,6 +5579,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_AD,
 		'ASK',
 		'ASK',
+	],
+	[
+		2222,
+		0x80_00_08_AE,
+		'CWEB',
+		'Coinweb',
 	],
 	[
 		2285,
