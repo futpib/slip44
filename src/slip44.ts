@@ -5011,6 +5011,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Beincrypto',
 	],
 	[
+		1016,
+		0x80_00_03_F8,
+		'CORE',
+		'Core',
+	],
+	[
 		1020,
 		0x80_00_03_FC,
 		'EVC',
@@ -5225,6 +5231,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_05_FD,
 		'BEAM',
 		'Beam',
+	],
+	[
+		1551,
+		0x80_00_06_0F,
+		'SDK',
+		'Sovereign SDK',
 	],
 	[
 		1555,
@@ -5507,6 +5519,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_E6,
 		'XHT',
 		'Xinghuo Token',
+	],
+	[
+		2023,
+		0x80_00_07_E7,
+		'COC',
+		'Chat On Chain',
 	],
 	[
 		2046,
@@ -6581,6 +6599,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_63_72_6D,
 		'CRM',
 		'Creamcoin',
+	],
+	[
+		7_171_666,
+		0x80_6D_6E_52,
+		'BROCK',
+		'Bitrock',
 	],
 	[
 		7_562_605,
