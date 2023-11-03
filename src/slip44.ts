@@ -5365,6 +5365,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Classica',
 	],
 	[
+		1907,
+		0x80_00_07_73,
+		'BITCI',
+		'Bitcicoin',
+	],
+	[
 		1919,
 		0x80_00_07_7F,
 		'VIPS',
@@ -5681,6 +5687,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0B_7D,
 		'BND',
 		'Blocknode',
+	],
+	[
+		3000,
+		0x80_00_0B_B8,
+		'SM',
+		'Stealth Message',
 	],
 	[
 		3003,
@@ -6233,6 +6245,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_4A_E1,
 		'RITO',
 		'Ritocoin',
+	],
+	[
+		19_788,
+		0x80_00_4D_4C,
+		'ML',
+		'Mintlayer',
 	],
 	[
 		20_036,
