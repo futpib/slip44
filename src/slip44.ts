@@ -1695,8 +1695,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		281,
 		0x80_00_01_19,
-		'FCTID',
-		'Factom ID',
+		'ACME',
+		'Accumulate',
 	],
 	[
 		282,
@@ -4237,6 +4237,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MultiCash',
 	],
 	[
+		727,
+		0x80_00_02_D7,
+		'BLU',
+		'BluCrates',
+	],
+	[
 		730,
 		0x80_00_02_DA,
 		'HEALIOS',
@@ -5005,6 +5011,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Eluvio',
 	],
 	[
+		1012,
+		0x80_00_03_F4,
+		'JOC',
+		'Japan Open Chain',
+	],
+	[
 		1013,
 		0x80_00_03_F5,
 		'BIC',
@@ -5013,8 +5025,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		1016,
 		0x80_00_03_F8,
-		'CORE',
-		'Core',
+		'---',
+		'reserved',
 	],
 	[
 		1020,
@@ -5081,6 +5093,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_04_57,
 		'BBC',
 		'Big Bitcoin',
+	],
+	[
+		1116,
+		0x80_00_04_5C,
+		'CORE',
+		'Core',
 	],
 	[
 		1120,
