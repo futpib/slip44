@@ -4147,6 +4147,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Commercio Cash Credit',
 	],
 	[
+		705,
+		0x80_00_02_C1,
+		'PEG',
+		'Pegasus Token',
+	],
+	[
+		706,
+		0x80_00_02_C2,
+		'LKG',
+		'Lionking',
+	],
+	[
 		707,
 		0x80_00_02_C3,
 		'MCOIN',
@@ -4217,6 +4229,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_D0,
 		'ABY',
 		'Artbyte',
+	],
+	[
+		721,
+		0x80_00_02_D1,
+		'PGX',
+		'Mirai Chain',
 	],
 	[
 		722,
@@ -5831,6 +5849,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_13_37,
 		'XVM',
 		'Venidium',
+	],
+	[
+		4999,
+		0x80_00_13_87,
+		'BXN',
+		'BlackFort Exchange Network',
 	],
 	[
 		5006,
