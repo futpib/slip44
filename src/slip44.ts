@@ -3979,6 +3979,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'EtherGem Sapphire',
 	],
 	[
+		664,
+		0x80_00_02_98,
+		'BSTY',
+		'GlobalBoost-Y',
+	],
+	[
+		665,
+		0x80_00_02_99,
+		'IMP',
+		'Impact Protocol',
+	],
+	[
 		666,
 		0x80_00_02_9A,
 		'ACT',
@@ -4145,6 +4157,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_BE,
 		'CCC',
 		'Commercio Cash Credit',
+	],
+	[
+		704,
+		0x80_00_02_C0,
+		'RAQ',
+		'Ra Quantum',
 	],
 	[
 		705,
