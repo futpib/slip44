@@ -4351,6 +4351,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BR',
 	],
 	[
+		773,
+		0x80_00_03_05,
+		'CSB',
+		'CosmoBliss',
+	],
+	[
 		775,
 		0x80_00_03_07,
 		'PLSR',
@@ -5875,6 +5881,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BlackFort Exchange Network',
 	],
 	[
+		5000,
+		0x80_00_13_88,
+		'V12',
+		'Vet The Vote',
+	],
+	[
 		5006,
 		0x80_00_13_8E,
 		'SBC',
@@ -5927,6 +5939,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_17_20,
 		'SLU',
 		'SILUBIUM',
+	],
+	[
+		5995,
+		0x80_00_17_6B,
+		'DUSK',
+		'Dusk Network',
 	],
 	[
 		6060,
@@ -6023,6 +6041,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1E_61,
 		'BTV',
 		'Bitvote',
+	],
+	[
+		7779,
+		0x80_00_1E_63,
+		'CPV',
+		'Compverse',
 	],
 	[
 		8000,
@@ -6197,6 +6221,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_27_F2,
 		'RTM',
 		'Raptoreum',
+	],
+	[
+		10_242,
+		0x80_00_28_02,
+		'AA',
+		'Arthera',
 	],
 	[
 		10_291,
@@ -6421,6 +6451,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'AXIV',
 	],
 	[
+		47_803,
+		0x80_00_BA_BB,
+		'BAX',
+		'BAX',
+	],
+	[
 		49_262,
 		0x80_00_C0_6E,
 		'EVE',
@@ -6521,6 +6557,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_01_10_00,
 		'GENOM',
 		'GENOM',
+	],
+	[
+		224_433,
+		0x80_03_6C_B1,
+		'CONET',
+		'CONET Holesky Network',
 	],
 	[
 		246_529,
