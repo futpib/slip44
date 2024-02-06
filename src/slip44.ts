@@ -4489,6 +4489,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Qitmeer',
 	],
 	[
+		816,
+		0x80_00_03_30,
+		'FSC',
+		'FSC',
+	],
+	[
 		818,
 		0x80_00_03_32,
 		'VET',
@@ -5803,6 +5809,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Sequence',
 	],
 	[
+		3501,
+		0x80_00_0D_AD,
+		'JFIN',
+		'JFIN Coin',
+	],
+	[
 		3552,
 		0x80_00_0D_E0,
 		'DEO',
@@ -5953,10 +5965,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'GoChain GO',
 	],
 	[
+		6144,
+		0x80_00_18_00,
+		'DTS',
+		'Datos',
+	],
+	[
 		6174,
 		0x80_00_18_1E,
 		'MOI',
 		'My Own Internet',
+	],
+	[
+		6278,
+		0x80_00_18_86,
+		'STEAMX',
+		'Rails Network Mainnet',
 	],
 	[
 		6532,
@@ -5993,6 +6017,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1B_39,
 		'ROGER',
 		'TheHolyrogerCoin',
+	],
+	[
+		7000,
+		0x80_00_1B_58,
+		'ZETA',
+		'ZetaChain',
 	],
 	[
 		7027,
