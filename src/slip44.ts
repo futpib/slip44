@@ -4429,6 +4429,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Lamden',
 	],
 	[
+		794,
+		0x80_00_03_1A,
+		'INTR',
+		'Interlay',
+	],
+	[
+		795,
+		0x80_00_03_1B,
+		'KINT',
+		'Kintsugi',
+	],
+	[
 		799,
 		0x80_00_03_1F,
 		'PDEX',
@@ -4517,6 +4529,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_36,
 		'BDB',
 		'BigchainDB',
+	],
+	[
+		824,
+		0x80_00_03_38,
+		'RBNT',
+		'Redbelly Network',
 	],
 	[
 		827,
@@ -4883,6 +4901,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_C8,
 		'UNW',
 		'UNW',
+	],
+	[
+		969,
+		0x80_00_03_C9,
+		'QI',
+		'Quai Network',
 	],
 	[
 		970,
