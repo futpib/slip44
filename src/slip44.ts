@@ -4123,6 +4123,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KleverChain',
 	],
 	[
+		691,
+		0x80_00_02_B3,
+		'TNT',
+		'Tangle',
+	],
+	[
 		694,
 		0x80_00_02_B6,
 		'VTBC',
@@ -5677,12 +5683,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Ergon',
 	],
 	[
-		2182,
-		0x80_00_08_88,
-		'CHZ',
-		'Chiliz',
-	],
-	[
 		2199,
 		0x80_00_08_97,
 		'SAMA',
@@ -6265,6 +6265,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'FIBOS',
 	],
 	[
+		10_001,
+		0x80_00_27_11,
+		'SPACE',
+		'Space',
+	],
+	[
 		10_111,
 		0x80_00_27_7F,
 		'DHP',
@@ -6341,6 +6347,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_33_34,
 		'YCC',
 		'Yuan Chain Coin',
+	],
+	[
+		13_381,
+		0x80_00_34_45,
+		'PHX',
+		'Phoenix',
 	],
 	[
 		14_001,
@@ -6595,6 +6607,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Kaspa',
 	],
 	[
+		121_337,
+		0x80_01_D9_F9,
+		'KLS',
+		'Karlsen',
+	],
+	[
 		161_803,
 		0x80_02_78_0B,
 		'APTA',
@@ -6605,12 +6623,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_03_0F_B1,
 		'AKA',
 		'Akroma',
-	],
-	[
-		200_665,
-		0x80_01_10_00,
-		'GENOM',
-		'GENOM',
 	],
 	[
 		224_433,
