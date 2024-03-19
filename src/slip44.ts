@@ -4099,6 +4099,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Aleo Network',
 	],
 	[
+		684,
+		0x80_00_02_AC,
+		'HMS',
+		'Hemis',
+	],
+	[
 		685,
 		0x80_00_02_AD,
 		'OAS',
@@ -4187,6 +4193,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_C3,
 		'MCOIN',
 		'Moneta Coin',
+	],
+	[
+		709,
+		0x80_00_02_C5,
+		'AVAIL',
+		'Avail',
 	],
 	[
 		710,
@@ -5455,6 +5467,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'eCash token',
 	],
 	[
+		1900,
+		0x80_00_07_6C,
+		'XNA',
+		'Neurai',
+	],
+	[
 		1901,
 		0x80_00_07_6D,
 		'CLC',
@@ -5759,6 +5777,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0A_0A,
 		'AOA',
 		'Aurora',
+	],
+	[
+		2686,
+		0x80_00_0A_7E,
+		'AIPG',
+		'AIPowerGrid',
 	],
 	[
 		2718,
@@ -6677,6 +6701,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_0A_2C_2A,
 		'VITE',
 		'Vite',
+	],
+	[
+		696_365,
+		0x80_0B_32_06,
+		'ICE',
+		'Ice Network',
 	],
 	[
 		888_888,
