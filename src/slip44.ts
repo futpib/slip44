@@ -3081,7 +3081,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		512,
 		0x80_00_02_00,
-		'XRD',
+		'RXD',
 		'Radiant',
 	],
 	[
@@ -3955,6 +3955,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'YadaCoin',
 	],
 	[
+		658,
+		0x80_00_02_92,
+		'WHIVE',
+		'Whive',
+	],
+	[
 		659,
 		0x80_00_02_93,
 		'KOIN',
@@ -4099,6 +4105,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Aleo Network',
 	],
 	[
+		684,
+		0x80_00_02_AC,
+		'HMS',
+		'Hemis',
+	],
+	[
 		685,
 		0x80_00_02_AD,
 		'OAS',
@@ -4189,6 +4201,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Moneta Coin',
 	],
 	[
+		709,
+		0x80_00_02_C5,
+		'AVAIL',
+		'Avail',
+	],
+	[
 		710,
 		0x80_00_02_C6,
 		'FURY',
@@ -4265,6 +4283,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_D2,
 		'IL8P',
 		'InfiniLooP',
+	],
+	[
+		723,
+		0x80_00_02_D3,
+		'VOI',
+		'Voi',
 	],
 	[
 		724,
@@ -5287,6 +5311,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Defcoin',
 	],
 	[
+		1338,
+		0x80_00_05_3A,
+		'IRON',
+		'Iron Fish',
+	],
+	[
 		1348,
 		0x80_00_05_44,
 		'ISLM',
@@ -5453,6 +5483,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_6B,
 		'XEC',
 		'eCash token',
+	],
+	[
+		1900,
+		0x80_00_07_6C,
+		'XNA',
+		'Neurai',
 	],
 	[
 		1901,
@@ -5759,6 +5795,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0A_0A,
 		'AOA',
 		'Aurora',
+	],
+	[
+		2686,
+		0x80_00_0A_7E,
+		'AIPG',
+		'AIPowerGrid',
 	],
 	[
 		2718,
@@ -6679,6 +6721,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Vite',
 	],
 	[
+		696_365,
+		0x80_0B_32_06,
+		'ICE',
+		'Ice Network',
+	],
+	[
 		888_888,
 		0x80_0D_90_38,
 		'SEA',
@@ -6881,6 +6929,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_AB_CD_EF,
 		'LBR',
 		'0L',
+	],
+	[
+		20_230_101,
+		0x81_34_AF_D5,
+		'ROH',
+		'Rooch',
 	],
 	[
 		608_589_380,
