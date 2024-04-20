@@ -3979,6 +3979,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Unique',
 	],
 	[
+		662,
+		0x80_00_02_96,
+		'ULM',
+		'UltonSmartchain',
+	],
+	[
 		663,
 		0x80_00_02_97,
 		'SFRX',
@@ -4129,6 +4135,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'CoinEx Chain',
 	],
 	[
+		689,
+		0x80_00_02_B1,
+		'XLINK',
+		'XLink Chain',
+	],
+	[
 		690,
 		0x80_00_02_B2,
 		'KLV',
@@ -4175,6 +4187,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_BE,
 		'CCC',
 		'Commercio Cash Credit',
+	],
+	[
+		703,
+		0x80_00_02_BF,
+		'SNR',
+		'Sonr',
 	],
 	[
 		704,
@@ -4891,10 +4909,28 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'THORChain (RUNE)',
 	],
 	[
+		938,
+		0x80_00_03_AA,
+		'MGO',
+		'Mango Network',
+	],
+	[
 		941,
 		0x80_00_03_AD,
 		'---',
 		'reserved',
+	],
+	[
+		942,
+		0x80_00_03_AE,
+		'KCN',
+		'Kylacoin',
+	],
+	[
+		943,
+		0x80_00_03_AF,
+		'LCN',
+		'Lyncoin',
 	],
 	[
 		945,
@@ -5663,6 +5699,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_E7,
 		'COC',
 		'Chat On Chain',
+	],
+	[
+		2025,
+		0x80_00_07_E9,
+		'ROCK',
+		'Zenrock Labs',
 	],
 	[
 		2046,
@@ -6461,6 +6503,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_52_0C,
 		'C4EI',
 		'c4ei',
+	],
+	[
+		21_337,
+		0x80_00_53_59,
+		'XAH',
+		'Xahau',
 	],
 	[
 		21_888,
