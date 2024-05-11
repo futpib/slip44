@@ -4129,6 +4129,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Karura Network',
 	],
 	[
+		687,
+		0x80_00_02_AF,
+		'FLON',
+		'FullOn Network',
+	],
+	[
 		688,
 		0x80_00_02_B0,
 		'CET',
@@ -4511,6 +4517,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_22,
 		'CY',
 		'Cyberyen',
+	],
+	[
+		803,
+		0x80_00_03_23,
+		'RYME',
+		'Ryme Network',
 	],
 	[
 		804,
@@ -5159,6 +5171,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_F5,
 		'BIC',
 		'Beincrypto',
+	],
+	[
+		1014,
+		0x80_00_03_F6,
+		'JOY',
+		'Joystream',
 	],
 	[
 		1016,
@@ -6983,6 +7001,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x81_34_AF_D5,
 		'ROH',
 		'Rooch',
+	],
+	[
+		20_240_430,
+		0x81_34_D8_2E,
+		'NLK',
+		'NuLinkCoin',
 	],
 	[
 		608_589_380,
