@@ -832,7 +832,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		137,
 		0x80_00_00_89,
 		'RBTC',
-		'RSK',
+		'Rootstock',
 	],
 	[
 		138,
@@ -4855,6 +4855,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Helium',
 	],
 	[
+		906,
+		0x80_00_03_8A,
+		'XPX',
+		'Sirius',
+	],
+	[
 		907,
 		0x80_00_03_8B,
 		'FIS',
@@ -4925,6 +4931,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_AA,
 		'MGO',
 		'Mango Network',
+	],
+	[
+		939,
+		0x80_00_03_AB,
+		'AB',
+		'Argot Protocol',
 	],
 	[
 		941,
@@ -6557,6 +6569,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_64_76,
 		'CHX',
 		'Own',
+	],
+	[
+		26_417,
+		0x80_00_67_31,
+		'G1',
+		'Ğ1',
 	],
 	[
 		29_223,
