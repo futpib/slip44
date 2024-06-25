@@ -4333,6 +4333,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BluCrates',
 	],
 	[
+		728,
+		0x80_00_02_D8,
+		'BFC',
+		'BFC',
+	],
+	[
 		730,
 		0x80_00_02_DA,
 		'HEALIOS',
@@ -5947,6 +5953,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Sequence',
 	],
 	[
+		3434,
+		0x80_00_0D_6A,
+		'PEPE',
+		'Pepecoin Core',
+	],
+	[
 		3501,
 		0x80_00_0D_AD,
 		'JFIN',
@@ -6719,6 +6731,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_01_8A_92,
 		'STC',
 		'Starcoin',
+	],
+	[
+		104_109,
+		0x80_01_96_AD,
+		undefined,
+		'Seed Hypermedia',
 	],
 	[
 		105_105,
