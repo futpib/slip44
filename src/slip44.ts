@@ -7056,4 +7056,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		undefined,
 		'Fuel',
 	],
+	[
+		1_179_993_421,
+		0xC6_55_45_4D,
+		'TTNC',
+		'TakeTitan',
+	],
+	[
+		1_179_993_431,
+		0xC6_55_45_57,
+		'MTGBP',
+		'MTGBP',
+	],
+	[
+		1_179_993_441,
+		0xC6_55_45_61,
+		'QFS',
+		'Qfs',
+	],
 ];
