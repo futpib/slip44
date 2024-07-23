@@ -5377,6 +5377,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'WEI',
 	],
 	[
+		1312,
+		0x80_00_05_20,
+		'BITS',
+		'Entropy',
+	],
+	[
 		1337,
 		0x80_00_05_39,
 		'DFC',
@@ -5935,6 +5941,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Solar',
 	],
 	[
+		3338,
+		0x80_00_0D_0A,
+		'PEAQ',
+		'peaq',
+	],
+	[
 		3377,
 		0x80_00_0D_31,
 		'ROI',
@@ -5987,6 +5999,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0E_AD,
 		'MPC',
 		'Partisia Blockchain',
+	],
+	[
+		3840,
+		0x80_00_0F_00,
+		'RED',
+		'ReDeFi RED',
 	],
 	[
 		4040,
@@ -6281,6 +6299,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_21_E8,
 		'PLMNT',
 		'Planetmint',
+	],
+	[
+		8732,
+		0x80_00_22_1C,
+		'BLN',
+		'Bullions',
 	],
 	[
 		8866,
@@ -6701,6 +6725,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_01_11_77,
 		'GWL',
 		'Gewel',
+	],
+	[
+		83_293,
+		0x80_01_45_5D,
+		'QUBIC',
+		'Qubic',
 	],
 	[
 		77_777,
