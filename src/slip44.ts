@@ -874,7 +874,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		144,
 		0x80_00_00_90,
 		'XRP',
-		'Ripple',
+		'XRP',
 	],
 	[
 		145,
@@ -4567,6 +4567,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Qitmeer',
 	],
 	[
+		815,
+		0x80_00_03_2F,
+		'FACT',
+		'ImFACT',
+	],
+	[
 		816,
 		0x80_00_03_30,
 		'FSC',
@@ -5747,6 +5753,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_E9,
 		'ROCK',
 		'Zenrock Labs',
+	],
+	[
+		2026,
+		0x80_00_07_EA,
+		'ASTRON',
+		'ASTRON Token',
 	],
 	[
 		2046,
