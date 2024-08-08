@@ -5443,6 +5443,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Beam',
 	],
 	[
+		1536,
+		0x80_00_06_00,
+		'GAS',
+		'BubiChain',
+	],
+	[
 		1551,
 		0x80_00_06_0F,
 		'SDK',
@@ -5791,6 +5797,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KILT Spiritnet',
 	],
 	[
+		2091,
+		0x80_00_08_2B,
+		'FRQCY',
+		'Frequency',
+	],
+	[
 		2109,
 		0x80_00_08_3D,
 		'SAMA',
@@ -5903,6 +5915,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0A_9E,
 		'NAS',
 		'Nebulas',
+	],
+	[
+		2809,
+		0x80_00_0A_F9,
+		'LAN',
+		'Lanify',
 	],
 	[
 		2894,
@@ -6797,6 +6815,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_01_D9_F9,
 		'KLS',
 		'Karlsen',
+	],
+	[
+		123_456,
+		0x80_01_E2_40,
+		'SPR',
+		'Spectre',
 	],
 	[
 		161_803,
