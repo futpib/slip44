@@ -4165,6 +4165,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'VTB Community',
 	],
 	[
+		696,
+		0x80_00_02_B8,
+		'LUM',
+		'Lumos',
+	],
+	[
 		698,
 		0x80_00_02_BA,
 		'VEIL',
@@ -4535,6 +4541,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_24,
 		'ZKS',
 		'zkSync',
+	],
+	[
+		805,
+		0x80_00_03_25,
+		'SCASH',
+		'Scash',
 	],
 	[
 		808,
@@ -6319,6 +6331,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Chia',
 	],
 	[
+		8453,
+		0x80_00_21_05,
+		undefined,
+		'Base',
+	],
+	[
 		8520,
 		0x80_00_21_48,
 		'---',
@@ -6733,6 +6751,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Celo',
 	],
 	[
+		54_176,
+		0x80_00_D3_A0,
+		'OVER',
+		'OverProtocol',
+	],
+	[
 		61_616,
 		0x80_00_F0_B0,
 		'TH',
@@ -7139,5 +7163,11 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0xC6_55_45_61,
 		'QFS',
 		'Qfs',
+	],
+	[
+		1_179_993_451,
+		0xC6_55_45_6B,
+		'RWA',
+		'Asset Chain',
 	],
 ];
