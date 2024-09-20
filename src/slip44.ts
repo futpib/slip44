@@ -4399,6 +4399,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HoneyWood',
 	],
 	[
+		765,
+		0x80_00_02_FD,
+		'TGN',
+		'Tagion',
+	],
+	[
 		768,
 		0x80_00_03_00,
 		'BALLZ',
@@ -5617,6 +5623,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'City Coin',
 	],
 	[
+		1951,
+		0x80_00_07_9F,
+		'ESA',
+		'Esa',
+	],
+	[
+		1952,
+		0x80_00_07_A0,
+		'ESC',
+		'EsaCoin',
+	],
+	[
 		1955,
 		0x80_00_07_A3,
 		'XX',
@@ -5717,6 +5735,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_D2,
 		'MLN',
 		'Miraland',
+	],
+	[
+		2015,
+		0x80_00_07_DF,
+		'TEER',
+		'Integritee',
 	],
 	[
 		2017,
@@ -6295,6 +6319,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Skycoin',
 	],
 	[
+		8017,
+		0x80_00_1F_51,
+		'ISC',
+		'iSunCoin',
+	],
+	[
 		8080,
 		0x80_00_1F_90,
 		undefined,
@@ -6859,6 +6889,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Akroma',
 	],
 	[
+		200_901,
+		0x80_03_10_C5,
+		'BTR',
+		'Bitlayer',
+	],
+	[
 		224_433,
 		0x80_03_6C_B1,
 		'CONET',
@@ -7079,6 +7115,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x83_AD_BC_39,
 		'AQUA',
 		'Aquachain',
+	],
+	[
+		77_777_777,
+		0x84_A2_CB_71,
+		'AZT',
+		'Aztecoin',
 	],
 	[
 		88_888_888,
