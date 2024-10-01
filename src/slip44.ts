@@ -4159,6 +4159,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Tangle',
 	],
 	[
+		692,
+		0x80_00_02_B4,
+		'GTG',
+		'Gotigin',
+	],
+	[
 		694,
 		0x80_00_02_B6,
 		'VTBC',
@@ -5389,6 +5395,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Moonriver',
 	],
 	[
+		1286,
+		0x80_00_05_06,
+		'DSG',
+		'Dessage Social Protocol',
+	],
+	[
 		1298,
 		0x80_00_05_12,
 		'WPC',
@@ -5999,6 +6011,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0C_CC,
 		'CCC',
 		'CodeChain',
+	],
+	[
+		3344,
+		0x80_00_0D_10,
+		'PLMC',
+		'Polimec',
 	],
 	[
 		3333,
