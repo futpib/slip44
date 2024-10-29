@@ -4159,6 +4159,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Tangle',
 	],
 	[
+		692,
+		0x80_00_02_B4,
+		'GTG',
+		'Gotigin',
+	],
+	[
 		694,
 		0x80_00_02_B6,
 		'VTBC',
@@ -4229,6 +4235,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_C3,
 		'MCOIN',
 		'Moneta Coin',
+	],
+	[
+		708,
+		0x80_00_02_C4,
+		'---',
+		'reserved',
 	],
 	[
 		709,
@@ -5221,6 +5233,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Joystream',
 	],
 	[
+		1015,
+		0x80_00_03_F7,
+		'ZCX',
+		'ZEN Exchange Token',
+	],
+	[
 		1016,
 		0x80_00_03_F8,
 		'---',
@@ -5389,6 +5407,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Moonriver',
 	],
 	[
+		1286,
+		0x80_00_05_06,
+		'DSG',
+		'Dessage Social Protocol',
+	],
+	[
 		1298,
 		0x80_00_05_12,
 		'WPC',
@@ -5465,6 +5489,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_06_00,
 		'GAS',
 		'BubiChain',
+	],
+	[
+		1540,
+		0x80_00_06_04,
+		'ATHENA',
+		'Athena',
 	],
 	[
 		1551,
@@ -5999,6 +6029,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0C_CC,
 		'CCC',
 		'CodeChain',
+	],
+	[
+		3344,
+		0x80_00_0D_10,
+		'PLMC',
+		'Polimec',
 	],
 	[
 		3333,
@@ -6875,6 +6911,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_01_E2_40,
 		'SPR',
 		'Spectre',
+	],
+	[
+		130_822,
+		0x80_01_FF_06,
+		'WBT',
+		'WhiteBIT Coin',
 	],
 	[
 		161_803,
