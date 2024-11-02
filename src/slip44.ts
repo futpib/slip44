@@ -4381,6 +4381,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Financial Blockchain',
 	],
 	[
+		738,
+		0x80_00_02_E2,
+		'BTE',
+		'Bitweb',
+	],
+	[
+		739,
+		0x80_00_02_E3,
+		'DPC',
+		'Dpowcoin (DualPowCoin)',
+	],
+	[
 		747,
 		0x80_00_02_EB,
 		'CFG',
