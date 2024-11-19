@@ -4381,6 +4381,24 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Financial Blockchain',
 	],
 	[
+		738,
+		0x80_00_02_E2,
+		'BTE',
+		'Bitweb',
+	],
+	[
+		739,
+		0x80_00_02_E3,
+		'DPC',
+		'Dpowcoin (DualPowCoin)',
+	],
+	[
+		740,
+		0x80_00_02_E4,
+		'MDC',
+		'MyDataCoin',
+	],
+	[
 		747,
 		0x80_00_02_EB,
 		'CFG',
@@ -4801,6 +4819,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HAVAH',
 	],
 	[
+		864,
+		0x80_00_03_60,
+		'CVM',
+		'Convex',
+	],
+	[
 		866,
 		0x80_00_03_62,
 		'MOB',
@@ -4811,6 +4835,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_64,
 		'IF',
 		'Infinitefuture',
+	],
+	[
+		873,
+		0x80_00_03_69,
+		'QUORUM',
+		'Quorum',
 	],
 	[
 		877,
@@ -6157,6 +6187,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Venidium',
 	],
 	[
+		4976,
+		0x80_00_13_70,
+		'VARA',
+		'Vara',
+	],
+	[
 		4999,
 		0x80_00_13_87,
 		'BXN',
@@ -6305,6 +6341,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1B_74,
 		'AA',
 		'Arthera',
+	],
+	[
+		7070,
+		0x80_00_1B_9E,
+		'DOI',
+		'Doichain',
 	],
 	[
 		7091,
@@ -6515,6 +6557,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_26_A0,
 		'BTF',
 		'Bitcoin Faith',
+	],
+	[
+		9969,
+		0x80_00_26_F1,
+		'OSMI',
+		'Osmium',
 	],
 	[
 		9999,
