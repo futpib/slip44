@@ -4165,10 +4165,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Gotigin',
 	],
 	[
+		693,
+		0x80_00_02_B5,
+		'NET',
+		'RealityNet',
+	],
+	[
 		694,
 		0x80_00_02_B6,
 		'VTBC',
 		'VTB Community',
+	],
+	[
+		695,
+		0x80_00_02_B7,
+		'DIONE',
+		'Odyssey Chain',
 	],
 	[
 		696,
@@ -4345,6 +4357,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'MultiCash',
 	],
 	[
+		726,
+		0x80_00_02_D6,
+		'TARA',
+		'Taraxa',
+	],
+	[
 		727,
 		0x80_00_02_D7,
 		'BLU',
@@ -4397,6 +4415,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_E4,
 		'MDC',
 		'MyDataCoin',
+	],
+	[
+		741,
+		0x80_00_02_E5,
+		'RIV',
+		'Rigvid',
+	],
+	[
+		744,
+		0x80_00_02_E8,
+		'DUSK',
+		'Dusk',
 	],
 	[
 		747,
@@ -5671,6 +5701,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Bitcicoin',
 	],
 	[
+		1918,
+		0x80_00_07_7E,
+		'BKC',
+		'Briskcoin',
+	],
+	[
 		1919,
 		0x80_00_07_7F,
 		'VIPS',
@@ -6181,6 +6217,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Chain4Energy',
 	],
 	[
+		4646,
+		0x80_00_12_26,
+		'MST',
+		'MST',
+	],
+	[
 		4919,
 		0x80_00_13_37,
 		'XVM',
@@ -6423,8 +6465,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		8217,
 		0x80_00_20_19,
-		'KLAY',
-		'KLAY',
+		'KAIA',
+		'KAIA',
 	],
 	[
 		8339,
@@ -7027,6 +7069,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'x42',
 	],
 	[
+		440_017,
+		0x80_06_B6_D1,
+		'@G',
+		'Graphite',
+	],
+	[
 		534_352,
 		0x80_08_27_50,
 		'SCR',
@@ -7195,10 +7243,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ANFS',
 	],
 	[
+		10_000_118,
+		0x80_5D_30_B6,
+		'OSMO',
+		'Osmosis',
+	],
+	[
 		15_118_976,
 		0x80_E6_B2_80,
 		'XDS',
 		'XDS',
+	],
+	[
+		19_000_118,
+		0x81_21_EB_36,
+		'SEI',
+		'SEI',
 	],
 	[
 		61_717_561,
