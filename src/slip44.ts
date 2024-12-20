@@ -4459,6 +4459,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'HoneyWood',
 	],
 	[
+		758,
+		0x80_00_02_F6,
+		'XDD',
+		'XDDCoin',
+	],
+	[
 		765,
 		0x80_00_02_FD,
 		'TGN',
@@ -4847,6 +4853,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_5A,
 		'HVH',
 		'HAVAH',
+	],
+	[
+		860,
+		0x80_00_03_5C,
+		'XBIT',
+		'XBIT Coin',
 	],
 	[
 		864,
