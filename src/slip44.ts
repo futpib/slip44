@@ -4189,6 +4189,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Lumos',
 	],
 	[
+		697,
+		0x80_00_02_B9,
+		'AVA',
+		'Avalon',
+	],
+	[
 		698,
 		0x80_00_02_BA,
 		'VEIL',
@@ -4375,6 +4381,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BFC',
 	],
 	[
+		729,
+		0x80_00_02_D9,
+		'DCC',
+		'DecentraCast',
+	],
+	[
 		730,
 		0x80_00_02_DA,
 		'HEALIOS',
@@ -4385,6 +4397,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_DB,
 		'BMK',
 		'Bitmark',
+	],
+	[
+		733,
+		0x80_00_02_DD,
+		'TBC',
+		'TBChat',
 	],
 	[
 		734,
@@ -4457,6 +4475,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_F5,
 		'HONEY',
 		'HoneyWood',
+	],
+	[
+		758,
+		0x80_00_02_F6,
+		'XDD',
+		'XDDCoin',
 	],
 	[
 		765,
@@ -4535,6 +4559,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_10,
 		'SUI',
 		'Sui',
+	],
+	[
+		785,
+		0x80_00_03_11,
+		'ULTIMA',
+		'ULTIMA',
 	],
 	[
 		786,
@@ -4847,6 +4877,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_5A,
 		'HVH',
 		'HAVAH',
+	],
+	[
+		860,
+		0x80_00_03_5C,
+		'XBIT',
+		'XBIT Coin',
 	],
 	[
 		864,
@@ -6505,6 +6541,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Bullions',
 	],
 	[
+		8738,
+		0x80_00_22_22,
+		'ALPH',
+		'Alph Network',
+	],
+	[
 		8866,
 		0x80_00_22_A2,
 		'GGX',
@@ -6623,6 +6665,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_27_11,
 		'SPACE',
 		'Space',
+	],
+	[
+		10_007,
+		0x80_00_27_17,
+		'S',
+		'SONIC',
 	],
 	[
 		10_111,
