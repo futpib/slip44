@@ -5701,12 +5701,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Cube Chain Native Token',
 	],
 	[
-		1856,
-		0x80_00_07_43,
-		'TES',
-		'Teslacoin',
-	],
-	[
 		1888,
 		0x80_00_07_60,
 		'ZTX',
@@ -5981,6 +5975,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_40,
 		'IoTE',
 		'IoTE',
+	],
+	[
+		2121,
+		0x80_00_08_49,
+		'CBTC',
+		'Coordinate BTC (Anduro)',
 	],
 	[
 		2125,
@@ -6431,6 +6431,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1B_B3,
 		'TOPL',
 		'Topl',
+	],
+	[
+		7272,
+		0x80_00_1C_68,
+		'ABTC',
+		'Alys BTC (Anduro)',
 	],
 	[
 		7331,
@@ -7145,12 +7151,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_0D_90_38,
 		'SEA',
 		'Second Exchange Alliance',
-	],
-	[
-		999_999,
-		0x80_0C_90_61,
-		'WTC',
-		'WaltonChain',
 	],
 	[
 		1_048_576,
