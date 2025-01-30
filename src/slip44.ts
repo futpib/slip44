@@ -5443,6 +5443,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DeFiChain EVM Network',
 	],
 	[
+		1133,
+		0x80_00_04_6D,
+		'MESH',
+		'StateMesh',
+	],
+	[
 		1137,
 		0x80_00_04_71,
 		'$DAG',
@@ -5701,12 +5707,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Cube Chain Native Token',
 	],
 	[
-		1856,
-		0x80_00_07_43,
-		'TES',
-		'Teslacoin',
-	],
-	[
 		1888,
 		0x80_00_07_60,
 		'ZTX',
@@ -5869,6 +5869,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Miraland',
 	],
 	[
+		2003,
+		0x80_00_07_D3,
+		'ISNA',
+		'iSarrana',
+	],
+	[
 		2015,
 		0x80_00_07_DF,
 		'TEER',
@@ -5981,6 +5987,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_40,
 		'IoTE',
 		'IoTE',
+	],
+	[
+		2121,
+		0x80_00_08_49,
+		'CBTC',
+		'Coordinate BTC (Anduro)',
 	],
 	[
 		2125,
@@ -6431,6 +6443,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1B_B3,
 		'TOPL',
 		'Topl',
+	],
+	[
+		7272,
+		0x80_00_1C_68,
+		'ABTC',
+		'Alys BTC (Anduro)',
 	],
 	[
 		7331,
@@ -7147,12 +7165,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Second Exchange Alliance',
 	],
 	[
-		999_999,
-		0x80_0C_90_61,
-		'WTC',
-		'WaltonChain',
-	],
-	[
 		1_048_576,
 		0x80_10_00_00,
 		'AMAX',
@@ -7381,6 +7393,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ForumCoin',
 	],
 	[
+		1_010_101_010,
+		0xBC_34_EB_12,
+		'FAIC',
+		'Free AI Chain',
+	],
+	[
 		1_179_993_420,
 		0xC6_55_45_4C,
 		undefined,
@@ -7409,5 +7427,11 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0xC6_55_45_6B,
 		'RWA',
 		'Asset Chain',
+	],
+	[
+		1_179_993_461,
+		0xC6_55_45_75,
+		'HXC',
+		'HuaXia Chain',
 	],
 ];
