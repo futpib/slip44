@@ -4399,6 +4399,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Bitmark',
 	],
 	[
+		732,
+		0x80_00_02_DC,
+		'FUGA',
+		'Fuga token',
+	],
+	[
 		733,
 		0x80_00_02_DD,
 		'TBC',
@@ -5119,6 +5125,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Vkax',
 	],
 	[
+		965,
+		0x80_00_03_C5,
+		'ATLA',
+		'Atleta Network',
+	],
+	[
 		966,
 		0x80_00_03_C6,
 		'MATIC',
@@ -5341,6 +5353,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'reserved',
 	],
 	[
+		1017,
+		0x80_00_03_F9,
+		'ZTC',
+		'Zenchain',
+	],
+	[
 		1020,
 		0x80_00_03_FC,
 		'EVC',
@@ -5401,6 +5419,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Moonfish ID',
 	],
 	[
+		1100,
+		0x80_00_04_4C,
+		'CROSS',
+		'Cross Chain',
+	],
+	[
 		1111,
 		0x80_00_04_57,
 		'BBC',
@@ -5443,8 +5467,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DeFiChain EVM Network',
 	],
 	[
-		1133,
-		0x80_00_04_6D,
+		1134,
+		0x80_00_04_6E,
 		'MESH',
 		'StateMesh',
 	],
@@ -5875,6 +5899,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'iSarrana',
 	],
 	[
+		2013,
+		0x80_00_07_DD,
+		'JKC',
+		'Junkcoin',
+	],
+	[
 		2015,
 		0x80_00_07_DF,
 		'TEER',
@@ -6133,10 +6163,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Hedera HBAR',
 	],
 	[
+		3054,
+		0x80_00_0B_EE,
+		'HIVE',
+		'Hive Blockchain',
+	],
+	[
 		3077,
 		0x80_00_0C_05,
 		'COS',
 		'Contentos',
+	],
+	[
+		3131,
+		0x80_00_0C_3B,
+		'EZC',
+		'Ezcon Blockchain',
 	],
 	[
 		3276,
@@ -6757,6 +6799,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Mina',
 	],
 	[
+		12_850,
+		0x80_00_32_32,
+		'ANLOG',
+		'Analog Timechain',
+	],
+	[
 		13_107,
 		0x80_00_33_33,
 		'BTY',
@@ -7321,6 +7369,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'SEI',
 	],
 	[
+		22_000_118,
+		0x81_4F_B1_F6,
+		'DYDX',
+		'Dydx',
+	],
+	[
 		61_717_561,
 		0x83_AD_BC_39,
 		'AQUA',
@@ -7385,6 +7439,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x81_34_D8_2E,
 		'NLK',
 		'NuLinkCoin',
+	],
+	[
+		240_079_435,
+		0x8E_4F_52_4B,
+		'ZORK',
+		'Zork Network',
 	],
 	[
 		608_589_380,
