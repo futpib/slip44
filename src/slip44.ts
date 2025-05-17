@@ -1155,7 +1155,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		191,
 		0x80_00_00_BF,
-		undefined,
+		'LYNX',
 		'Lynx',
 	],
 	[
@@ -4597,6 +4597,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Lamden',
 	],
 	[
+		790,
+		0x80_00_03_16,
+		'LKY',
+		'Luckycoin',
+	],
+	[
 		794,
 		0x80_00_03_1A,
 		'INTR',
@@ -6025,6 +6031,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Coordinate BTC (Anduro)',
 	],
 	[
+		2122,
+		0x80_00_08_4A,
+		'QBTC',
+		'Quasar BTC (Anduro)',
+	],
+	[
 		2125,
 		0x80_00_08_4D,
 		'BAY',
@@ -6181,6 +6193,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Ezcon Blockchain',
 	],
 	[
+		3141,
+		0x80_00_0C_45,
+		'B1T',
+		'Bit',
+	],
+	[
 		3276,
 		0x80_00_0C_CC,
 		'CCC',
@@ -6251,6 +6269,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0E_11,
 		'CY',
 		'Cybits',
+	],
+	[
+		3630,
+		0x80_00_0E_2E,
+		'EPPIE',
+		'Eppie',
 	],
 	[
 		3757,
@@ -6689,6 +6713,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_23_2E,
 		'BSC',
 		'Binance Smart Chain',
+	],
+	[
+		9007,
+		0x80_00_23_2F,
+		'SATOX',
+		'Satoxcoin',
 	],
 	[
 		9797,
