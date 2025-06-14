@@ -1155,7 +1155,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		191,
 		0x80_00_00_BF,
-		undefined,
+		'LYNX',
 		'Lynx',
 	],
 	[
@@ -4417,6 +4417,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DENTNet',
 	],
 	[
+		735,
+		0x80_00_02_DF,
+		'NBY',
+		'Neobytes',
+	],
+	[
 		737,
 		0x80_00_02_E1,
 		'ATOP',
@@ -4445,6 +4451,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_E5,
 		'RIV',
 		'Rigvid',
+	],
+	[
+		742,
+		0x80_00_02_E6,
+		'LTO',
+		'LTO Network',
+	],
+	[
+		743,
+		0x80_00_02_E7,
+		'LKY',
+		'LuckyCoin',
 	],
 	[
 		744,
@@ -4493,6 +4511,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_FD,
 		'TGN',
 		'Tagion',
+	],
+	[
+		767,
+		0x80_00_02_FF,
+		'LLD',
+		'Liberland',
 	],
 	[
 		768,
@@ -4595,6 +4619,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_15,
 		'TAU',
 		'Lamden',
+	],
+	[
+		790,
+		0x80_00_03_16,
+		'LKY',
+		'Luckycoin',
+	],
+	[
+		791,
+		0x80_00_03_17,
+		'SOMA',
+		'Soma',
 	],
 	[
 		794,
@@ -5155,6 +5191,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TWINS',
 	],
 	[
+		975,
+		0x80_00_03_CF,
+		undefined,
+		'TrustNet',
+	],
+	[
 		977,
 		0x80_00_03_D1,
 		'TLOS',
@@ -5587,6 +5629,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TENT Simple Ledger Protocol',
 	],
 	[
+		1420,
+		0x80_00_05_8C,
+		'DEV',
+		'DogecoinEV',
+	],
+	[
 		1510,
 		0x80_00_05_E6,
 		'XSC',
@@ -5899,6 +5947,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'iSarrana',
 	],
 	[
+		2010,
+		0x80_00_07_DA,
+		'XBT',
+		'Bitcoin Classic',
+	],
+	[
 		2013,
 		0x80_00_07_DD,
 		'JKC',
@@ -6023,6 +6077,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_49,
 		'CBTC',
 		'Coordinate BTC (Anduro)',
+	],
+	[
+		2122,
+		0x80_00_08_4A,
+		'QBTC',
+		'Quasar BTC (Anduro)',
 	],
 	[
 		2125,
@@ -6181,6 +6241,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Ezcon Blockchain',
 	],
 	[
+		3141,
+		0x80_00_0C_45,
+		'B1T',
+		'Bit',
+	],
+	[
 		3276,
 		0x80_00_0C_CC,
 		'CCC',
@@ -6251,6 +6317,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0E_11,
 		'CY',
 		'Cybits',
+	],
+	[
+		3630,
+		0x80_00_0E_2E,
+		'EPPIE',
+		'Eppie',
 	],
 	[
 		3757,
@@ -6689,6 +6761,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_23_2E,
 		'BSC',
 		'Binance Smart Chain',
+	],
+	[
+		9007,
+		0x80_00_23_2F,
+		'SATOX',
+		'Satoxcoin',
 	],
 	[
 		9797,
@@ -7207,6 +7285,24 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Ice Network',
 	],
 	[
+		827_166,
+		0x80_0C_9F_1E,
+		undefined,
+		'RGB on Bitcoin (mainnet)',
+	],
+	[
+		827_167,
+		0x80_0C_9F_1F,
+		undefined,
+		'RGB on Bitcoin (testnet)',
+	],
+	[
+		828_942,
+		0x80_0C_A6_0E,
+		undefined,
+		'RGB on Liquid (mainnet)',
+	],
+	[
 		888_888,
 		0x80_0D_90_38,
 		'SEA',
@@ -7493,5 +7589,11 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0xC6_55_45_75,
 		'HXC',
 		'HuaXia Chain',
+	],
+	[
+		1_179_993_471,
+		0xC6_55_45_7F,
+		'AME',
+		'AME Chain',
 	],
 ];
