@@ -4423,6 +4423,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Neobytes',
 	],
 	[
+		736,
+		0x80_00_02_E0,
+		'BABY',
+		'BABY',
+	],
+	[
 		737,
 		0x80_00_02_E1,
 		'ATOP',
@@ -6607,6 +6613,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Skycoin',
 	],
 	[
+		8008,
+		0x80_00_1F_48,
+		'BERA',
+		'Berachain',
+	],
+	[
 		8017,
 		0x80_00_1F_51,
 		'ISC',
@@ -7349,6 +7361,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_48_59_44,
 		'HYD',
 		'Hydra Token',
+	],
+	[
+		5_063_758,
+		0x80_4D_44_4E,
+		undefined,
+		'Miden',
 	],
 	[
 		5_249_353,
