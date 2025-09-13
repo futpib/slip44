@@ -4423,6 +4423,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Neobytes',
 	],
 	[
+		736,
+		0x80_00_02_E0,
+		'BABY',
+		'BABY',
+	],
+	[
 		737,
 		0x80_00_02_E1,
 		'ATOP',
@@ -4471,6 +4477,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Dusk',
 	],
 	[
+		745,
+		0x80_00_02_E9,
+		'DIMI',
+		'DiminutiveCoin',
+	],
+	[
 		747,
 		0x80_00_02_EB,
 		'CFG',
@@ -4505,6 +4517,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_F6,
 		'XDD',
 		'XDDCoin',
+	],
+	[
+		759,
+		0x80_00_02_F7,
+		'TBI',
+		'TBicloud',
 	],
 	[
 		765,
@@ -4559,6 +4577,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_09,
 		'BTW',
 		'Bitcoin World',
+	],
+	[
+		779,
+		0x80_00_03_0B,
+		'UCHAIN',
+		'UCHAIN',
 	],
 	[
 		780,
@@ -4969,6 +4993,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Lum Network',
 	],
 	[
+		881,
+		0x80_00_03_71,
+		'AEGS',
+		'Aegisum',
+	],
+	[
 		883,
 		0x80_00_03_73,
 		'ZBC',
@@ -5141,6 +5171,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_B1,
 		'UNLOCK',
 		'Jasiri protocol',
+	],
+	[
+		950,
+		0x80_00_03_B6,
+		'CNDT',
+		'Conduct Protocol',
 	],
 	[
 		955,
@@ -5467,6 +5503,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Cross Chain',
 	],
 	[
+		1110,
+		0x80_00_04_56,
+		'ZRA',
+		'ZERA',
+	],
+	[
 		1111,
 		0x80_00_04_57,
 		'BBC',
@@ -5537,6 +5579,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_04_92,
 		'HOO',
 		'Hoo Smart Chain',
+	],
+	[
+		1200,
+		0x80_00_04_B0,
+		'GNK',
+		'Gonka',
 	],
 	[
 		1234,
@@ -5737,6 +5785,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BitcoinX',
 	],
 	[
+		1707,
+		0x80_00_06_AB,
+		'TRMP',
+		'TrumPOW',
+	],
+	[
 		1729,
 		0x80_00_06_C1,
 		'XTZ',
@@ -5845,6 +5899,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'xx coin',
 	],
 	[
+		1969,
+		0x80_00_07_B1,
+		'MVRK',
+		'Mavryk Network',
+	],
+	[
 		1977,
 		0x80_00_07_B9,
 		'XMX',
@@ -5897,6 +5957,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_C7,
 		'SC',
 		'Sia',
+	],
+	[
+		1995,
+		0x80_00_07_CB,
+		'MYDOGE',
+		'Mydogecoin',
 	],
 	[
 		1996,
@@ -6379,6 +6445,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Chain4Energy',
 	],
 	[
+		4474,
+		0x80_00_11_7A,
+		'SHIC',
+		'ShibaCoin',
+	],
+	[
 		4646,
 		0x80_00_12_26,
 		'MST',
@@ -6493,6 +6565,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Rails Network Mainnet',
 	],
 	[
+		6310,
+		0x80_00_18_A6,
+		'VRL',
+		'Virel Protocol',
+	],
+	[
 		6532,
 		0x80_00_19_84,
 		'UM',
@@ -6515,6 +6593,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1A_20,
 		'SAFE',
 		'SAFE',
+	],
+	[
+		6767,
+		0x80_00_1A_6F,
+		'CC',
+		'Canton Coin',
 	],
 	[
 		6779,
@@ -6605,6 +6689,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_1F_40,
 		'SKY',
 		'Skycoin',
+	],
+	[
+		8008,
+		0x80_00_1F_48,
+		'BERA',
+		'Berachain',
 	],
 	[
 		8017,
@@ -7349,6 +7439,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_48_59_44,
 		'HYD',
 		'Hydra Token',
+	],
+	[
+		5_063_758,
+		0x80_4D_44_4E,
+		undefined,
+		'Miden',
 	],
 	[
 		5_249_353,
