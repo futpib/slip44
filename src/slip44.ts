@@ -4483,6 +4483,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DiminutiveCoin',
 	],
 	[
+		746,
+		0x80_00_02_EA,
+		'PLM',
+		'Palladium',
+	],
+	[
 		747,
 		0x80_00_02_EB,
 		'CFG',
@@ -4523,6 +4529,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_02_F7,
 		'TBI',
 		'TBicloud',
+	],
+	[
+		762,
+		0x80_00_02_FA,
+		'BELLS',
+		'Bellscoin',
 	],
 	[
 		765,
@@ -4777,10 +4789,22 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'BigchainDB',
 	],
 	[
+		823,
+		0x80_00_03_37,
+		'TBL',
+		'TBLINK',
+	],
+	[
 		824,
 		0x80_00_03_38,
 		'RBNT',
 		'Redbelly Network',
+	],
+	[
+		826,
+		0x80_00_03_3A,
+		'YBC',
+		'YBChain',
 	],
 	[
 		827,
@@ -5683,6 +5707,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'DogecoinEV',
 	],
 	[
+		1447,
+		0x80_00_05_A7,
+		'DNR',
+		'Dinero',
+	],
+	[
 		1510,
 		0x80_00_05_E6,
 		'XSC',
@@ -5813,6 +5843,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_06_F8,
 		'JPYS',
 		'JPY Stablecoin',
+	],
+	[
+		1788,
+		0x80_00_06_FC,
+		'USVAC',
+		'USVACoin',
 	],
 	[
 		1789,
@@ -6061,12 +6097,6 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Sukhavati',
 	],
 	[
-		2024,
-		0x80_00_07_E8,
-		'USBC',
-		'Universal Ledger USBC',
-	],
-	[
 		2022,
 		0x80_00_07_E6,
 		'XHT',
@@ -6077,6 +6107,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_E7,
 		'COC',
 		'Chat On Chain',
+	],
+	[
+		2024,
+		0x80_00_07_E8,
+		'USBC',
+		'Universal Ledger USBC',
 	],
 	[
 		2025,
@@ -6359,6 +6395,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0D_6A,
 		'PEPE',
 		'Pepecoin Core',
+	],
+	[
+		3499,
+		0x80_00_0D_AB,
+		'BLAZE',
+		'Blaze',
 	],
 	[
 		3501,
@@ -7297,6 +7339,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Bloqs4Good',
 	],
 	[
+		189_189,
+		0x80_02_E3_05,
+		'QUAN',
+		'Quantus Network',
+	],
+	[
 		200_625,
 		0x80_03_0F_B1,
 		'AKA',
@@ -7373,6 +7421,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_0B_32_06,
 		'ICE',
 		'Ice Network',
+	],
+	[
+		696_969,
+		0x80_0A_A2_89,
+		'TXC',
+		'TEXITcoin',
 	],
 	[
 		827_166,
@@ -7637,6 +7691,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x8E_4F_52_4B,
 		'ZORK',
 		'Zork Network',
+	],
+	[
+		268_435_779,
+		0x90_00_01_43,
+		'MON',
+		'Monad',
 	],
 	[
 		608_589_380,
