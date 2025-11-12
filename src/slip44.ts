@@ -4963,6 +4963,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'PRCY Coin',
 	],
 	[
+		856,
+		0x80_00_03_58,
+		'TB',
+		'TBCoin',
+	],
+	[
 		858,
 		0x80_00_03_5A,
 		'HVH',
@@ -5683,6 +5689,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Iron Fish',
 	],
 	[
+		1339,
+		0x80_00_05_3B,
+		'WNSD',
+		'Winsdet',
+	],
+	[
 		1348,
 		0x80_00_05_44,
 		'ISLM',
@@ -6265,6 +6277,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Mixin',
 	],
 	[
+		2457,
+		0x80_00_09_99,
+		'HYPE',
+		'Hyperliquid',
+	],
+	[
 		2500,
 		0x80_00_09_C4,
 		'NEXI',
@@ -6339,8 +6357,8 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 	[
 		3131,
 		0x80_00_0C_3B,
-		'EZC',
-		'Ezcon Blockchain',
+		'DIP',
+		'Dipnet Blockchain',
 	],
 	[
 		3141,
@@ -7369,6 +7387,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ARTIS sigma1',
 	],
 	[
+		251_022,
+		0x80_03_D4_8E,
+		'AUTOX',
+		'Autox Coin',
+	],
+	[
 		261_131,
 		0x80_03_FC_0B,
 		'ZAMA',
@@ -7751,5 +7775,11 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0xC6_55_45_7F,
 		'AME',
 		'AME Chain',
+	],
+	[
+		1_869_902_945,
+		0xEF_74_74_61,
+		'ATTO',
+		'Atto',
 	],
 ];
