@@ -4531,6 +4531,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'TBicloud',
 	],
 	[
+		760,
+		0x80_00_02_F8,
+		'FGC',
+		'Figcoin',
+	],
+	[
 		762,
 		0x80_00_02_FA,
 		'BELLS',
@@ -4679,6 +4685,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_1B,
 		'KINT',
 		'Kintsugi',
+	],
+	[
+		797,
+		0x80_00_03_1D,
+		'MVRX',
+		'Muvor ERP',
 	],
 	[
 		799,
@@ -4999,6 +5011,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Infinitefuture',
 	],
 	[
+		869,
+		0x80_00_03_65,
+		'TXFLOW',
+		'TxFlow',
+	],
+	[
 		873,
 		0x80_00_03_69,
 		'QUORUM',
@@ -5033,6 +5051,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_73,
 		'ZBC',
 		'ZooBC',
+	],
+	[
+		885,
+		0x80_00_03_75,
+		'XCN',
+		'XCoin',
 	],
 	[
 		886,
@@ -5087,6 +5111,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_03_85,
 		'NXT',
 		'NxtMeta',
+	],
+	[
+		903,
+		0x80_00_03_87,
+		'EGN',
+		'EGAHN Intelligence Network',
 	],
 	[
 		904,
@@ -5227,6 +5257,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Vkax',
 	],
 	[
+		963,
+		0x80_00_03_C3,
+		'SYL',
+		'OpenSY',
+	],
+	[
 		965,
 		0x80_00_03_C5,
 		'ATLA',
@@ -5302,7 +5338,7 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		990,
 		0x80_00_03_DE,
 		'CORE',
-		'Coreum',
+		'TX',
 	],
 	[
 		991,
@@ -5467,10 +5503,28 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Zenchain',
 	],
 	[
+		1018,
+		0x80_00_03_FA,
+		'ZANO',
+		'Zano',
+	],
+	[
+		1019,
+		0x80_00_03_FB,
+		'GEEQ',
+		'Geeq',
+	],
+	[
 		1020,
 		0x80_00_03_FC,
 		'EVC',
 		'Evrice',
+	],
+	[
+		1021,
+		0x80_00_03_FD,
+		'PKOIN',
+		'Pocketcoin',
 	],
 	[
 		1022,
@@ -5677,6 +5731,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Entropy',
 	],
 	[
+		1313,
+		0x80_00_05_21,
+		'GAEL',
+		'Gaelium',
+	],
+	[
 		1337,
 		0x80_00_05_39,
 		'DFC',
@@ -5881,6 +5941,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Cube Chain Native Token',
 	],
 	[
+		1019,
+		0x80_00_03_FB,
+		'ZENO',
+		'Zenotta',
+	],
+	[
 		1888,
 		0x80_00_07_60,
 		'ZTX',
@@ -5927,6 +5993,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_07_86,
 		'CITY',
 		'City Coin',
+	],
+	[
+		1935,
+		0x80_00_07_8F,
+		'HRC',
+		'Hypercoin',
+	],
+	[
+		1948,
+		0x80_00_07_9C,
+		'DSV',
+		'Doriancoin',
 	],
 	[
 		1951,
@@ -6139,6 +6217,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ASTRON Token',
 	],
 	[
+		2027,
+		0x80_00_07_EB,
+		'UNC',
+		'UniCash',
+	],
+	[
 		2046,
 		0x80_00_07_FE,
 		'ANY',
@@ -6173,6 +6257,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_08_2B,
 		'FRQCY',
 		'Frequency',
+	],
+	[
+		2102,
+		0x80_00_08_36,
+		'LC2',
+		'LitecoinII',
 	],
 	[
 		2109,
@@ -6295,6 +6385,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Aurora',
 	],
 	[
+		2626,
+		0x80_00_0A_42,
+		'AOXC',
+		'AOXCHAIN',
+	],
+	[
 		2686,
 		0x80_00_0A_7E,
 		'AIPG',
@@ -6347,6 +6443,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_0B_EE,
 		'HIVE',
 		'Hive Blockchain',
+	],
+	[
+		3073,
+		0x80_00_0C_01,
+		'MOVE',
+		'Movement',
 	],
 	[
 		3077,
@@ -6493,6 +6595,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Axe',
 	],
 	[
+		4298,
+		0x80_00_10_CA,
+		'LOCA',
+		'Loca',
+	],
+	[
 		4343,
 		0x80_00_10_F7,
 		'XYM',
@@ -6629,6 +6737,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_18_A6,
 		'VRL',
 		'Virel Protocol',
+	],
+	[
+		6383,
+		0x80_00_18_EF,
+		'NEUE',
+		'Dap',
 	],
 	[
 		6532,
@@ -6787,6 +6901,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'KAIA',
 	],
 	[
+		8282,
+		0x80_00_20_5A,
+		'HANEUL',
+		'Haneul',
+	],
+	[
 		8339,
 		0x80_00_20_93,
 		'BTQ',
@@ -6839,6 +6959,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_22_B6,
 		'GGXT',
 		'Golden Gate Sydney',
+	],
+	[
+		8887,
+		0x80_00_22_B7,
+		'KTA',
+		'Keeta',
 	],
 	[
 		8888,
@@ -6917,6 +7043,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_23_2F,
 		'SATOX',
 		'Satoxcoin',
+	],
+	[
+		9345,
+		0x80_00_24_81,
+		'WEIL',
+		'Weilliptic',
+	],
+	[
+		9555,
+		0x80_00_25_53,
+		'RIN',
+		'Rincoin',
 	],
 	[
 		9797,
@@ -7015,6 +7153,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Tinkernet',
 	],
 	[
+		11_995,
+		0x80_00_2E_DB,
+		'AURE',
+		'Aureus',
+	],
+	[
+		18_888,
+		0x80_00_49_C8,
+		'BTGS',
+		'BitcoinGold',
+	],
+	[
 		12_345,
 		0x80_00_30_39,
 		'IPOS',
@@ -7111,6 +7261,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ndau',
 	],
 	[
+		20_760,
+		0x80_00_51_18,
+		'WJK',
+		'WojakCoin',
+	],
+	[
 		21_004,
 		0x80_00_52_0C,
 		'C4EI',
@@ -7201,6 +7357,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ByteTrade',
 	],
 	[
+		36_969,
+		0x80_00_90_69,
+		'AMA',
+		'AMA',
+	],
+	[
 		37_992,
 		0x80_00_94_68,
 		'FXTC',
@@ -7259,6 +7421,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_00_F0_B0,
 		'TH',
 		'TianHe',
+	],
+	[
+		61_888,
+		0x80_00_F2_00,
+		'MORM',
+		'Morpheum',
 	],
 	[
 		65_536,
@@ -7361,6 +7529,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_02_E3_05,
 		'QUAN',
 		'Quantus Network',
+	],
+	[
+		190_301,
+		0x80_02_E7_5D,
+		'LOCUS',
+		'Locus Chain',
 	],
 	[
 		200_625,
@@ -7477,6 +7651,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'Second Exchange Alliance',
 	],
 	[
+		969_696,
+		0x80_0E_CB_E0,
+		'ISK',
+		'Iskander Coin',
+	],
+	[
 		1_048_576,
 		0x80_10_00_00,
 		'AMAX',
@@ -7511,6 +7691,18 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x80_3B_E0_2B,
 		'EPK',
 		'EPIK Protocol',
+	],
+	[
+		4_353_123,
+		0x80_42_6C_63,
+		'BBLU',
+		'Bitcoin-Blu',
+	],
+	[
+		4_392_018,
+		0x80_43_04_52,
+		'MCSH',
+		'MetaMask Cash Account',
 	],
 	[
 		4_741_444,
@@ -7621,6 +7813,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		'ANFS',
 	],
 	[
+		8_163_321,
+		0x80_7C_8F_F9,
+		'BTCV',
+		'Bitcoin-Value',
+	],
+	[
 		10_000_118,
 		0x80_5D_30_B6,
 		'OSMO',
@@ -7643,6 +7841,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x81_4F_B1_F6,
 		'DYDX',
 		'Dydx',
+	],
+	[
+		22_000_119,
+		0x81_4F_B1_F7,
+		'INJ',
+		'Injective',
 	],
 	[
 		61_717_561,
@@ -7709,6 +7913,12 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0x81_34_D8_2E,
 		'NLK',
 		'NuLinkCoin',
+	],
+	[
+		35_600_000,
+		0x82_1F_36_80,
+		'AXX',
+		'AtlasX Chain',
 	],
 	[
 		240_079_435,
@@ -7781,5 +7991,11 @@ export const registeredCoinTypes: RegisteredCoinType[] = [
 		0xEF_74_74_61,
 		'ATTO',
 		'Atto',
+	],
+	[
+		1_869_902_946,
+		0xEF_74_74_62,
+		'CTA',
+		'Crypterra',
 	],
 ];
